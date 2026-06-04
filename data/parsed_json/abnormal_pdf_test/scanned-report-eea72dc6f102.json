@@ -1,0 +1,82 @@
+{
+  "doc_id": "scanned-report-eea72dc6f102",
+  "filename": "scanned_report.pdf",
+  "parser": "mineru",
+  "parse_status": "success",
+  "page_offset": 0,
+  "page_count": 1,
+  "content_page_count": 1,
+  "block_counts": {
+    "text": 5
+  },
+  "blocks": [
+    {
+      "block_id": "scanned-report-eea72dc6f102_b0",
+      "type": "text",
+      "text": "Scanned Finance Report",
+      "page_no": 1,
+      "bbox": [
+        122,
+        130,
+        458,
+        160
+      ],
+      "text_level": 2
+    },
+    {
+      "block_id": "scanned-report-eea72dc6f102_b1",
+      "type": "text",
+      "text": "This page is rendered as an image, not selectable PDF text.",
+      "page_no": 1,
+      "bbox": [
+        124,
+        178,
+        672,
+        203
+      ],
+      "text_level": 0
+    },
+    {
+      "block_id": "scanned-report-eea72dc6f102_b2",
+      "type": "text",
+      "text": "Revenue: 10o million yuan",
+      "page_no": 1,
+      "bbox": [
+        122,
+        209,
+        376,
+        235
+      ],
+      "text_level": 0
+    },
+    {
+      "block_id": "scanned-report-eea72dc6f102_b3",
+      "type": "text",
+      "text": "Net profit: 20 million yuan",
+      "page_no": 1,
+      "bbox": [
+        122,
+        241,
+        368,
+        267
+      ],
+      "text_level": 0
+    },
+    {
+      "block_id": "scanned-report-eea72dc6f102_b4",
+      "type": "text",
+      "text": "Expected result: OCR or image parsing may be required.",
+      "page_no": 1,
+      "bbox": [
+        122,
+        273,
+        643,
+        299
+      ],
+      "text_level": 0
+    }
+  ],
+  "file_hash": "eea72dc6f102d79c25021c16bce66b9a3a17d23cfe3d78e959640094b06f7ec7",
+  "source_path": "data/test_pdfs/abnormal/scanned_report.pdf",
+  "parser_version": "3.2.1"
+}

@@ -1,0 +1,107 @@
+[
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Text-only Finance Report"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                115,
+                67,
+                447,
+                90
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "This sample is a valid PDF without tables."
+                    }
+                ]
+            },
+            "bbox": [
+                115,
+                117,
+                465,
+                135
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Revenue increased steadily during the reporting period."
+                    }
+                ]
+            },
+            "bbox": [
+                115,
+                143,
+                578,
+                161
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Net profit improved because operating expenses remained controlled."
+                    }
+                ]
+            },
+            "bbox": [
+                115,
+                170,
+                692,
+                187
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "No tabular structure is intentionally included in this document."
+                    }
+                ]
+            },
+            "bbox": [
+                115,
+                196,
+                625,
+                212
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Expected result: MinerU should parse text blocks and detect zero tables."
+                    }
+                ]
+            },
+            "bbox": [
+                115,
+                222,
+                715,
+                239
+            ]
+        }
+    ]
+]

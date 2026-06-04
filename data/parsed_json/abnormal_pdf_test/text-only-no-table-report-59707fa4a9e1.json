@@ -1,0 +1,95 @@
+{
+  "doc_id": "text-only-no-table-report-59707fa4a9e1",
+  "filename": "text_only_no_table_report.pdf",
+  "parser": "mineru",
+  "parse_status": "success",
+  "page_offset": 0,
+  "page_count": 1,
+  "content_page_count": 1,
+  "block_counts": {
+    "text": 6
+  },
+  "blocks": [
+    {
+      "block_id": "text-only-no-table-report-59707fa4a9e1_b0",
+      "type": "text",
+      "text": "Text-only Finance Report",
+      "page_no": 1,
+      "bbox": [
+        115,
+        67,
+        447,
+        90
+      ],
+      "text_level": 2
+    },
+    {
+      "block_id": "text-only-no-table-report-59707fa4a9e1_b1",
+      "type": "text",
+      "text": "This sample is a valid PDF without tables.",
+      "page_no": 1,
+      "bbox": [
+        115,
+        117,
+        465,
+        135
+      ],
+      "text_level": 0
+    },
+    {
+      "block_id": "text-only-no-table-report-59707fa4a9e1_b2",
+      "type": "text",
+      "text": "Revenue increased steadily during the reporting period.",
+      "page_no": 1,
+      "bbox": [
+        115,
+        143,
+        578,
+        161
+      ],
+      "text_level": 0
+    },
+    {
+      "block_id": "text-only-no-table-report-59707fa4a9e1_b3",
+      "type": "text",
+      "text": "Net profit improved because operating expenses remained controlled.",
+      "page_no": 1,
+      "bbox": [
+        115,
+        170,
+        692,
+        187
+      ],
+      "text_level": 0
+    },
+    {
+      "block_id": "text-only-no-table-report-59707fa4a9e1_b4",
+      "type": "text",
+      "text": "No tabular structure is intentionally included in this document.",
+      "page_no": 1,
+      "bbox": [
+        115,
+        196,
+        625,
+        212
+      ],
+      "text_level": 0
+    },
+    {
+      "block_id": "text-only-no-table-report-59707fa4a9e1_b5",
+      "type": "text",
+      "text": "Expected result: MinerU should parse text blocks and detect zero tables.",
+      "page_no": 1,
+      "bbox": [
+        115,
+        222,
+        715,
+        239
+      ],
+      "text_level": 0
+    }
+  ],
+  "file_hash": "59707fa4a9e1ece1b1308b0b25c694b7dd859899904e3e2659389ed1f69814b0",
+  "source_path": "data/test_pdfs/abnormal/text_only_no_table_report.pdf",
+  "parser_version": "3.2.1"
+}

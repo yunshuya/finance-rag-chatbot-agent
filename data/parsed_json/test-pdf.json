@@ -1,0 +1,46 @@
+{
+  "doc_id": "test-pdf",
+  "filename": "test.pdf",
+  "parser": "mineru",
+  "blocks": [
+    {
+      "block_id": "test-pdf_b0",
+      "type": "text",
+      "text": "19209375934",
+      "page_no": 1,
+      "bbox": [
+        147,
+        86,
+        260,
+        103
+      ],
+      "text_level": 0
+    },
+    {
+      "block_id": "test-pdf_b1",
+      "type": "text",
+      "text": "库洛洛⽣⽇快乐",
+      "page_no": 1,
+      "bbox": [
+        147,
+        117,
+        284,
+        136
+      ],
+      "text_level": 0
+    },
+    {
+      "block_id": "test-pdf_b2",
+      "type": "text",
+      "text": "Happy birthday kuroro",
+      "page_no": 1,
+      "bbox": [
+        146,
+        149,
+        334,
+        167
+      ],
+      "text_level": 0
+    }
+  ]
+}

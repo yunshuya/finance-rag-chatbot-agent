@@ -1,0 +1,522 @@
+{
+  "doc_id": "kweichow-moutai-2024-pages-53-54",
+  "filename": "kweichow_moutai_2024_annual_report.pdf",
+  "parser": "mineru",
+  "page_offset": 52,
+  "page_count": 2,
+  "block_counts": {
+    "image": 2,
+    "table": 2,
+    "text": 32
+  },
+  "blocks": [
+    {
+      "block_id": "kweichow-moutai-2024-pages-53-54_b0",
+      "type": "text",
+      "text": "3、 公司不存在控股股东情况的特别说明",
+      "page_no": 53,
+      "bbox": [
+        146,
+        109,
+        472,
+        126
+      ],
+      "text_level": 2,
+      "section": "3、 公司不存在控股股东情况的特别说明"
+    },
+    {
+      "block_id": "kweichow-moutai-2024-pages-53-54_b1",
+      "type": "text",
+      "text": "□适用 √不适用",
+      "page_no": 53,
+      "bbox": [
+        147,
+        134,
+        294,
+        149
+      ],
+      "text_level": 0,
+      "section": "3、 公司不存在控股股东情况的特别说明"
+    },
+    {
+      "block_id": "kweichow-moutai-2024-pages-53-54_b2",
+      "type": "text",
+      "text": "4、 报告期内控股股东变更情况的说明",
+      "page_no": 53,
+      "bbox": [
+        146,
+        170,
+        453,
+        185
+      ],
+      "text_level": 2,
+      "section": "4、 报告期内控股股东变更情况的说明"
+    },
+    {
+      "block_id": "kweichow-moutai-2024-pages-53-54_b3",
+      "type": "text",
+      "text": "□适用 √不适用",
+      "page_no": 53,
+      "bbox": [
+        147,
+        195,
+        294,
+        210
+      ],
+      "text_level": 0,
+      "section": "4、 报告期内控股股东变更情况的说明"
+    },
+    {
+      "block_id": "kweichow-moutai-2024-pages-53-54_b4",
+      "type": "text",
+      "text": "5、 公司与控股股东之间的产权及控制关系的方框图",
+      "page_no": 53,
+      "bbox": [
+        146,
+        230,
+        559,
+        246
+      ],
+      "text_level": 0,
+      "section": "5、 公司与控股股东之间的产权及控制关系的方框图"
+    },
+    {
+      "block_id": "kweichow-moutai-2024-pages-53-54_b5",
+      "type": "text",
+      "text": "√适用 □不适用",
+      "page_no": 53,
+      "bbox": [
+        151,
+        254,
+        294,
+        269
+      ],
+      "text_level": 0,
+      "section": "5、 公司与控股股东之间的产权及控制关系的方框图"
+    },
+    {
+      "block_id": "kweichow-moutai-2024-pages-53-54_b6",
+      "type": "image",
+      "text": "Image asset: images/c96a4c23d3a428f93c65758f94ab1b556084fa0aedbda36c5667864f4b3d5ae8.jpg",
+      "page_no": 53,
+      "bbox": [
+        179,
+        271,
+        579,
+        381
+      ],
+      "text_level": 0,
+      "section": "5、 公司与控股股东之间的产权及控制关系的方框图",
+      "asset_path": "images/c96a4c23d3a428f93c65758f94ab1b556084fa0aedbda36c5667864f4b3d5ae8.jpg"
+    },
+    {
+      "block_id": "kweichow-moutai-2024-pages-53-54_b7",
+      "type": "text",
+      "text": "(二) 实际控制人情况",
+      "page_no": 53,
+      "bbox": [
+        149,
+        418,
+        317,
+        434
+      ],
+      "text_level": 2,
+      "section": "(二) 实际控制人情况"
+    },
+    {
+      "block_id": "kweichow-moutai-2024-pages-53-54_b8",
+      "type": "text",
+      "text": "1、 法人",
+      "page_no": 53,
+      "bbox": [
+        146,
+        445,
+        223,
+        461
+      ],
+      "text_level": 0,
+      "section": "1、 法人"
+    },
+    {
+      "block_id": "kweichow-moutai-2024-pages-53-54_b9",
+      "type": "text",
+      "text": "√适用 □不适用",
+      "page_no": 53,
+      "bbox": [
+        151,
+        469,
+        284,
+        483
+      ],
+      "text_level": 0,
+      "section": "1、 法人"
+    },
+    {
+      "block_id": "kweichow-moutai-2024-pages-53-54_b10",
+      "type": "table",
+      "text": "<table><tr><td>名称</td><td>贵州省人民政府国有资产监督管理委员会</td></tr><tr><td>单位负责人或法定代表人</td><td>阳向东</td></tr></table>",
+      "page_no": 53,
+      "bbox": [
+        147,
+        485,
+        892,
+        520
+      ],
+      "text_level": 0,
+      "section": "1、 法人",
+      "asset_path": "images/9f7e78e5bf0bc06e9e56c5a77ea92d6c5ffc82f1965fe33d460f87c4b8441f39.jpg"
+    },
+    {
+      "block_id": "kweichow-moutai-2024-pages-53-54_b11",
+      "type": "text",
+      "text": "2、 自然人",
+      "page_no": 53,
+      "bbox": [
+        146,
+        541,
+        242,
+        556
+      ],
+      "text_level": 2,
+      "section": "2、 自然人"
+    },
+    {
+      "block_id": "kweichow-moutai-2024-pages-53-54_b12",
+      "type": "text",
+      "text": "□适用 √不适用",
+      "page_no": 53,
+      "bbox": [
+        147,
+        564,
+        284,
+        580
+      ],
+      "text_level": 0,
+      "section": "2、 自然人"
+    },
+    {
+      "block_id": "kweichow-moutai-2024-pages-53-54_b13",
+      "type": "text",
+      "text": "3、 公司不存在实际控制人情况的特别说明",
+      "page_no": 53,
+      "bbox": [
+        146,
+        602,
+        489,
+        618
+      ],
+      "text_level": 0,
+      "section": "3、 公司不存在实际控制人情况的特别说明"
+    },
+    {
+      "block_id": "kweichow-moutai-2024-pages-53-54_b14",
+      "type": "text",
+      "text": "□适用 √不适用",
+      "page_no": 53,
+      "bbox": [
+        147,
+        627,
+        294,
+        642
+      ],
+      "text_level": 0,
+      "section": "3、 公司不存在实际控制人情况的特别说明"
+    },
+    {
+      "block_id": "kweichow-moutai-2024-pages-53-54_b15",
+      "type": "text",
+      "text": "4、 报告期内公司控制权发生变更的情况说明",
+      "page_no": 53,
+      "bbox": [
+        146,
+        663,
+        507,
+        678
+      ],
+      "text_level": 0,
+      "section": "4、 报告期内公司控制权发生变更的情况说明"
+    },
+    {
+      "block_id": "kweichow-moutai-2024-pages-53-54_b16",
+      "type": "text",
+      "text": "□适用 √不适用",
+      "page_no": 53,
+      "bbox": [
+        147,
+        687,
+        294,
+        702
+      ],
+      "text_level": 0,
+      "section": "4、 报告期内公司控制权发生变更的情况说明"
+    },
+    {
+      "block_id": "kweichow-moutai-2024-pages-53-54_b17",
+      "type": "text",
+      "text": "5、 公司与实际控制人之间的产权及控制关系的方框图",
+      "page_no": 53,
+      "bbox": [
+        146,
+        722,
+        578,
+        739
+      ],
+      "text_level": 0,
+      "section": "5、 公司与实际控制人之间的产权及控制关系的方框图"
+    },
+    {
+      "block_id": "kweichow-moutai-2024-pages-53-54_b18",
+      "type": "text",
+      "text": "√适用 □不适用",
+      "page_no": 53,
+      "bbox": [
+        151,
+        747,
+        294,
+        763
+      ],
+      "text_level": 0,
+      "section": "5、 公司与实际控制人之间的产权及控制关系的方框图"
+    },
+    {
+      "block_id": "kweichow-moutai-2024-pages-53-54_b21",
+      "type": "image",
+      "text": "Image asset: images/062c77236b6ade1d6eec04b6fc7ea93151714c1228c6fd8ccdb330a7d50583af.jpg",
+      "page_no": 54,
+      "bbox": [
+        183,
+        98,
+        534,
+        269
+      ],
+      "text_level": 0,
+      "section": "5、 公司与实际控制人之间的产权及控制关系的方框图",
+      "asset_path": "images/062c77236b6ade1d6eec04b6fc7ea93151714c1228c6fd8ccdb330a7d50583af.jpg"
+    },
+    {
+      "block_id": "kweichow-moutai-2024-pages-53-54_b22",
+      "type": "text",
+      "text": "6、 实际控制人通过信托或其他资产管理方式控制公司",
+      "page_no": 54,
+      "bbox": [
+        146,
+        303,
+        578,
+        318
+      ],
+      "text_level": 0,
+      "section": "6、 实际控制人通过信托或其他资产管理方式控制公司"
+    },
+    {
+      "block_id": "kweichow-moutai-2024-pages-53-54_b23",
+      "type": "text",
+      "text": "□适用 √不适用",
+      "page_no": 54,
+      "bbox": [
+        146,
+        326,
+        295,
+        343
+      ],
+      "text_level": 0,
+      "section": "6、 实际控制人通过信托或其他资产管理方式控制公司"
+    },
+    {
+      "block_id": "kweichow-moutai-2024-pages-53-54_b24",
+      "type": "text",
+      "text": "(三) 控股股东及实际控制人其他情况介绍",
+      "page_no": 54,
+      "bbox": [
+        147,
+        363,
+        477,
+        379
+      ],
+      "text_level": 0,
+      "section": "(三) 控股股东及实际控制人其他情况介绍"
+    },
+    {
+      "block_id": "kweichow-moutai-2024-pages-53-54_b25",
+      "type": "text",
+      "text": "□适用 √不适用",
+      "page_no": 54,
+      "bbox": [
+        147,
+        387,
+        294,
+        403
+      ],
+      "text_level": 0,
+      "section": "(三) 控股股东及实际控制人其他情况介绍"
+    },
+    {
+      "block_id": "kweichow-moutai-2024-pages-53-54_b26",
+      "type": "text",
+      "text": "五、公司控股股东或第一大股东及其一致行动人累计质押股份数量占其所持公司股份数量比例达到80%以上",
+      "page_no": 54,
+      "bbox": [
+        146,
+        423,
+        895,
+        463
+      ],
+      "text_level": 0,
+      "section": "五、公司控股股东或第一大股东及其一致行动人累计质押股份数量占其所持公司股份数量比例达到80%以上"
+    },
+    {
+      "block_id": "kweichow-moutai-2024-pages-53-54_b27",
+      "type": "text",
+      "text": "□适用 √不适用",
+      "page_no": 54,
+      "bbox": [
+        147,
+        472,
+        284,
+        487
+      ],
+      "text_level": 0,
+      "section": "五、公司控股股东或第一大股东及其一致行动人累计质押股份数量占其所持公司股份数量比例达到80%以上"
+    },
+    {
+      "block_id": "kweichow-moutai-2024-pages-53-54_b28",
+      "type": "text",
+      "text": "六、其他持股在百分之十以上的法人股东",
+      "page_no": 54,
+      "bbox": [
+        144,
+        508,
+        472,
+        524
+      ],
+      "text_level": 0,
+      "section": "六、其他持股在百分之十以上的法人股东"
+    },
+    {
+      "block_id": "kweichow-moutai-2024-pages-53-54_b29",
+      "type": "text",
+      "text": "□适用 √不适用",
+      "page_no": 54,
+      "bbox": [
+        147,
+        532,
+        284,
+        548
+      ],
+      "text_level": 0,
+      "section": "六、其他持股在百分之十以上的法人股东"
+    },
+    {
+      "block_id": "kweichow-moutai-2024-pages-53-54_b30",
+      "type": "text",
+      "text": "七、股份限制减持情况说明",
+      "page_no": 54,
+      "bbox": [
+        146,
+        568,
+        364,
+        585
+      ],
+      "text_level": 0,
+      "section": "七、股份限制减持情况说明"
+    },
+    {
+      "block_id": "kweichow-moutai-2024-pages-53-54_b31",
+      "type": "text",
+      "text": "□适用 √不适用",
+      "page_no": 54,
+      "bbox": [
+        147,
+        593,
+        284,
+        608
+      ],
+      "text_level": 0,
+      "section": "七、股份限制减持情况说明"
+    },
+    {
+      "block_id": "kweichow-moutai-2024-pages-53-54_b32",
+      "type": "text",
+      "text": "八、股份回购在报告期的具体实施情况",
+      "page_no": 54,
+      "bbox": [
+        147,
+        629,
+        453,
+        644
+      ],
+      "text_level": 0,
+      "section": "八、股份回购在报告期的具体实施情况"
+    },
+    {
+      "block_id": "kweichow-moutai-2024-pages-53-54_b33",
+      "type": "text",
+      "text": "√适用 □不适用",
+      "page_no": 54,
+      "bbox": [
+        151,
+        653,
+        284,
+        668
+      ],
+      "text_level": 0,
+      "section": "八、股份回购在报告期的具体实施情况"
+    },
+    {
+      "block_id": "kweichow-moutai-2024-pages-53-54_b34",
+      "type": "text",
+      "text": "单位：元 币种：人民币",
+      "page_no": 54,
+      "bbox": [
+        695,
+        669,
+        894,
+        683
+      ],
+      "text_level": 0,
+      "section": "八、股份回购在报告期的具体实施情况"
+    },
+    {
+      "block_id": "kweichow-moutai-2024-pages-53-54_b35",
+      "type": "table",
+      "text": "<table><tr><td rowspan=1 colspan=1>回购股份方案名称</td><td rowspan=1 colspan=1>《关于以集中竞价交易方式回购公司股份的方案》</td></tr><tr><td rowspan=1 colspan=1>回购股份方案披露时间</td><td rowspan=1 colspan=1>2024/9/21</td></tr><tr><td rowspan=1 colspan=1>拟回购金额</td><td rowspan=1 colspan=1>人民币30亿元（含）～人民币60亿元（含）</td></tr><tr><td rowspan=1 colspan=1>拟回购期间</td><td rowspan=1 colspan=1>公司股东大会审议通过回购方案之日起12个月内</td></tr><tr><td rowspan=1 colspan=1>回购用途</td><td rowspan=1 colspan=1>减少注册资本</td></tr></table>",
+      "page_no": 54,
+      "bbox": [
+        147,
+        684,
+        892,
+        769
+      ],
+      "text_level": 0,
+      "section": "八、股份回购在报告期的具体实施情况",
+      "asset_path": "images/da62e8127cf1e9d74e9caa74a44727df02bb79f071116f563aa40a136228d9c3.jpg"
+    },
+    {
+      "block_id": "kweichow-moutai-2024-pages-53-54_b36",
+      "type": "text",
+      "text": "第八节 优先股相关情况",
+      "page_no": 54,
+      "bbox": [
+        381,
+        808,
+        658,
+        827
+      ],
+      "text_level": 2,
+      "section": "第八节 优先股相关情况"
+    },
+    {
+      "block_id": "kweichow-moutai-2024-pages-53-54_b37",
+      "type": "text",
+      "text": "□适用 √不适用",
+      "page_no": 54,
+      "bbox": [
+        147,
+        843,
+        285,
+        858
+      ],
+      "text_level": 0,
+      "section": "第八节 优先股相关情况"
+    }
+  ]
+}

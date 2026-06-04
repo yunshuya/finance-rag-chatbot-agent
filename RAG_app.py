@@ -15,11 +15,9 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 
 # langchain prompts, memory, chains...
-from langchain.prompts import PromptTemplate, ChatPromptTemplate
-from langchain.chains import ConversationalRetrievalChain
-from langchain.memory import ConversationBufferMemory, ConversationSummaryBufferMemory
-
-from langchain.schema import format_document
+from langchain_core.prompts import PromptTemplate, ChatPromptTemplate, format_document
+from langchain_classic.chains import ConversationalRetrievalChain
+from langchain_classic.memory import ConversationBufferMemory, ConversationSummaryBufferMemory
 
 
 # document loaders
@@ -32,7 +30,7 @@ from langchain_community.document_loaders import (
 )
 
 # text_splitter
-from langchain.text_splitter import (
+from langchain_text_splitters import (
     RecursiveCharacterTextSplitter,
     CharacterTextSplitter,
 )
@@ -44,16 +42,16 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_community.vectorstores import Chroma
 
 # Contextual_compression
-from langchain.retrievers.document_compressors import DocumentCompressorPipeline
+from langchain_classic.retrievers.document_compressors import DocumentCompressorPipeline
 from langchain_community.document_transformers import (
     EmbeddingsRedundantFilter,
     LongContextReorder,
 )
-from langchain.retrievers.document_compressors import EmbeddingsFilter
-from langchain.retrievers import ContextualCompressionRetriever
+from langchain_classic.retrievers.document_compressors import EmbeddingsFilter
+from langchain_classic.retrievers import ContextualCompressionRetriever
 
 # Cohere
-from langchain.retrievers.document_compressors import CohereRerank
+from langchain_classic.retrievers.document_compressors import CohereRerank
 from langchain_community.llms import Cohere
 
 # HuggingFace
@@ -62,6 +60,16 @@ from langchain_community.llms import HuggingFaceHub
 
 # Import streamlit
 import streamlit as st
+
+from rag_pipeline import (
+    BgeM3Embeddings,
+    build_chunks,
+    compute_file_sha256,
+    make_doc_id,
+    normalize_mineru_content,
+    run_mineru,
+)
+from rag_pipeline.normalizer import write_normalized_json
 
 ####################################################################
 #              Config: LLM services, assistant language,...
@@ -91,10 +99,27 @@ list_retriever_types = [
     "Vectorstore backed retriever",
 ]
 
+list_embedding_models = [
+    "Local BGE-M3",
+    "Provider default",
+]
+
 TMP_DIR = Path(__file__).resolve().parent.joinpath("data", "tmp")
 LOCAL_VECTOR_STORE_DIR = (
     Path(__file__).resolve().parent.joinpath("data", "vector_stores")
 )
+MINERU_OUTPUT_DIR = Path(__file__).resolve().parent.joinpath("data", "mineru_outputs")
+PARSED_JSON_DIR = Path(__file__).resolve().parent.joinpath("data", "parsed_json")
+MODEL_CACHE_DIR = Path(__file__).resolve().parent.joinpath("data", "model_cache")
+
+for data_dir in (
+    TMP_DIR,
+    LOCAL_VECTOR_STORE_DIR,
+    MINERU_OUTPUT_DIR,
+    PARSED_JSON_DIR,
+    MODEL_CACHE_DIR,
+):
+    data_dir.mkdir(parents=True, exist_ok=True)
 
 ####################################################################
 #            Create app interface with streamlit
@@ -215,6 +240,13 @@ def sidebar_and_documentChooser():
         st.write("")
         st.session_state.assistant_language = st.selectbox(
             f"Assistant language", list(dict_welcome_message.keys())
+        )
+
+        st.write("")
+        st.session_state.embedding_model = st.selectbox(
+            "Embedding model",
+            list_embedding_models,
+            help="Use Local BGE-M3 for reproducible Chinese finance retrieval.",
         )
 
         st.divider()
@@ -393,10 +425,7 @@ def langchain_document_loader():
     )
     documents.extend(txt_loader.load())
 
-    pdf_loader = DirectoryLoader(
-        TMP_DIR.as_posix(), glob="**/*.pdf", loader_cls=PyPDFLoader, show_progress=True
-    )
-    documents.extend(pdf_loader.load())
+    documents.extend(load_pdf_documents_with_mineru())
 
     csv_loader = DirectoryLoader(
         TMP_DIR.as_posix(), glob="**/*.csv", loader_cls=CSVLoader, show_progress=True,
@@ -414,16 +443,61 @@ def langchain_document_loader():
     return documents
 
 
+def load_pdf_documents_with_mineru():
+    """Load PDFs through MinerU and fall back to PyPDFLoader on parser failure."""
+    documents = []
+    for pdf_path in sorted(TMP_DIR.glob("**/*.pdf")):
+        try:
+            content_list_path = run_mineru(
+                pdf_path=pdf_path,
+                output_root=MINERU_OUTPUT_DIR.joinpath(pdf_path.stem),
+                backend="pipeline",
+            )
+            file_hash = compute_file_sha256(pdf_path)
+            parsed_doc = normalize_mineru_content(
+                content_list_path=content_list_path,
+                filename=pdf_path.name,
+                doc_id=make_doc_id(pdf_path.name, file_hash),
+                file_hash=file_hash,
+                source_path=str(pdf_path),
+            )
+            write_normalized_json(
+                parsed_doc,
+                PARSED_JSON_DIR.joinpath(f"{parsed_doc['doc_id']}.json"),
+            )
+            documents.extend(build_chunks(parsed_doc))
+        except Exception as error:
+            st.warning(
+                f"MinerU failed to parse {pdf_path.name}; falling back to PyPDFLoader. Error: {error}"
+            )
+            documents.extend(PyPDFLoader(pdf_path.as_posix()).load())
+    return documents
+
+
 def split_documents_to_chunks(documents):
     """Split documents to chunks using RecursiveCharacterTextSplitter."""
 
+    pre_chunked_documents = [
+        document
+        for document in documents
+        if document.metadata.get("pre_chunked") is True
+    ]
+    raw_documents = [
+        document
+        for document in documents
+        if document.metadata.get("pre_chunked") is not True
+    ]
+
     text_splitter = RecursiveCharacterTextSplitter(chunk_size=1600, chunk_overlap=200)
-    chunks = text_splitter.split_documents(documents)
-    return chunks
+    chunks = text_splitter.split_documents(raw_documents)
+    return pre_chunked_documents + chunks
 
 
 def select_embeddings_model():
     """Select embeddings models: OpenAIEmbeddings or GoogleGenerativeAIEmbeddings."""
+    if st.session_state.get("embedding_model") == "Local BGE-M3":
+        return BgeM3Embeddings(cache_dir=MODEL_CACHE_DIR)
+
     if st.session_state.LLM_provider == "OpenAI":
         embeddings = OpenAIEmbeddings(api_key=st.session_state.openai_api_key)
 
@@ -912,24 +986,47 @@ def get_response_from_LLM(prompt):
 
             # 2.2. Display source documents:
             with st.expander("**Source documents**"):
-                documents_content = ""
-                for document in response["source_documents"]:
-                    try:
-                        page = " (Page: " + str(document.metadata["page"]) + ")"
-                    except:
-                        page = ""
-                    documents_content += (
-                        "**Source: "
-                        + str(document.metadata["source"])
-                        + page
-                        + "**\n\n"
-                    )
-                    documents_content += document.page_content + "\n\n\n"
-
-                st.markdown(documents_content)
+                st.markdown(format_source_documents(response["source_documents"]))
 
     except Exception as e:
         st.warning(e)
+
+
+def format_source_documents(source_documents):
+    """Format retrieved sources with finance-report metadata for traceability."""
+    formatted_sources = []
+    for index, document in enumerate(source_documents, start=1):
+        metadata = document.metadata or {}
+        page = metadata.get("page")
+        page_start = metadata.get("page_start")
+        page_end = metadata.get("page_end")
+        if page_start and page_end and page_start != page_end:
+            page_text = f"{page_start}-{page_end}"
+        elif page:
+            page_text = str(page)
+        else:
+            page_text = ""
+
+        preview = " ".join(document.page_content.split())
+        if len(preview) > 900:
+            preview = preview[:900] + "..."
+
+        lines = [
+            f"**Source {index}**",
+            f"- File: `{metadata.get('source', '')}`",
+        ]
+        if page_text:
+            lines.append(f"- Page: {page_text}")
+        if metadata.get("section"):
+            lines.append(f"- Section: {metadata.get('section')}")
+        if metadata.get("block_type"):
+            lines.append(f"- Block type: `{metadata.get('block_type')}`")
+        if metadata.get("asset_path"):
+            lines.append(f"- Asset: `{metadata.get('asset_path')}`")
+        lines.append(f"> {preview}")
+        formatted_sources.append("\n".join(lines))
+
+    return "\n\n".join(formatted_sources)
 
 
 ####################################################################

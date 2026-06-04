@@ -1,0 +1,69 @@
+[
+    {
+        "type": "text",
+        "text": "Text-only Finance Report",
+        "text_level": 2,
+        "bbox": [
+            115,
+            67,
+            447,
+            90
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "This sample is a valid PDF without tables.",
+        "bbox": [
+            115,
+            117,
+            465,
+            135
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Revenue increased steadily during the reporting period.",
+        "bbox": [
+            115,
+            143,
+            578,
+            161
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Net profit improved because operating expenses remained controlled.",
+        "bbox": [
+            115,
+            170,
+            692,
+            187
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "No tabular structure is intentionally included in this document.",
+        "bbox": [
+            115,
+            196,
+            625,
+            212
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Expected result: MinerU should parse text blocks and detect zero tables.",
+        "bbox": [
+            115,
+            222,
+            715,
+            239
+        ],
+        "page_idx": 0
+    }
+]

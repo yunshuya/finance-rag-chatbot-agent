@@ -1,0 +1,90 @@
+[
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Scanned Finance Report"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                122,
+                130,
+                458,
+                160
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "This page is rendered as an image, not selectable PDF text."
+                    }
+                ]
+            },
+            "bbox": [
+                124,
+                178,
+                672,
+                203
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Revenue: 10o million yuan"
+                    }
+                ]
+            },
+            "bbox": [
+                122,
+                209,
+                376,
+                235
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Net profit: 20 million yuan"
+                    }
+                ]
+            },
+            "bbox": [
+                122,
+                241,
+                368,
+                267
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": " Expected result: OCR or image parsing may be required."
+                    }
+                ]
+            },
+            "bbox": [
+                122,
+                273,
+                643,
+                299
+            ]
+        }
+    ]
+]
