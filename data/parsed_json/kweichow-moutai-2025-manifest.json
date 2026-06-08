@@ -1,0 +1,38 @@
+{
+  "pipeline": "finance_pdf_ingest",
+  "collection_name": "moutai_2025_fake",
+  "vectorstore_dir": "data/vector_stores/moutai_2025_fake",
+  "manifest_path": "data/parsed_json/kweichow-moutai-2025-manifest.json",
+  "embedding": "fake",
+  "parser": "mineru",
+  "parser_version": "3.2.1",
+  "summary": {
+    "total_files": 1,
+    "succeeded": 1,
+    "failed": 0,
+    "chunk_count": 916,
+    "stored_vectors": 916
+  },
+  "documents": [
+    {
+      "doc_id": "kweichow-moutai-2025-annual-report-474905deeaf0",
+      "filename": "kweichow_moutai_2025_annual_report.pdf",
+      "source_path": "data/docs/kweichow_moutai_2025_annual_report.pdf",
+      "file_hash": "474905deeaf0f875fc0a1b097a626c0c7852c427faadc5d7fc7816cbf45ea288",
+      "status": "success",
+      "content_list_path": "data/mineru_outputs/kweichow_moutai_2025_full_143/kweichow-moutai-2025-annual-report-474905deeaf0/kweichow_moutai_2025_annual_report.pdf/txt/kweichow_moutai_2025_annual_report.pdf_content_list.json",
+      "parsed_json_path": "data/parsed_json/kweichow-moutai-2025-annual-report-474905deeaf0.json",
+      "mineru_output_dir": "data/mineru_outputs/kweichow_moutai_2025_full_143/kweichow-moutai-2025-annual-report-474905deeaf0",
+      "page_count": 143,
+      "content_page_count": 134,
+      "block_counts": {
+        "image": 2,
+        "table": 232,
+        "text": 1824
+      },
+      "chunk_count": 916,
+      "table_count": 232,
+      "image_count": 2
+    }
+  ]
+}
