@@ -2,6 +2,13 @@
   "doc_id": "test-pdf",
   "filename": "test.pdf",
   "parser": "mineru",
+  "parse_status": "success",
+  "page_offset": 0,
+  "page_count": 1,
+  "content_page_count": 1,
+  "block_counts": {
+    "text": 3
+  },
   "blocks": [
     {
       "block_id": "test-pdf_b0",
@@ -42,5 +49,6 @@
       ],
       "text_level": 0
     }
-  ]
+  ],
+  "parser_version": "3.2.1"
 }

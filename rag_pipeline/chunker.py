@@ -90,7 +90,7 @@ def _make_document(parsed_doc, block, text, chunk_number):
         "chunk_id": f"{parsed_doc['doc_id']}_chunk_{chunk_number}",
         "pre_chunked": True,
     }
-    for field in ("block_id", "section", "asset_path"):
+    for field in ("block_id", "table_id", "section", "asset_path"):
         value = block.get(field)
         if value:
             metadata[field] = value

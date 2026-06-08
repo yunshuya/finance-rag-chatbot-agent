@@ -159,6 +159,7 @@ class MinerUPipelineTest(unittest.TestCase):
             self.assertEqual(parsed["blocks"][0]["section"], "第三节 管理层讨论与分析")
             self.assertEqual(parsed["blocks"][1]["section"], "第三节 管理层讨论与分析")
             self.assertTrue(parsed["blocks"][2]["text"].startswith("<table>"))
+            self.assertEqual(parsed["blocks"][2]["table_id"], "doc-1_t1")
             self.assertEqual(parsed["blocks"][2]["table_caption"], "主要财务数据")
             self.assertEqual(parsed["blocks"][2]["asset_path"], "tables/table-1.jpg")
             self.assertEqual(parsed["blocks"][3]["text"], "ROE = Net\\ Income / Equity")
@@ -185,6 +186,7 @@ class MinerUPipelineTest(unittest.TestCase):
                     "text": "<table><tr><td>Cash</td><td>20</td></tr></table>",
                     "page_no": 2,
                     "section": "Financial statements",
+                    "table_id": "doc-1_t1",
                     "asset_path": "tables/cash.jpg",
                 },
                 {
@@ -213,6 +215,7 @@ class MinerUPipelineTest(unittest.TestCase):
                 "chunk_id": "doc-1_chunk_2",
                 "pre_chunked": True,
                 "block_id": "b2",
+                "table_id": "doc-1_t1",
                 "section": "Financial statements",
                 "asset_path": "tables/cash.jpg",
                 "page_start": 2,

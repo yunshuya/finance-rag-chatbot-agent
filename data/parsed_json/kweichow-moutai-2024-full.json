@@ -2,6 +2,7 @@
   "doc_id": "kweichow-moutai-2024-full",
   "filename": "kweichow_moutai_2024_annual_report.pdf",
   "parser": "mineru",
+  "parse_status": "success",
   "page_offset": 0,
   "page_count": 143,
   "content_page_count": 134,
@@ -342,6 +343,7 @@
       ],
       "text_level": 0,
       "section": "十一、 其他",
+      "table_id": "kweichow-moutai-2024-full_t1",
       "asset_path": "images/e7ddb332271a6721214d419b60d60056e4e156ba8328de0799b74d2a1053cc69.jpg"
     },
     {
@@ -399,6 +401,7 @@
       ],
       "text_level": 0,
       "section": "一、 释义",
+      "table_id": "kweichow-moutai-2024-full_t2",
       "asset_path": "images/d03763330a31b4544d226e296581ef017f4446bc04da3182ffad873075a822d5.jpg"
     },
     {
@@ -442,6 +445,7 @@
       ],
       "text_level": 0,
       "section": "一、 公司信息",
+      "table_id": "kweichow-moutai-2024-full_t3",
       "asset_path": "images/3eca2ec25af1c5fcbcb909bede43b6cddffbc53f270ebb9350a6d71c6c660c2c.jpg"
     },
     {
@@ -471,6 +475,7 @@
       ],
       "text_level": 0,
       "section": "二、 联系人和联系方式",
+      "table_id": "kweichow-moutai-2024-full_t4",
       "asset_path": "images/5863c2d05ca3857c51276d23469cdc88333f4d76414f7a26a142f1b447752125.jpg"
     },
     {
@@ -500,6 +505,7 @@
       ],
       "text_level": 0,
       "section": "三、 基本情况简介",
+      "table_id": "kweichow-moutai-2024-full_t5",
       "asset_path": "images/bbfdc674324e5f1dddc860a95a8fd9bd07c498444c7f5ad0e79a47224f1069cc.jpg"
     },
     {
@@ -529,6 +535,7 @@
       ],
       "text_level": 0,
       "section": "四、 信息披露及备置地点",
+      "table_id": "kweichow-moutai-2024-full_t6",
       "asset_path": "images/edb7fd341ab6656dfd8e283f929f11462a8492ddc0fc66ba3200b10b693700fa.jpg"
     },
     {
@@ -558,6 +565,7 @@
       ],
       "text_level": 0,
       "section": "五、 公司股票简况",
+      "table_id": "kweichow-moutai-2024-full_t7",
       "asset_path": "images/9599c89fc651c2de4f33ab405a482701bf118f4df2b9db197e1ada9e16cdaff8.jpg"
     },
     {
@@ -587,6 +595,7 @@
       ],
       "text_level": 0,
       "section": "六、 其他相关资料",
+      "table_id": "kweichow-moutai-2024-full_t8",
       "asset_path": "images/a1114400dd7862a1eabff10969c6f5433e4e823bb89dfb145fe0b36d0578cab3.jpg"
     },
     {
@@ -644,6 +653,7 @@
       ],
       "text_level": 0,
       "section": "(一) 主要会计数据",
+      "table_id": "kweichow-moutai-2024-full_t9",
       "asset_path": "images/2eaa212d9c721a3b699e7dfec2146205d672f1408895d586a5e0989df67c3c85.jpg"
     },
     {
@@ -673,6 +683,7 @@
       ],
       "text_level": 0,
       "section": "(二) 主要财务指标",
+      "table_id": "kweichow-moutai-2024-full_t10",
       "asset_path": "images/3da29189716fa023254d0c89f6f58624e19cfdb6573598bae72e0ed8f67b017e.jpg",
       "table_footnote": "□适用 √不适用"
     },
@@ -829,6 +840,7 @@
       ],
       "text_level": 0,
       "section": "九、 2024 年分季度主要财务数据",
+      "table_id": "kweichow-moutai-2024-full_t11",
       "asset_path": "images/91720633502efc8c55caaa1c93990b8d7ef105d86296cd30f26d9cbeaaa599fc.jpg"
     },
     {
@@ -914,6 +926,7 @@
       ],
       "text_level": 0,
       "section": "十、 非经常性损益项目和金额",
+      "table_id": "kweichow-moutai-2024-full_t12",
       "asset_path": "images/0de72add62e3d29f19604f3022562e575c713137ea44f4ad93deff6ed67c957e.jpg"
     },
     {
@@ -999,6 +1012,7 @@
       ],
       "text_level": 0,
       "section": "十一、 采用公允价值计量的项目",
+      "table_id": "kweichow-moutai-2024-full_t13",
       "asset_path": "images/37feeff3f140e5dd10690c7a5a42f0c49c74c8f64474fb746345e702ddf0f41f.jpg"
     },
     {
@@ -1322,6 +1336,7 @@
       ],
       "text_level": 0,
       "section": "1、 利润表及现金流量表相关科目变动分析表",
+      "table_id": "kweichow-moutai-2024-full_t14",
       "asset_path": "images/f6e2eebd1cc116ecfcb0844f12b80e9d24d194c2080b555dc3e46e5a2410c2c6.jpg",
       "table_footnote": "营业收入变动原因说明：主要是本期销量增加及茅台酒主要产品销售价格调整。 营业成本变动原因说明：主要是本期销量增加、原材料及人工成本上涨。 销售费用变动原因说明：主要是本期市场推广及服务费增加。"
     },
@@ -1492,6 +1507,7 @@
       ],
       "text_level": 0,
       "section": "(1). 主营业务分行业、分产品、分地区、分销售模式情况",
+      "table_id": "kweichow-moutai-2024-full_t15",
       "asset_path": "images/0b4602df9fd2240e4b4fdf5265fd7bca3df4403cbd9b9e57b289975e2572b6e7.jpg"
     },
     {
@@ -1535,6 +1551,7 @@
       ],
       "text_level": 0,
       "section": "(2). 产销量情况分析表",
+      "table_id": "kweichow-moutai-2024-full_t16",
       "asset_path": "images/527baedff282502776f947b33877b8d1db1408f3d7ee318c0f3cc461658dd617.jpg"
     },
     {
@@ -1606,6 +1623,7 @@
       ],
       "text_level": 0,
       "section": "(4). 成本分析表",
+      "table_id": "kweichow-moutai-2024-full_t17",
       "asset_path": "images/0e2129711c8fd02d73231cef621f28696450d43eb4be596bf1140788e21119e2.jpg"
     },
     {
@@ -1943,6 +1961,7 @@
       ],
       "text_level": 0,
       "section": "(1).研发投入情况表",
+      "table_id": "kweichow-moutai-2024-full_t18",
       "asset_path": "images/7c010edf94bef08d7c5760a186659b6c3b63f6be589098c797e042663901d940.jpg",
       "table_footnote": "注：本期费用化研发支出包括列入生产成本的研发支出及科研人员工资等支出。"
     },
@@ -1987,6 +2006,7 @@
       ],
       "text_level": 0,
       "section": "(2).研发人员情况表",
+      "table_id": "kweichow-moutai-2024-full_t19",
       "asset_path": "images/f61231ea2c0d95316ee624cf18b2d78d6a7a43feeee6f1021594ac6d1d214699.jpg"
     },
     {
@@ -2100,6 +2120,7 @@
       ],
       "text_level": 0,
       "section": "5、 现金流",
+      "table_id": "kweichow-moutai-2024-full_t20",
       "asset_path": "images/07a957b4b2318507e33968c0d9618dbcccf018d7e8ab4141a4a58d5779340df7.jpg"
     },
     {
@@ -2381,6 +2402,7 @@
       ],
       "text_level": 0,
       "section": "1、 资产及负债状况",
+      "table_id": "kweichow-moutai-2024-full_t21",
       "asset_path": "images/707e1a3f874f4e898c049d6ad3c12c75acd747a1ce130e64ad6eec85224d1076.jpg"
     },
     {
@@ -2648,6 +2670,7 @@
       ],
       "text_level": 0,
       "section": "2、 产能状况",
+      "table_id": "kweichow-moutai-2024-full_t22",
       "asset_path": "images/12b3f70bf7799438ce0917722eedaf6865f916fa688c39fe17a258081d27f62b.jpg"
     },
     {
@@ -2719,6 +2742,7 @@
       ],
       "text_level": 0,
       "section": "2、 产能状况",
+      "table_id": "kweichow-moutai-2024-full_t23",
       "asset_path": "images/d87612efe44c51cda5c5956a2437faf1c8171cda9b4ae9b3c854b0f66616fbbb.jpg"
     },
     {
@@ -2818,6 +2842,7 @@
       ],
       "text_level": 0,
       "section": "3、 产品期末库存量",
+      "table_id": "kweichow-moutai-2024-full_t24",
       "asset_path": "images/9edf5d72dfe57b9e3cd747a88fee326399aa90e51233bd6affd342d2f72ebd73.jpg",
       "table_footnote": "注：成品酒为公司已包装的库存商品（含酱香系列酒）。"
     },
@@ -2904,6 +2929,7 @@
       ],
       "text_level": 0,
       "section": "4、 产品情况",
+      "table_id": "kweichow-moutai-2024-full_t25",
       "asset_path": "images/709c26e50bff7204588d303194d7dc05ad09cbbcfaa777f70414f8c7fc4afa7e.jpg"
     },
     {
@@ -3101,6 +3127,7 @@
       ],
       "text_level": 0,
       "section": "(2).采购金额",
+      "table_id": "kweichow-moutai-2024-full_t26",
       "asset_path": "images/c8d65cf2fc21a7e1decaf0803212de503f54cacc776ecb4fc5299c542a2236ae.jpg"
     },
     {
@@ -3214,6 +3241,7 @@
       ],
       "text_level": 0,
       "section": "(2).销售渠道",
+      "table_id": "kweichow-moutai-2024-full_t27",
       "asset_path": "images/24d2323c8a9e9c589d9e317dd1b113c28341954bbdef687456b5fa9e3655e812.jpg"
     },
     {
@@ -3271,6 +3299,7 @@
       ],
       "text_level": 0,
       "section": "(3).区域情况",
+      "table_id": "kweichow-moutai-2024-full_t28",
       "asset_path": "images/91f7544ced02e15ee48df4164e95ae28482d7c50ed4658ea72c760b5c8f107b8.jpg"
     },
     {
@@ -3356,6 +3385,7 @@
       ],
       "text_level": 0,
       "section": "(4).经销商情况",
+      "table_id": "kweichow-moutai-2024-full_t29",
       "asset_path": "images/5535172f0a6846da8aa9795b57cb8623f295982938660d57fde8d9d34f6916f7.jpg"
     },
     {
@@ -3455,6 +3485,7 @@
       ],
       "text_level": 0,
       "section": "(5).线上销售情况",
+      "table_id": "kweichow-moutai-2024-full_t30",
       "asset_path": "images/ebe66fda85b70a69e7a305dd0692cedae5442dc6b5bec95d4efefb37f1e19f24.jpg"
     },
     {
@@ -3554,6 +3585,7 @@
       ],
       "text_level": 0,
       "section": "(1).按不同类型披露公司主营业务构成",
+      "table_id": "kweichow-moutai-2024-full_t31",
       "asset_path": "images/1f50bc3e016f71d4b17362baf40780d981bc2333bfc985176ae509dc09f59d43.jpg"
     },
     {
@@ -3835,6 +3867,7 @@
       ],
       "text_level": 0,
       "section": "3、 以公允价值计量的金融资产",
+      "table_id": "kweichow-moutai-2024-full_t32",
       "asset_path": "images/028d6b02bbf6cf7d9bfb1de25f89e93f1a179bfb434da9fb86cba7f1a9ebee4e.jpg",
       "table_footnote": "证券投资情况 □适用 √不适用"
     },
@@ -4089,6 +4122,7 @@
       ],
       "text_level": 0,
       "section": "(七) 主要控股参股公司分析",
+      "table_id": "kweichow-moutai-2024-full_t33",
       "asset_path": "images/b8de66d0b85453f2d6ad4fb970d4633646bb4606d87f695216ac4be07557645a.jpg"
     },
     {
@@ -4776,6 +4810,7 @@
       ],
       "text_level": 0,
       "section": "三、股东大会情况简介",
+      "table_id": "kweichow-moutai-2024-full_t34",
       "asset_path": "images/890a5ddfdc79ddf030ad858df86f390e3137e14b71799ef63d7af02f325a358e.jpg",
       "table_footnote": "表决权恢复的优先股股东请求召开临时股东大会 □适用 √不适用"
     },
@@ -4876,6 +4911,7 @@
       ],
       "text_level": 0,
       "section": "(一) 现任及报告期内离任董事、监事和高级管理人员持股变动及报酬情况",
+      "table_id": "kweichow-moutai-2024-full_t35",
       "asset_path": "images/a77089894285302df56297e6c15bd81d662d00d14e6a951f02462817b7e7273e.jpg",
       "table_footnote": "说明：1.上述董事（不含独立董事）、监事、高级管理人员获得的报酬为报告期内从公司获得的所有税前报酬总额，包括：个人获得的基本年薪（或基本工资）、绩效年薪（或奖金）以及公司缴存的社会保险、企业年金、补充医疗保险及住房公积金等。2.独立董事获得的报酬为报告期内从公司获得的所有税前津贴。"
     },
@@ -4892,6 +4928,7 @@
       ],
       "text_level": 0,
       "section": "(一) 现任及报告期内离任董事、监事和高级管理人员持股变动及报酬情况",
+      "table_id": "kweichow-moutai-2024-full_t36",
       "asset_path": "images/354b2e9098a69475f33c68df5d229471d6a38a52c778bdc335157dbd3abf7521.jpg",
       "table_footnote": "其它情况说明 □适用 √不适用"
     },
@@ -4936,6 +4973,7 @@
       ],
       "text_level": 0,
       "section": "1、 在股东单位任职情况",
+      "table_id": "kweichow-moutai-2024-full_t37",
       "asset_path": "images/bbe2c3b664f217bc16afea68a9fecc07cc7d1b5def22c38424118e66f3ed714c.jpg",
       "table_caption": "√适用 □不适用"
     },
@@ -4966,6 +5004,7 @@
       ],
       "text_level": 0,
       "section": "2、 在其他单位任职情况",
+      "table_id": "kweichow-moutai-2024-full_t38",
       "asset_path": "images/09ffe210163dba2e164d131aabb2eed8e31c26a6edbc49fb1092b28bcde118b1.jpg",
       "table_caption": "√适用 □不适用"
     },
@@ -5010,6 +5049,7 @@
       ],
       "text_level": 0,
       "section": "(三) 董事、监事、高级管理人员报酬情况",
+      "table_id": "kweichow-moutai-2024-full_t39",
       "asset_path": "images/364ec9287ac73d866171153dcee79ce59b1e527e1c65a04ec0288d8ebb40114d.jpg"
     },
     {
@@ -5053,6 +5093,7 @@
       ],
       "text_level": 0,
       "section": "(四) 公司董事、监事、高级管理人员变动情况",
+      "table_id": "kweichow-moutai-2024-full_t40",
       "asset_path": "images/e6179bd824bb9eb1f61e2c857bf57099bb0b41b19c6e3f6c9b2c644ee52fb95b.jpg"
     },
     {
@@ -5138,6 +5179,7 @@
       ],
       "text_level": 0,
       "section": "五、报告期内召开的董事会有关情况",
+      "table_id": "kweichow-moutai-2024-full_t41",
       "asset_path": "images/c61b1ef6279e9287fee9eed6db8bad9be2548885854b0d758e94d6a340a3dc3c.jpg"
     },
     {
@@ -5181,6 +5223,7 @@
       ],
       "text_level": 0,
       "section": "(一) 董事参加董事会和股东大会的情况",
+      "table_id": "kweichow-moutai-2024-full_t42",
       "asset_path": "images/1891c140781f49cf3ef473d1074b3191e3376a657bb97daaf8cba82a49497398.jpg"
     },
     {
@@ -5224,6 +5267,7 @@
       ],
       "text_level": 0,
       "section": "(一) 董事参加董事会和股东大会的情况",
+      "table_id": "kweichow-moutai-2024-full_t43",
       "asset_path": "images/156138a8a42b6919ee5ec91adbd38b49bf522210ba09afa712daf0824c923b05.jpg"
     },
     {
@@ -5337,6 +5381,7 @@
       ],
       "text_level": 0,
       "section": "(一) 董事会下设专门委员会成员情况",
+      "table_id": "kweichow-moutai-2024-full_t44",
       "asset_path": "images/916ac220936ad180a66bd5af0b35353e86b91ff69c89f5358696a3bf540398de.jpg"
     },
     {
@@ -5366,6 +5411,7 @@
       ],
       "text_level": 0,
       "section": "(二)报告期内审计委员会召开六次会议",
+      "table_id": "kweichow-moutai-2024-full_t45",
       "asset_path": "images/b7e19f34fc18c5de213ae5a3a7c0370573b32037eab9d5bacaecb0d7701f89f5.jpg"
     },
     {
@@ -5395,6 +5441,7 @@
       ],
       "text_level": 0,
       "section": "(三)报告期内提名委员会召开两次会议",
+      "table_id": "kweichow-moutai-2024-full_t46",
       "asset_path": "images/bd0a5e10df978a05d468e3fe53dd4278adb52e04af5c218684016a9a17b98782.jpg"
     },
     {
@@ -5424,6 +5471,7 @@
       ],
       "text_level": 0,
       "section": "(四)报告期内薪酬与考核委员会召开三次会议",
+      "table_id": "kweichow-moutai-2024-full_t47",
       "asset_path": "images/dc0c487880399f0187fd2d84fea4c0b77b0e896b73af0d1d898aa34840de0b88.jpg"
     },
     {
@@ -5453,6 +5501,7 @@
       ],
       "text_level": 0,
       "section": "(五)报告期内战略委员会召开四次会议",
+      "table_id": "kweichow-moutai-2024-full_t48",
       "asset_path": "images/cf9bbdfd8c1fc949cdd476fe7a7a45fb569ba28932a55b32de2bae0551355ddd.jpg"
     },
     {
@@ -5566,6 +5615,7 @@
       ],
       "text_level": 0,
       "section": "(一) 员工情况",
+      "table_id": "kweichow-moutai-2024-full_t49",
       "asset_path": "images/9c7e3ea79efd67b93fdb3e84f9665932216064334bb45097ed8e048e4997c9d4.jpg"
     },
     {
@@ -5805,6 +5855,7 @@
       ],
       "text_level": 0,
       "section": "(二) 现金分红政策的专项说明",
+      "table_id": "kweichow-moutai-2024-full_t50",
       "asset_path": "images/ad4f9dc1a5ceab81189646d007eada8bad65c49359eeff5f7d00e578778aca29.jpg",
       "table_caption": "√适用 □不适用"
     },
@@ -5891,6 +5942,7 @@
       ],
       "text_level": 0,
       "section": "(四) 本报告期利润分配及资本公积金转增股本预案",
+      "table_id": "kweichow-moutai-2024-full_t51",
       "asset_path": "images/7755ea3b48c86bf837b90bb89c4a0adef6378c6faf3a36c8977da7307da6cab2.jpg"
     },
     {
@@ -5948,6 +6000,7 @@
       ],
       "text_level": 0,
       "section": "(五) 最近三个会计年度现金分红情况",
+      "table_id": "kweichow-moutai-2024-full_t52",
       "asset_path": "images/b90650baa08ecbd5cee68407dac600fa1e264af249c3af88f41dc2bb225a1614.jpg"
     },
     {
@@ -6467,6 +6520,7 @@
       ],
       "text_level": 0,
       "section": "一、环境信息情况",
+      "table_id": "kweichow-moutai-2024-full_t53",
       "asset_path": "images/1379148259fde0d65ed7c551f8738cb033ea635af13ab3f382dba0f4a0dc6f7b.jpg"
     },
     {
@@ -6608,6 +6662,7 @@
       ],
       "text_level": 0,
       "section": "1、 排污信息",
+      "table_id": "kweichow-moutai-2024-full_t54",
       "asset_path": "images/d5d75f7b35ed9eeaba48d553d0aa67feca153d257edb9de76bd507e3fb4cad3a.jpg"
     },
     {
@@ -6651,6 +6706,7 @@
       ],
       "text_level": 0,
       "section": "1、 排污信息",
+      "table_id": "kweichow-moutai-2024-full_t55",
       "asset_path": "images/39e93ae4d16b911de3c4d09a6f3c6eb79c57e415457bf01b8e3a42616364e4f6.jpg"
     },
     {
@@ -6666,6 +6722,7 @@
       ],
       "text_level": 0,
       "section": "1、 排污信息",
+      "table_id": "kweichow-moutai-2024-full_t56",
       "asset_path": "images/594232a58a42d7e76cd041d13f2d34ac2673ccb36cc62a0c1b086ae3795f50d0.jpg"
     },
     {
@@ -7115,6 +7172,7 @@
       ],
       "text_level": 0,
       "section": "(四) 在报告期内为减少其碳排放所采取的措施及效果",
+      "table_id": "kweichow-moutai-2024-full_t57",
       "asset_path": "images/d799f778b94673bbd7de72eae7ddb0717338fb43c41440acbfbbe3f31fd4461f.jpg"
     },
     {
@@ -7396,6 +7454,7 @@
       ],
       "text_level": 0,
       "section": "(一) 公司实际控制人、股东、关联方、收购人以及公司等承诺相关方在报告期内或持续到报告期内的承诺事项",
+      "table_id": "kweichow-moutai-2024-full_t58",
       "asset_path": "images/b75069eeec377fa7a87423833596c2f99fd9b974f02a0d8455243c18a9e3f6d7.jpg"
     },
     {
@@ -7719,6 +7778,7 @@
       ],
       "text_level": 0,
       "section": "六、聘任、解聘会计师事务所情况",
+      "table_id": "kweichow-moutai-2024-full_t59",
       "asset_path": "images/cb05481acca0693449575f72be47e7a4ab4a5a5adca294fd3fb4fd5c848b0f02.jpg"
     },
     {
@@ -7734,6 +7794,7 @@
       ],
       "text_level": 0,
       "section": "六、聘任、解聘会计师事务所情况",
+      "table_id": "kweichow-moutai-2024-full_t60",
       "asset_path": "images/7d6fd4b1c2e97ba06960a9c20be85e46f5c029df8de198263a9938ef1c3e8455.jpg"
     },
     {
@@ -8211,6 +8272,7 @@
       ],
       "text_level": 0,
       "section": "3、 临时公告未披露的事项",
+      "table_id": "kweichow-moutai-2024-full_t61",
       "asset_path": "images/860e9dec94b28883f36360f3df5f7c86b7634447924babf5f3406a8f93ec2caf.jpg"
     },
     {
@@ -8492,6 +8554,7 @@
       ],
       "text_level": 0,
       "section": "2、 已在临时公告披露，但有后续实施的进展或变化的事项",
+      "table_id": "kweichow-moutai-2024-full_t62",
       "asset_path": "images/1660ed2cb0228c72feac28c461ca6ff8c5ceba48acd03aaa30040fa8a65709ac.jpg"
     },
     {
@@ -8703,6 +8766,7 @@
       ],
       "text_level": 0,
       "section": "1、 存款业务",
+      "table_id": "kweichow-moutai-2024-full_t63",
       "asset_path": "images/34f1710fdee0cbdb931c3df871160a8ee36a4d992b5f0d72730bb6d2179b20f1.jpg",
       "table_footnote": "注：以上存款利率范围为 0.35%-2.00%。"
     },
@@ -8719,6 +8783,7 @@
       ],
       "text_level": 0,
       "section": "1、 存款业务",
+      "table_id": "kweichow-moutai-2024-full_t64",
       "asset_path": "images/247315c9ca6034f35d38da7e6ecf00ea88b3af957c686195c450db868435a715.jpg",
       "table_caption": "向关联方支付的利息"
     },
@@ -8777,6 +8842,7 @@
       ],
       "text_level": 0,
       "section": "2、 贷款业务",
+      "table_id": "kweichow-moutai-2024-full_t65",
       "asset_path": "images/e74adeddcb803df028e5783f87c74da644e7978f756e69819f0299ab99c47dec.jpg"
     },
     {
@@ -8792,6 +8858,7 @@
       ],
       "text_level": 0,
       "section": "2、 贷款业务",
+      "table_id": "kweichow-moutai-2024-full_t66",
       "asset_path": "images/885ec5930638f1e5f67fe2085abee12c8418c656a0243d8a4a79763b2fbbf1d2.jpg",
       "table_caption": "向关联方收取的利息"
     },
@@ -8850,6 +8917,7 @@
       ],
       "text_level": 0,
       "section": "3、 授信业务或其他金融业务",
+      "table_id": "kweichow-moutai-2024-full_t67",
       "asset_path": "images/01f0d5137ec9b165458aee356cce284f2b342d42bcda99aec19ef81987a7a6fe.jpg"
     },
     {
@@ -9761,6 +9829,7 @@
       ],
       "text_level": 0,
       "section": "(一) 股东总数",
+      "table_id": "kweichow-moutai-2024-full_t68",
       "asset_path": "images/8075e95fc73b92b71a40f86762a6dd26dabb37d08ce2e13e77cbf89dee0ebbf0.jpg"
     },
     {
@@ -9804,6 +9873,7 @@
       ],
       "text_level": 0,
       "section": "(二) 截至报告期末前十名股东、前十名流通股东（或无限售条件股东）持股情况表",
+      "table_id": "kweichow-moutai-2024-full_t69",
       "asset_path": "images/8aa0a1cb6799fef86f9333133a0d94383d4ab54d2419f94c1432d5dbc1d4c247.jpg"
     },
     {
@@ -9861,6 +9931,7 @@
       ],
       "text_level": 0,
       "section": "(二) 截至报告期末前十名股东、前十名流通股东（或无限售条件股东）持股情况表",
+      "table_id": "kweichow-moutai-2024-full_t70",
       "asset_path": "images/418d6dba3378b04ed880f90654ba8fc1eb93852565eda5f270169a8f0649f4a1.jpg"
     },
     {
@@ -10016,6 +10087,7 @@
       ],
       "text_level": 0,
       "section": "1、 法人",
+      "table_id": "kweichow-moutai-2024-full_t71",
       "asset_path": "images/54a121eccf63b399a0291e7881a7d78bdbaa132223f3a051e9913836294a9310.jpg"
     },
     {
@@ -10200,6 +10272,7 @@
       ],
       "text_level": 0,
       "section": "1、 法人",
+      "table_id": "kweichow-moutai-2024-full_t72",
       "asset_path": "images/a384e7616a5643fd82c45d2ec74eae6e41c6157dd806cf0297f7953058f84c8a.jpg"
     },
     {
@@ -10524,6 +10597,7 @@
       ],
       "text_level": 0,
       "section": "八、股份回购在报告期的具体实施情况",
+      "table_id": "kweichow-moutai-2024-full_t73",
       "asset_path": "images/6a551013e7ea430d4a58b7230d5ddb71630a864165696e17cc88202bea83b028.jpg"
     },
     {
@@ -11617,6 +11691,7 @@
       ],
       "text_level": 0,
       "section": "二、 财务报表",
+      "table_id": "kweichow-moutai-2024-full_t74",
       "asset_path": "images/d2c0279e58bbf3fdd34c0965231a465c0c1cc9aff85f482455136eb54dfaea64.jpg",
       "table_footnote": "公司负责人：张德芹 主管会计工作负责人：蒋焰 会计机构负责人：蔡聪应"
     },
@@ -11689,6 +11764,7 @@
       ],
       "text_level": 0,
       "section": "二、 财务报表",
+      "table_id": "kweichow-moutai-2024-full_t75",
       "asset_path": "images/d390107510cf635bb56b819f5fe1aeed10113a6e90e9bb3ca20bbf168c339fed.jpg",
       "table_footnote": "公司负责人：张德芹 主管会计工作负责人：蒋焰 会计机构负责人：蔡聪应"
     },
@@ -11747,6 +11823,7 @@
       ],
       "text_level": 0,
       "section": "二、 财务报表",
+      "table_id": "kweichow-moutai-2024-full_t76",
       "asset_path": "images/ce00aec9e557f9615cc5661c6da19380277c7ff6519fa79e7aad5d990457b96e.jpg",
       "table_footnote": "公司负责人：张德芹 主管会计工作负责人：蒋焰 会计机构负责人：蔡聪应"
     },
@@ -11805,6 +11882,7 @@
       ],
       "text_level": 0,
       "section": "二、 财务报表",
+      "table_id": "kweichow-moutai-2024-full_t77",
       "asset_path": "images/d253dcde3836ad2a2889995234928f2200060b4bd74bea7a3afbb6f40eb512dc.jpg",
       "table_footnote": "公司负责人：张德芹 主管会计工作负责人：蒋焰 会计机构负责人：蔡聪应"
     },
@@ -11863,6 +11941,7 @@
       ],
       "text_level": 0,
       "section": "二、 财务报表",
+      "table_id": "kweichow-moutai-2024-full_t78",
       "asset_path": "images/120dc66ec6c641c907a9f1833d009fb5e4e377969d9eb0a069681f9c04cf6016.jpg",
       "table_footnote": "公司负责人：张德芹 主管会计工作负责人：蒋焰 会计机构负责人：蔡聪应"
     },
@@ -11921,6 +12000,7 @@
       ],
       "text_level": 0,
       "section": "二、 财务报表",
+      "table_id": "kweichow-moutai-2024-full_t79",
       "asset_path": "images/67da348400b4eab24b1463f7f23fd9379955a2502fb41126161005fac839640a.jpg",
       "table_footnote": "公司负责人：张德芹 主管会计工作负责人：蒋焰 会计机构负责人：蔡聪应"
     },
@@ -11979,6 +12059,7 @@
       ],
       "text_level": 0,
       "section": "二、 财务报表",
+      "table_id": "kweichow-moutai-2024-full_t80",
       "asset_path": "images/6110850ea4754c969ea22588b80e3ff27af567df499751dfe26f5b14c24bf0a4.jpg"
     },
     {
@@ -11994,6 +12075,7 @@
       ],
       "text_level": 0,
       "section": "二、 财务报表",
+      "table_id": "kweichow-moutai-2024-full_t81",
       "asset_path": "images/a2b55a8dfc19fbbe44e75d09caaa144c93cb12d1ebbca616507115d36fb5dbbc.jpg",
       "table_footnote": "公司负责人：张德芹 主管会计工作负责人：蒋焰 会计机构负责人：蔡聪应"
     },
@@ -12052,6 +12134,7 @@
       ],
       "text_level": 0,
       "section": "二、 财务报表",
+      "table_id": "kweichow-moutai-2024-full_t82",
       "asset_path": "images/b8c2f6bfe6748dbb1f29d0582492b672577d43b775a70cabfc84b2a4a441203d.jpg"
     },
     {
@@ -12067,6 +12150,7 @@
       ],
       "text_level": 0,
       "section": "二、 财务报表",
+      "table_id": "kweichow-moutai-2024-full_t83",
       "asset_path": "images/442ba975d77dc0dfa7f9f0be23ccc6f880ffb97a7a7093170fa8db6de473821d.jpg",
       "table_footnote": "公司负责人：张德芹 主管会计工作负责人：蒋焰 会计机构负责人：蔡聪应"
     },
@@ -12447,6 +12531,7 @@
       ],
       "text_level": 0,
       "section": "5、 重要性标准确定方法和选择依据",
+      "table_id": "kweichow-moutai-2024-full_t84",
       "asset_path": "images/4575967ff3b4a28b2d1dd38aa0d22e453c48d989d51fd1e48cf1cbcdf8d244cd.jpg"
     },
     {
@@ -14016,6 +14101,7 @@
       ],
       "text_level": 0,
       "section": "(2).折旧方法",
+      "table_id": "kweichow-moutai-2024-full_t85",
       "asset_path": "images/2734b15795646bc972727e45894f423dc6027963961790ee6d5f7a25a94a874a.jpg"
     },
     {
@@ -14059,6 +14145,7 @@
       ],
       "text_level": 0,
       "section": "(2).折旧方法",
+      "table_id": "kweichow-moutai-2024-full_t86",
       "asset_path": "images/a6ff87ea608171add1e49bffbba33b226b5d0129f587280d671cfba01fc25e19.jpg",
       "table_footnote": "C.对于新购进金额在 5,000.00元以下的固定资产，一次性计入当期成本费用。"
     },
@@ -15727,6 +15814,7 @@
       ],
       "text_level": 0,
       "section": "1、 主要税种及税率",
+      "table_id": "kweichow-moutai-2024-full_t87",
       "asset_path": "images/e5fcbe2a867dc65369c53c33a724d29cfa863cf823b70f345cd01b8cdfdc872b.jpg"
     },
     {
@@ -15770,6 +15858,7 @@
       ],
       "text_level": 0,
       "section": "1、 主要税种及税率",
+      "table_id": "kweichow-moutai-2024-full_t88",
       "asset_path": "images/79fb96115a1be0e056a66d35049d77b0aaf8db27d86d9a83f57a9d8f44fc9a78.jpg"
     },
     {
@@ -15883,6 +15972,7 @@
       ],
       "text_level": 0,
       "section": "1、 货币资金",
+      "table_id": "kweichow-moutai-2024-full_t89",
       "asset_path": "images/75b02647fd88e524c7fa0458fbf1a04247f25d5fecf889a0752ae7447c4665dd.jpg",
       "table_footnote": "其他说明："
     },
@@ -15899,6 +15989,7 @@
       ],
       "text_level": 0,
       "section": "1、 货币资金",
+      "table_id": "kweichow-moutai-2024-full_t90",
       "asset_path": "images/0a0140d519fed78434b20b9dea677069fc270ac7caeae49522f04ec4e04cfa4a.jpg",
       "table_caption": "使用受到限制的货币资金"
     },
@@ -15943,6 +16034,7 @@
       ],
       "text_level": 0,
       "section": "2、 拆出资金",
+      "table_id": "kweichow-moutai-2024-full_t91",
       "asset_path": "images/bcf87edfa7802ee160d2bc2101d098baaee8f8d1b253cd6eb9557b12c3794a80.jpg"
     },
     {
@@ -15958,6 +16050,7 @@
       ],
       "text_level": 0,
       "section": "2、 拆出资金",
+      "table_id": "kweichow-moutai-2024-full_t92",
       "asset_path": "images/59d718a5d9a5113553831e125498c0a4ec56b05aef4bf3d7686e8578dd46f371.jpg",
       "table_caption": "使用受到限制的拆出资金"
     },
@@ -16016,6 +16109,7 @@
       ],
       "text_level": 0,
       "section": "3、 交易性金融资产",
+      "table_id": "kweichow-moutai-2024-full_t93",
       "asset_path": "images/56d53c458a274339e39a7ddbab93cc11d5d2e0642c42cb5e4c40a2f646b82f4f.jpg"
     },
     {
@@ -16087,6 +16181,7 @@
       ],
       "text_level": 0,
       "section": "(1). 应收票据分类列示",
+      "table_id": "kweichow-moutai-2024-full_t94",
       "asset_path": "images/e31bfa0cda7e437650d9e9a585bbe986b9414ce786345241ca86c00624df4b70.jpg"
     },
     {
@@ -16172,6 +16267,7 @@
       ],
       "text_level": 0,
       "section": "(3). 期末公司已背书或贴现且在资产负债表日尚未到期的应收票据",
+      "table_id": "kweichow-moutai-2024-full_t95",
       "asset_path": "images/c484304e8e09c1679d3b73cb204dc1789d411a4c435fa2e18f9a9e18666c61b0.jpg"
     },
     {
@@ -16523,6 +16619,7 @@
       ],
       "text_level": 0,
       "section": "(1). 按账龄披露",
+      "table_id": "kweichow-moutai-2024-full_t96",
       "asset_path": "images/c9ea547f36eda3a9b38f01cc2670a60ffb6ab47fb1cddfd01d4d7289cf3210a1.jpg"
     },
     {
@@ -16580,6 +16677,7 @@
       ],
       "text_level": 0,
       "section": "(2).按坏账计提方法分类披露",
+      "table_id": "kweichow-moutai-2024-full_t97",
       "asset_path": "images/39d2e263420791a8e3b5b60eb40b5db0a3c776cdd9eafcdf51334063b2b30d67.jpg"
     },
     {
@@ -16651,6 +16749,7 @@
       ],
       "text_level": 0,
       "section": "(2).按坏账计提方法分类披露",
+      "table_id": "kweichow-moutai-2024-full_t98",
       "asset_path": "images/2a84594521ffc6b35b74fe7d29676bd26bb2e848e3bcde5d3d058036757def85.jpg",
       "table_footnote": "按组合计提坏账准备的说明： □适用 √不适用"
     },
@@ -16765,6 +16864,7 @@
       ],
       "text_level": 0,
       "section": "(3).坏账准备的情况",
+      "table_id": "kweichow-moutai-2024-full_t99",
       "asset_path": "images/4fbb2f91b7edfb54ee76b5abe5a7b6c6aaa7cb32e447f6df300ddfbbece65f6a.jpg",
       "table_footnote": "其中本期坏账准备收回或转回金额重要的： □适用 √不适用"
     },
@@ -16823,6 +16923,7 @@
       ],
       "text_level": 0,
       "section": "(4).本期实际核销的应收账款情况",
+      "table_id": "kweichow-moutai-2024-full_t100",
       "asset_path": "images/a765cb171ff272ad3cde8b18a73d2416d8501a7bebb7c0b7a91a43818d57437c.jpg"
     },
     {
@@ -16908,6 +17009,7 @@
       ],
       "text_level": 0,
       "section": "(5).按欠款方归集的期末余额前五名的应收账款和合同资产情况",
+      "table_id": "kweichow-moutai-2024-full_t101",
       "asset_path": "images/9f6b7cc1a384bda99909b19cbb76a17fba8131ce8fee3dcf02279d74160a1454.jpg"
     },
     {
@@ -16979,6 +17081,7 @@
       ],
       "text_level": 0,
       "section": "(1).预付款项按账龄列示",
+      "table_id": "kweichow-moutai-2024-full_t102",
       "asset_path": "images/48c26b5948cb4d36ae942de5c024a83618ac5a12e6657e65f7f4e606d57c9354.jpg"
     },
     {
@@ -17036,6 +17139,7 @@
       ],
       "text_level": 0,
       "section": "(2).按预付对象归集的期末余额前五名的预付款情况",
+      "table_id": "kweichow-moutai-2024-full_t103",
       "asset_path": "images/ca6f87e0b4e4057f8f309a067a0eb69414190166a5f2c73c2b8c4072885693e9.jpg"
     },
     {
@@ -17107,6 +17211,7 @@
       ],
       "text_level": 0,
       "section": "7、 其他应收款",
+      "table_id": "kweichow-moutai-2024-full_t104",
       "asset_path": "images/29912823f42e4d8e73a5d69bb588c4556fe121ab8f3eeb2771d15858a8807f92.jpg"
     },
     {
@@ -17178,6 +17283,7 @@
       ],
       "text_level": 0,
       "section": "(1).按账龄披露",
+      "table_id": "kweichow-moutai-2024-full_t105",
       "asset_path": "images/32044c6204fbd28879dac17c08483f961122475fef5f5afaf49ea41af2064231.jpg"
     },
     {
@@ -17235,6 +17341,7 @@
       ],
       "text_level": 0,
       "section": "(2).按款项性质分类情况",
+      "table_id": "kweichow-moutai-2024-full_t106",
       "asset_path": "images/263b4526c65208475d48d969bff0aaf8e720e076e0259878c509cd33aa6cd33a.jpg"
     },
     {
@@ -17292,6 +17399,7 @@
       ],
       "text_level": 0,
       "section": "(3).坏账准备计提情况",
+      "table_id": "kweichow-moutai-2024-full_t107",
       "asset_path": "images/68f78e6ba73eca38d393eb4514b7a5edce265cde32c806bb99aaa335889bcb9e.jpg",
       "table_footnote": "对本期发生损失准备变动的其他应收款账面余额显著变动的情况说明： □适用 √不适用"
     },
@@ -17378,6 +17486,7 @@
       ],
       "text_level": 0,
       "section": "(4).坏账准备的情况",
+      "table_id": "kweichow-moutai-2024-full_t108",
       "asset_path": "images/727ac2f1e11aac391d41dc6365c0f60646dd3c66636e12d19d7a18650f40fcbb.jpg"
     },
     {
@@ -17435,6 +17544,7 @@
       ],
       "text_level": 0,
       "section": "(5).本期实际核销的其他应收款情况",
+      "table_id": "kweichow-moutai-2024-full_t109",
       "asset_path": "images/11e44a909458b9ec2d350308c6c165f2406a0ccd7dc61bd440b738c4d903124d.jpg"
     },
     {
@@ -17520,6 +17630,7 @@
       ],
       "text_level": 0,
       "section": "(6).按欠款方归集的期末余额前五名的其他应收款情况",
+      "table_id": "kweichow-moutai-2024-full_t110",
       "asset_path": "images/2a93af31b2a0ac9b2e30bb26d6be4134a75849944f9ea92520c0d4e40c474b5a.jpg"
     },
     {
@@ -17661,6 +17772,7 @@
       ],
       "text_level": 0,
       "section": "8、 买入返售金融资产",
+      "table_id": "kweichow-moutai-2024-full_t111",
       "asset_path": "images/8af07257ecdaada727db34f2a71ac6ce19d542dd4119e30305021d59603097a9.jpg"
     },
     {
@@ -17690,6 +17802,7 @@
       ],
       "text_level": 0,
       "section": "8、 买入返售金融资产",
+      "table_id": "kweichow-moutai-2024-full_t112",
       "asset_path": "images/94c344621134672f8cf0e17c458a72a466ab2b2e1ec81cc325b0505e0683170d.jpg"
     },
     {
@@ -17761,6 +17874,7 @@
       ],
       "text_level": 0,
       "section": "(1).存货分类",
+      "table_id": "kweichow-moutai-2024-full_t113",
       "asset_path": "images/7faa8ea9f48ac1605eb7610b036d89d2eb1f33bc09deb4f4a6caadda070afdb5.jpg"
     },
     {
@@ -17846,6 +17960,7 @@
       ],
       "text_level": 0,
       "section": "(3).存货跌价准备及合同履约成本减值准备",
+      "table_id": "kweichow-moutai-2024-full_t114",
       "asset_path": "images/c98c34ac8b578bfd519d4ffed0b8e07860631c2fadf3c8c3f010eb717bfd9780.jpg"
     },
     {
@@ -17903,6 +18018,7 @@
       ],
       "text_level": 0,
       "section": "10、 一年内到期的非流动资产",
+      "table_id": "kweichow-moutai-2024-full_t115",
       "asset_path": "images/1a48b8c53eb0bc96e2cfa29fbaef03ebdeb0aa50ea8429149a4ab2cc65cc317a.jpg"
     },
     {
@@ -17988,6 +18104,7 @@
       ],
       "text_level": 0,
       "section": "(1).一年内到期的债权投资情况",
+      "table_id": "kweichow-moutai-2024-full_t116",
       "asset_path": "images/3eb0324b7902386d0fd72b4014074d8309dcd5b10593438595556311393d30fa.jpg"
     },
     {
@@ -18045,6 +18162,7 @@
       ],
       "text_level": 0,
       "section": "(1).一年内到期的债权投资情况",
+      "table_id": "kweichow-moutai-2024-full_t117",
       "asset_path": "images/40d6db29ca6daba3c75824e189ec6337e42f0edb505a469feb2e61ea8073c0df.jpg"
     },
     {
@@ -18130,6 +18248,7 @@
       ],
       "text_level": 0,
       "section": "(3).减值准备计提情况",
+      "table_id": "kweichow-moutai-2024-full_t118",
       "asset_path": "images/72c2f46104accd35d056be267218ccb051b01e9de0b108d2670322cf95072a87.jpg"
     },
     {
@@ -18341,6 +18460,7 @@
       ],
       "text_level": 0,
       "section": "11、 其他流动资产",
+      "table_id": "kweichow-moutai-2024-full_t119",
       "asset_path": "images/18cf136cfd0bf22d8eec525ace8585fc239493bb6abaaa295b4990dc254c2d47.jpg"
     },
     {
@@ -18384,6 +18504,7 @@
       ],
       "text_level": 0,
       "section": "12、 发放贷款和垫款",
+      "table_id": "kweichow-moutai-2024-full_t120",
       "asset_path": "images/945722d30efbf0840b04e7a22b993041dd2c0de7a099f9b0097d00747961daf2.jpg"
     },
     {
@@ -18399,6 +18520,7 @@
       ],
       "text_level": 0,
       "section": "12、 发放贷款和垫款",
+      "table_id": "kweichow-moutai-2024-full_t121",
       "asset_path": "images/737640286ab03265a4deab6a028b541fffd2006151e822ec7519a52270459254.jpg"
     },
     {
@@ -18470,6 +18592,7 @@
       ],
       "text_level": 0,
       "section": "(1).债权投资情况",
+      "table_id": "kweichow-moutai-2024-full_t122",
       "asset_path": "images/51124bea15a4dc848d6d0dc2e2ba00a3df985de040d4618c5fd279786c845426.jpg"
     },
     {
@@ -18527,6 +18650,7 @@
       ],
       "text_level": 0,
       "section": "(1).债权投资情况",
+      "table_id": "kweichow-moutai-2024-full_t123",
       "asset_path": "images/bc7ee25018ad226cefdc11c1685b69c6995cd20d319c7ad860608ec6dff99131.jpg"
     },
     {
@@ -18612,6 +18736,7 @@
       ],
       "text_level": 0,
       "section": "(3).减值准备计提情况",
+      "table_id": "kweichow-moutai-2024-full_t124",
       "asset_path": "images/8592efa5ea92293d9d475dc22295a3cab7954c2e1e4eead2e6e989a706d2523b.jpg",
       "table_footnote": "对本期发生损失准备变动的债权投资账面余额显著变动的情况说明： □适用 √不适用"
     },
@@ -18712,6 +18837,7 @@
       ],
       "text_level": 0,
       "section": "14、 其他非流动金融资产",
+      "table_id": "kweichow-moutai-2024-full_t125",
       "asset_path": "images/b13f258cac39609be064e45c0fb974588bd649ef12a3d794c431fff38027d287.jpg"
     },
     {
@@ -18769,6 +18895,7 @@
       ],
       "text_level": 0,
       "section": "14、 其他非流动金融资产",
+      "table_id": "kweichow-moutai-2024-full_t126",
       "asset_path": "images/cf2bacf61cfe02489e29a21c07f3144076aff5794f74544a982a8e2df1796c3c.jpg"
     },
     {
@@ -18840,6 +18967,7 @@
       ],
       "text_level": 0,
       "section": "(1).采用成本计量模式的投资性房地产",
+      "table_id": "kweichow-moutai-2024-full_t127",
       "asset_path": "images/7730e69acc353dc01a5a019785912f2c0dc38ee3842b809d55056504b37fe19d.jpg"
     },
     {
@@ -18967,6 +19095,7 @@
       ],
       "text_level": 0,
       "section": "16、 固定资产",
+      "table_id": "kweichow-moutai-2024-full_t128",
       "asset_path": "images/338873ac61b9e538c646c9e9fc924f7618125e064fa53e7244003338d802bcf1.jpg"
     },
     {
@@ -19038,6 +19167,7 @@
       ],
       "text_level": 0,
       "section": "(1).固定资产情况",
+      "table_id": "kweichow-moutai-2024-full_t129",
       "asset_path": "images/2d33a760ade145ee0c6f605b14fc12c348b3bb48519f7f987b7281987a66a1b7.jpg"
     },
     {
@@ -19123,6 +19253,7 @@
       ],
       "text_level": 0,
       "section": "(3).未办妥产权证书的固定资产情况",
+      "table_id": "kweichow-moutai-2024-full_t130",
       "asset_path": "images/0273131660e35e9b9b81eac6f0e8454b3944a275bc267ed990a20fa43c0b9053.jpg"
     },
     {
@@ -19194,6 +19325,7 @@
       ],
       "text_level": 0,
       "section": "17、 在建工程",
+      "table_id": "kweichow-moutai-2024-full_t131",
       "asset_path": "images/451d77e4fc43fae69042f6d3c89cd2a08ec9a1b9f4b71ac9d5243fead96afdcf.jpg"
     },
     {
@@ -19265,6 +19397,7 @@
       ],
       "text_level": 0,
       "section": "(1).在建工程情况",
+      "table_id": "kweichow-moutai-2024-full_t132",
       "asset_path": "images/f4dae0500c5845655404e290147927de6e7fe2255c6a911eacf15f48cb44820a.jpg"
     },
     {
@@ -19322,6 +19455,7 @@
       ],
       "text_level": 0,
       "section": "(2).重要在建工程项目本期变动情况",
+      "table_id": "kweichow-moutai-2024-full_t133",
       "asset_path": "images/42a4b57f8ac9450adb397802137e2d9b7141de8052c8225d335a543800956456.jpg"
     },
     {
@@ -19421,6 +19555,7 @@
       ],
       "text_level": 0,
       "section": "(1) 使用权资产情况",
+      "table_id": "kweichow-moutai-2024-full_t134",
       "asset_path": "images/5547fb8c83be2687bd75fa1c99b80ddca250ec16f0807ae65624ceedc0eb57e9.jpg"
     },
     {
@@ -19492,6 +19627,7 @@
       ],
       "text_level": 0,
       "section": "(1).无形资产情况",
+      "table_id": "kweichow-moutai-2024-full_t135",
       "asset_path": "images/8448ade5932751e34d0ebf34c6a181c566302d8a3f8138e6d13185c90770d03c.jpg",
       "table_footnote": "本期末通过公司内部研发形成的无形资产占无形资产余额的比例是2.90%"
     },
@@ -19578,6 +19714,7 @@
       ],
       "text_level": 0,
       "section": "(3).未办妥产权证书的土地使用权情况",
+      "table_id": "kweichow-moutai-2024-full_t136",
       "asset_path": "images/1045b026cfc3a577514f51645111d5ca77efaf401421983fb7216bd038f103ec.jpg"
     },
     {
@@ -19621,6 +19758,7 @@
       ],
       "text_level": 0,
       "section": "20、 开发支出",
+      "table_id": "kweichow-moutai-2024-full_t137",
       "asset_path": "images/9266d68891a44088b92986c6ebdcf61460937e188c53b2ed268eb5c94077c88e.jpg"
     },
     {
@@ -19678,6 +19816,7 @@
       ],
       "text_level": 0,
       "section": "21、 长期待摊费用",
+      "table_id": "kweichow-moutai-2024-full_t138",
       "asset_path": "images/d5deab30c9f419d850c3fe5e91e586a7d1683df30c136c647d1fdb2a6bebf795.jpg",
       "table_footnote": "其他说明："
     },
@@ -19764,6 +19903,7 @@
       ],
       "text_level": 0,
       "section": "(1).未经抵销的递延所得税资产",
+      "table_id": "kweichow-moutai-2024-full_t139",
       "asset_path": "images/5bddc9bbe4f25b11e55990b5610616d30b0546b2e6eaf3b30f06922b646e9d79.jpg"
     },
     {
@@ -19821,6 +19961,7 @@
       ],
       "text_level": 0,
       "section": "(2).未经抵销的递延所得税负债",
+      "table_id": "kweichow-moutai-2024-full_t140",
       "asset_path": "images/cb9bc9502b308606ccd27eaa42a850b4ddfcf6f32038dfed344718614bea124a.jpg"
     },
     {
@@ -19934,6 +20075,7 @@
       ],
       "text_level": 0,
       "section": "23、 其他非流动资产",
+      "table_id": "kweichow-moutai-2024-full_t141",
       "asset_path": "images/5193c296d7c02cb12a3ba710219c79eb5e7149e14bbb1b9acee78754688c958f.jpg"
     },
     {
@@ -19991,6 +20133,7 @@
       ],
       "text_level": 0,
       "section": "24、 所有权或使用权受限资产",
+      "table_id": "kweichow-moutai-2024-full_t142",
       "asset_path": "images/ba79e9c19ff93df4d3dcaaaccce5e52649df17017bbebb4a6a890fa8e96fd771.jpg"
     },
     {
@@ -20062,6 +20205,7 @@
       ],
       "text_level": 0,
       "section": "(1).应付账款列示",
+      "table_id": "kweichow-moutai-2024-full_t143",
       "asset_path": "images/97629a1fe1fadcab9314c33e08925010684b307cd748148ab7106b7bb671b3a7.jpg"
     },
     {
@@ -20133,6 +20277,7 @@
       ],
       "text_level": 0,
       "section": "(1).合同负债情况",
+      "table_id": "kweichow-moutai-2024-full_t144",
       "asset_path": "images/a0a18f4df4cc382e4ca4b954d4cfe59d5f332f93e15f23dbe9a8a44e9fe0ba4f.jpg"
     },
     {
@@ -20232,6 +20377,7 @@
       ],
       "text_level": 0,
       "section": "27、 吸收存款及同业存放",
+      "table_id": "kweichow-moutai-2024-full_t145",
       "asset_path": "images/04538222b72274b1ce8c08e5b881fb2db86717aa266167ad510e8702ec89b24a.jpg"
     },
     {
@@ -20303,6 +20449,7 @@
       ],
       "text_level": 0,
       "section": "(1).应付职工薪酬列示",
+      "table_id": "kweichow-moutai-2024-full_t146",
       "asset_path": "images/4480b7dd4b6cb8455d88d9b7f460b696fca228685dacb07709c8ec36fef0f976.jpg"
     },
     {
@@ -20360,6 +20507,7 @@
       ],
       "text_level": 0,
       "section": "(2).短期薪酬列示",
+      "table_id": "kweichow-moutai-2024-full_t147",
       "asset_path": "images/ac19b07e11b7f9624b164f3c899d080ab5efd07cf004ad5bb183a2f04f8cdc43.jpg"
     },
     {
@@ -20417,6 +20565,7 @@
       ],
       "text_level": 0,
       "section": "(3).设定提存计划列示",
+      "table_id": "kweichow-moutai-2024-full_t148",
       "asset_path": "images/c411052873ac51540885fd4311edf9b82105d766e33c170316f1fe43e6a339ac.jpg"
     },
     {
@@ -20474,6 +20623,7 @@
       ],
       "text_level": 0,
       "section": "29、 应交税费",
+      "table_id": "kweichow-moutai-2024-full_t149",
       "asset_path": "images/410de32d6300112e2e6951a23d8fdeb54c05a3a333d3197af1dc14208580c943.jpg"
     },
     {
@@ -20545,6 +20695,7 @@
       ],
       "text_level": 0,
       "section": "(1).项目列示",
+      "table_id": "kweichow-moutai-2024-full_t150",
       "asset_path": "images/6b7246b3043e9a4d6643375df6adecb2195e84960352b183e11e309df316bb29.jpg"
     },
     {
@@ -20616,6 +20767,7 @@
       ],
       "text_level": 0,
       "section": "(2).其他应付款",
+      "table_id": "kweichow-moutai-2024-full_t151",
       "asset_path": "images/76d0520e7e84b6c556666858e7c5090d8cd0a06da389e722627cde3b099971ca.jpg"
     },
     {
@@ -20701,6 +20853,7 @@
       ],
       "text_level": 0,
       "section": "31、 1 年内到期的非流动负债",
+      "table_id": "kweichow-moutai-2024-full_t152",
       "asset_path": "images/8730b367b393fa1c83634c9fd89e131034d6e5223e44cdc84fc535cae9ffd898.jpg"
     },
     {
@@ -20772,6 +20925,7 @@
       ],
       "text_level": 0,
       "section": "32、 其他流动负债",
+      "table_id": "kweichow-moutai-2024-full_t153",
       "asset_path": "images/88e371f836a7c217ce272533ec019193223d75c2987bc342bf7884dc75e262ad.jpg"
     },
     {
@@ -20829,6 +20983,7 @@
       ],
       "text_level": 0,
       "section": "33、 租赁负债",
+      "table_id": "kweichow-moutai-2024-full_t154",
       "asset_path": "images/8843f3c2414f19e4544ac82269ffc00068639b96de092f3c1674467f4a1b79b6.jpg"
     },
     {
@@ -20886,6 +21041,7 @@
       ],
       "text_level": 0,
       "section": "34、 股本",
+      "table_id": "kweichow-moutai-2024-full_t155",
       "asset_path": "images/fd83cd3cd580a3d6af1093fdfae40228a0c71c6cc78caaee0add4a5eee55d5a1.jpg"
     },
     {
@@ -20943,6 +21099,7 @@
       ],
       "text_level": 0,
       "section": "35、 资本公积",
+      "table_id": "kweichow-moutai-2024-full_t156",
       "asset_path": "images/37cb43c3d52aa7563cae1211ab0fd00e2332c39bb674c6498076a4c7ac25bc7b.jpg"
     },
     {
@@ -21000,6 +21157,7 @@
       ],
       "text_level": 0,
       "section": "36、 其他综合收益",
+      "table_id": "kweichow-moutai-2024-full_t157",
       "asset_path": "images/d6a302f89397c3eda30a7598efda183594b059860533f74e4258d90c26f97539.jpg"
     },
     {
@@ -21057,6 +21215,7 @@
       ],
       "text_level": 0,
       "section": "37、 盈余公积",
+      "table_id": "kweichow-moutai-2024-full_t158",
       "asset_path": "images/de35847b4a5d98f78956f76cd9f62a1b4c164edc00362adbf088f677e46e7499.jpg"
     },
     {
@@ -21100,6 +21259,7 @@
       ],
       "text_level": 0,
       "section": "38、 一般风险准备",
+      "table_id": "kweichow-moutai-2024-full_t159",
       "asset_path": "images/878722d233f36995168da7f6647e79ed4bd17038c10a74be925a75dbc42a324e.jpg"
     },
     {
@@ -21171,6 +21331,7 @@
       ],
       "text_level": 0,
       "section": "39、 未分配利润",
+      "table_id": "kweichow-moutai-2024-full_t160",
       "asset_path": "images/beeb9d27cc7a1588843be3545e37aec11511a547f7b2c789df401df340c4d0ef.jpg"
     },
     {
@@ -21242,6 +21403,7 @@
       ],
       "text_level": 0,
       "section": "(1).营业收入和营业成本情况",
+      "table_id": "kweichow-moutai-2024-full_t161",
       "asset_path": "images/4a4b6b238dda0a5600b32c6ea4ede22705315be2b311992828a6fc2383cad97b.jpg",
       "table_footnote": "注：其他业务收入、成本主要是酒店业务及冰淇淋业务收入、成本。"
     },
@@ -21300,6 +21462,7 @@
       ],
       "text_level": 0,
       "section": "(2).营业收入、营业成本的分解信息",
+      "table_id": "kweichow-moutai-2024-full_t162",
       "asset_path": "images/b19dbf33508e7b52953c1e5d3a7c9940b4b85220604972121e89bd4b4208f4c0.jpg"
     },
     {
@@ -21469,6 +21632,7 @@
       ],
       "text_level": 0,
       "section": "41、 利息收入、利息支出、手续费及佣金收入及手续费及佣金支出",
+      "table_id": "kweichow-moutai-2024-full_t163",
       "asset_path": "images/eb46907946b423fe232ec7fed4876b5fcfd9ec1b51e5e80a9d433877b6b387d0.jpg"
     },
     {
@@ -21526,6 +21690,7 @@
       ],
       "text_level": 0,
       "section": "42、 税金及附加",
+      "table_id": "kweichow-moutai-2024-full_t164",
       "asset_path": "images/84e0cfa33bc0b3f438687c3bb3a3f2a702c285e4c9147a8ad83c67ca7ca7da6a.jpg"
     },
     {
@@ -21583,6 +21748,7 @@
       ],
       "text_level": 0,
       "section": "43、 销售费用",
+      "table_id": "kweichow-moutai-2024-full_t165",
       "asset_path": "images/db0f473df8eaac6777840ab739defbe1b7d60679b06bf73c8d527c1b44f6fd3f.jpg"
     },
     {
@@ -21640,6 +21806,7 @@
       ],
       "text_level": 0,
       "section": "44、 管理费用",
+      "table_id": "kweichow-moutai-2024-full_t166",
       "asset_path": "images/38f2e232bae8825967ac4131fa1bf0afb9638faecdc64db8e93b80745df4f0dc.jpg"
     },
     {
@@ -21697,6 +21864,7 @@
       ],
       "text_level": 0,
       "section": "45、 研发费用",
+      "table_id": "kweichow-moutai-2024-full_t167",
       "asset_path": "images/344c0e56a4e45f1976758c6838aa92944d727c97801f8bf9265108aa1fb208c5.jpg"
     },
     {
@@ -21754,6 +21922,7 @@
       ],
       "text_level": 0,
       "section": "46、 财务费用",
+      "table_id": "kweichow-moutai-2024-full_t168",
       "asset_path": "images/f5e3ae8d9b8428c9b74c291b99f895e4145c9a6db07ef33dd770b00a98145a71.jpg"
     },
     {
@@ -21811,6 +21980,7 @@
       ],
       "text_level": 0,
       "section": "47、 其他收益",
+      "table_id": "kweichow-moutai-2024-full_t169",
       "asset_path": "images/5d2f95c1450ffcbb6eb552727dcf22082889617a6629ed9cc36a53b1e4922af3.jpg"
     },
     {
@@ -21868,6 +22038,7 @@
       ],
       "text_level": 0,
       "section": "48、 投资收益",
+      "table_id": "kweichow-moutai-2024-full_t170",
       "asset_path": "images/626cda631c2159c17b6261e24279c5b1c8756d3621de11453e3697eaeb29a914.jpg"
     },
     {
@@ -21925,6 +22096,7 @@
       ],
       "text_level": 0,
       "section": "49、 公允价值变动收益",
+      "table_id": "kweichow-moutai-2024-full_t171",
       "asset_path": "images/c958fb9b6d7127e6a22040d5269aaf8e2778f24099b186bc5cfcaf65339429f0.jpg"
     },
     {
@@ -21982,6 +22154,7 @@
       ],
       "text_level": 0,
       "section": "50、 信用减值损失",
+      "table_id": "kweichow-moutai-2024-full_t172",
       "asset_path": "images/bb4821328e9309b19208405e464dd1c2c43731fa199613f4889fc78d4f6c4eb4.jpg"
     },
     {
@@ -22039,6 +22212,7 @@
       ],
       "text_level": 0,
       "section": "51、 资产处置收益",
+      "table_id": "kweichow-moutai-2024-full_t173",
       "asset_path": "images/6244e4530c2ac19f472ebffbc0b5b9eabe4b9edfc3a9d0b49fe3a9823bd8d67a.jpg"
     },
     {
@@ -22110,6 +22284,7 @@
       ],
       "text_level": 0,
       "section": "52、 营业外收入",
+      "table_id": "kweichow-moutai-2024-full_t174",
       "asset_path": "images/5461caf2745a150905c49ddbfce83a75d270738582bbb106dc4546b201d84a33.jpg"
     },
     {
@@ -22167,6 +22342,7 @@
       ],
       "text_level": 0,
       "section": "53、 营业外支出",
+      "table_id": "kweichow-moutai-2024-full_t175",
       "asset_path": "images/b7e816e85d7c0dce03f24024c2bee1bd93cce87f9e8caf4d64b192dece95210f.jpg"
     },
     {
@@ -22238,6 +22414,7 @@
       ],
       "text_level": 0,
       "section": "(1).所得税费用表",
+      "table_id": "kweichow-moutai-2024-full_t176",
       "asset_path": "images/734413eb6f0e0fb8945e737f2442056ba7b28cfa6cf892cfd4e1d5ec9df26f6e.jpg"
     },
     {
@@ -22295,6 +22472,7 @@
       ],
       "text_level": 0,
       "section": "(2).会计利润与所得税费用调整过程",
+      "table_id": "kweichow-moutai-2024-full_t177",
       "asset_path": "images/46d474b322dc5ee52e64294b4265a170202e42907cedd11b6f74a7e051710363.jpg"
     },
     {
@@ -22422,6 +22600,7 @@
       ],
       "text_level": 0,
       "section": "(1).与经营活动有关的现金",
+      "table_id": "kweichow-moutai-2024-full_t178",
       "asset_path": "images/7e91fc0af11e249117b773bc387a045aead74450e3872c87d5783933f143f931.jpg"
     },
     {
@@ -22479,6 +22658,7 @@
       ],
       "text_level": 0,
       "section": "(1).与经营活动有关的现金",
+      "table_id": "kweichow-moutai-2024-full_t179",
       "asset_path": "images/a58699765c6aa8ac792894ddf21fcebdfb37a20aba12befdcec23f18370c1923.jpg"
     },
     {
@@ -22550,6 +22730,7 @@
       ],
       "text_level": 0,
       "section": "(2).与投资活动有关的现金",
+      "table_id": "kweichow-moutai-2024-full_t180",
       "asset_path": "images/f9e2ade2b8765f3b8e8419bbf22186c0ff94d6c0e451c736b9b3ec5591bcbb5f.jpg"
     },
     {
@@ -22607,6 +22788,7 @@
       ],
       "text_level": 0,
       "section": "(2).与投资活动有关的现金",
+      "table_id": "kweichow-moutai-2024-full_t181",
       "asset_path": "images/1622ac9e28dac5ceb1c9a2ca1d9f2c3bda1786d3363c76c0b6651b311d9d3c29.jpg"
     },
     {
@@ -22664,6 +22846,7 @@
       ],
       "text_level": 0,
       "section": "(2).与投资活动有关的现金",
+      "table_id": "kweichow-moutai-2024-full_t182",
       "asset_path": "images/e1803ec47d497182937232aa6e382d69c49c81f1413e8001d09faef01e8e52be.jpg"
     },
     {
@@ -22721,6 +22904,7 @@
       ],
       "text_level": 0,
       "section": "(2).与投资活动有关的现金",
+      "table_id": "kweichow-moutai-2024-full_t183",
       "asset_path": "images/c9e8db6da0599e51a949c62608f6cd43a91d924b7537665bb50af4c082b58984.jpg"
     },
     {
@@ -22820,6 +23004,7 @@
       ],
       "text_level": 0,
       "section": "(3).与筹资活动有关的现金",
+      "table_id": "kweichow-moutai-2024-full_t184",
       "asset_path": "images/848e14c58b4a973ee9962660d9192238bff41db5b16a594ed0035b27ef1de56d.jpg"
     },
     {
@@ -22877,6 +23062,7 @@
       ],
       "text_level": 0,
       "section": "(3).与筹资活动有关的现金",
+      "table_id": "kweichow-moutai-2024-full_t185",
       "asset_path": "images/eb22b2b2560d534a2b1243a237739498f6cd96f00a34acbef1127839152afcd7.jpg"
     },
     {
@@ -23004,6 +23190,7 @@
       ],
       "text_level": 0,
       "section": "(1).现金流量表补充资料",
+      "table_id": "kweichow-moutai-2024-full_t186",
       "asset_path": "images/d15a655ec4264ba2f7b4df4f5588674c612a8a285f0a04836da2048523e8cef0.jpg"
     },
     {
@@ -23117,6 +23304,7 @@
       ],
       "text_level": 0,
       "section": "(4).现金和现金等价物的构成",
+      "table_id": "kweichow-moutai-2024-full_t187",
       "asset_path": "images/f002785219d4a1dbe93c49028303c61921d66398c201bcf59c01625ab6a2741b.jpg"
     },
     {
@@ -23202,6 +23390,7 @@
       ],
       "text_level": 0,
       "section": "(6).不属于现金及现金等价物的货币资金",
+      "table_id": "kweichow-moutai-2024-full_t188",
       "asset_path": "images/52d9f71f15a0264cd2d3c328368a8448a0d89b64f3fe8a7909c9450309d1b057.jpg"
     },
     {
@@ -23315,6 +23504,7 @@
       ],
       "text_level": 0,
       "section": "(1).外币货币性项目",
+      "table_id": "kweichow-moutai-2024-full_t189",
       "asset_path": "images/6145cb896e792314000dae1ff2aa6186da1aa57dad3dc28e013470fe020bb20b.jpg"
     },
     {
@@ -23554,6 +23744,7 @@
       ],
       "text_level": 0,
       "section": "(2) 作为出租人",
+      "table_id": "kweichow-moutai-2024-full_t190",
       "asset_path": "images/37ddc43850c99d5a312aef521f19509b1adc12386bfd30d560d6065c958818df.jpg"
     },
     {
@@ -23765,6 +23956,7 @@
       ],
       "text_level": 0,
       "section": "1、 按费用性质列示",
+      "table_id": "kweichow-moutai-2024-full_t191",
       "asset_path": "images/e967b5cd9706f9285aeec9da765bb37758a5ae9aeb85c91df8098e6c18741cd1.jpg"
     },
     {
@@ -23822,6 +24014,7 @@
       ],
       "text_level": 0,
       "section": "2、 符合资本化条件的研发项目开发支出",
+      "table_id": "kweichow-moutai-2024-full_t192",
       "asset_path": "images/c8c017fd518a944b77e3f89c9357ae9189b4c79b10dcbbee3b8f0e42b108e037.jpg"
     },
     {
@@ -23865,6 +24058,7 @@
       ],
       "text_level": 0,
       "section": "2、 符合资本化条件的研发项目开发支出",
+      "table_id": "kweichow-moutai-2024-full_t193",
       "asset_path": "images/59522b4862f0420d6f57357fa053d4f4ee6908683843943deaa10d452455aa5b.jpg"
     },
     {
@@ -24216,6 +24410,7 @@
       ],
       "text_level": 0,
       "section": "(1).企业集团的构成",
+      "table_id": "kweichow-moutai-2024-full_t194",
       "asset_path": "images/dc995d7335ca310a334f7885743fd92f36f55f7136658b117972e79ac4d33ddf.jpg"
     },
     {
@@ -24301,6 +24496,7 @@
       ],
       "text_level": 0,
       "section": "(2).重要的非全资子公司",
+      "table_id": "kweichow-moutai-2024-full_t195",
       "asset_path": "images/baab20989a7533e89eeb06ff1a9f39776f86c821a1287bac1e034b1f675e78bf.jpg",
       "table_footnote": "子公司少数股东的持股比例不同于表决权比例的说明： □适用 √不适用"
     },
@@ -24359,6 +24555,7 @@
       ],
       "text_level": 0,
       "section": "(3).重要非全资子公司的主要财务信息",
+      "table_id": "kweichow-moutai-2024-full_t196",
       "asset_path": "images/bbdf8cb8f5f45b034d46833d90a8804bcf0471e87d176d1fafc8b7d502a5f7c6.jpg"
     },
     {
@@ -24374,6 +24571,7 @@
       ],
       "text_level": 0,
       "section": "(3).重要非全资子公司的主要财务信息",
+      "table_id": "kweichow-moutai-2024-full_t197",
       "asset_path": "images/baeade41ed59534456706553aafe670549dc64f7753fccf7796a257c6d25fba3.jpg"
     },
     {
@@ -24529,6 +24727,7 @@
       ],
       "text_level": 0,
       "section": "3、 计入当期损益的政府补助",
+      "table_id": "kweichow-moutai-2024-full_t198",
       "asset_path": "images/4cd879e003e86a0fb31a5ecae498d831773fa655fbaadbd86d366132388c580d.jpg"
     },
     {
@@ -24992,6 +25191,7 @@
       ],
       "text_level": 0,
       "section": "(1) 转移方式分类",
+      "table_id": "kweichow-moutai-2024-full_t199",
       "asset_path": "images/ffdfbd04f05437bce9e9941013885c8f2677cc4cae9a818465fcefb4a64a9bbc.jpg"
     },
     {
@@ -25049,6 +25249,7 @@
       ],
       "text_level": 0,
       "section": "(2) 因转移而终止确认的金融资产",
+      "table_id": "kweichow-moutai-2024-full_t200",
       "asset_path": "images/bcb916e07fbc4980c8bdb6dd4e88bfd2cf3f781445f734d311304a7b4c4ed7cd.jpg"
     },
     {
@@ -25148,6 +25349,7 @@
       ],
       "text_level": 0,
       "section": "1、 以公允价值计量的资产和负债的期末公允价值",
+      "table_id": "kweichow-moutai-2024-full_t201",
       "asset_path": "images/5dfa554d88032bc675266a84a8b1873dde07ae14df5cabaaf16280c9276f8fd1.jpg"
     },
     {
@@ -25457,6 +25659,7 @@
       ],
       "text_level": 0,
       "section": "1、 本企业的母公司情况",
+      "table_id": "kweichow-moutai-2024-full_t202",
       "asset_path": "images/4a331f779bebc17aed9084bf08a22d5370849476618760e254857e654b716007.jpg"
     },
     {
@@ -25570,6 +25773,7 @@
       ],
       "text_level": 0,
       "section": "3、 其他关联方情况",
+      "table_id": "kweichow-moutai-2024-full_t203",
       "asset_path": "images/17475cf00929f20f8456a63eb78b784ee8d3b475c84f9f43302fd8b55e6ae049.jpg",
       "table_footnote": "其他说明： (1)昌黎茅台葡萄酒经贸有限公司系贵州茅台酒厂(集团)昌黎葡萄酒业有限公司的全资子公司； (2)上海茅台贸易有限公司系上海贵州茅台实业有限公司的全资子公司； (3)贵州富明行包装有限公司系贵州茅台酒厂（集团）技术开发有限公司的控股子公司； (4)贵州恒道丹林农业科技开发有限公司系贵州茅台（集团）生态农业产业发展有限公司控股子公司；"
     },
@@ -25656,6 +25860,7 @@
       ],
       "text_level": 0,
       "section": "(1).购销商品、提供和接受劳务的关联交易",
+      "table_id": "kweichow-moutai-2024-full_t204",
       "asset_path": "images/f80667155093594821ec89e2435963a90736e77564cea524d4cd7b416561235f.jpg",
       "table_footnote": "出售商品/提供劳务情况表 √适用 □不适用 单位：元 币种：人民币"
     },
@@ -25672,6 +25877,7 @@
       ],
       "text_level": 0,
       "section": "(1).购销商品、提供和接受劳务的关联交易",
+      "table_id": "kweichow-moutai-2024-full_t205",
       "asset_path": "images/498c7d09e466733664d85f05d7b88bf781167535147d274c136a9421009398d3.jpg"
     },
     {
@@ -25799,6 +26005,7 @@
       ],
       "text_level": 0,
       "section": "(2).关联受托管理/承包及委托管理/出包情况",
+      "table_id": "kweichow-moutai-2024-full_t206",
       "asset_path": "images/c46081548cfa96c4b2e45a1cb4bfd901bda1923756008c836b565c7fef0b9f58.jpg",
       "table_footnote": "关联管理/出包情况说明"
     },
@@ -25885,6 +26092,7 @@
       ],
       "text_level": 0,
       "section": "(3).关联租赁情况",
+      "table_id": "kweichow-moutai-2024-full_t207",
       "asset_path": "images/d2ab831cee594ad779f6c2c487cd0fc073f2917921e792eb524b7fd9cc043c84.jpg"
     },
     {
@@ -25942,6 +26150,7 @@
       ],
       "text_level": 0,
       "section": "(3).关联租赁情况",
+      "table_id": "kweichow-moutai-2024-full_t208",
       "asset_path": "images/595feb70d3a061c1a3143367b127181f7730293c7322bf2d9fe34f5706247d9b.jpg",
       "table_footnote": "关联租赁情况说明 □适用 √不适用"
     },
@@ -26196,6 +26405,7 @@
       ],
       "text_level": 0,
       "section": "(8).其他关联交易",
+      "table_id": "kweichow-moutai-2024-full_t209",
       "asset_path": "images/64786ac275196d7cb7c91bc806041b91e259e1da04cdf7dfe667ff731e6a1c53.jpg",
       "table_caption": "a.吸收存款及同业存放"
     },
@@ -26226,6 +26436,7 @@
       ],
       "text_level": 0,
       "section": "(8).其他关联交易",
+      "table_id": "kweichow-moutai-2024-full_t210",
       "asset_path": "images/379b4c8467ae98c334d6d36d966319d728ffb96b705b0171c53ede466f8a9fcc.jpg"
     },
     {
@@ -26241,6 +26452,7 @@
       ],
       "text_level": 0,
       "section": "(8).其他关联交易",
+      "table_id": "kweichow-moutai-2024-full_t211",
       "asset_path": "images/8b65afb627bd5eeb27fa778e45d2459df0b5db2cf1b566844ff0c126d6713df7.jpg",
       "table_caption": "c.发放贷款及垫款"
     },
@@ -26257,6 +26469,7 @@
       ],
       "text_level": 0,
       "section": "(8).其他关联交易",
+      "table_id": "kweichow-moutai-2024-full_t212",
       "asset_path": "images/af3443c66d9ebcf71734720e30cee3d8a529d6b18549ff6ab6fd7ecd0175b19c.jpg",
       "table_caption": "d.利息收入"
     },
@@ -26357,6 +26570,7 @@
       ],
       "text_level": 0,
       "section": "(1).应收项目",
+      "table_id": "kweichow-moutai-2024-full_t213",
       "asset_path": "images/b7d46f250821a1a94937e7e1c6b2529cb3d067ea94335ffa7dd507c85707a356.jpg"
     },
     {
@@ -26526,6 +26740,7 @@
       ],
       "text_level": 0,
       "section": "(2).应付项目",
+      "table_id": "kweichow-moutai-2024-full_t214",
       "asset_path": "images/0fd263d49dad238bce47a2f4689791f5f063ffcfecb0615eda7d542f7d170d8d.jpg"
     },
     {
@@ -26933,6 +27148,7 @@
       ],
       "text_level": 0,
       "section": "2、 利润分配情况",
+      "table_id": "kweichow-moutai-2024-full_t215",
       "asset_path": "images/557086eef893fde397dd2781951c3409a9fbf83b1c8474450e4617fe167af1d7.jpg"
     },
     {
@@ -27186,6 +27402,7 @@
       ],
       "text_level": 0,
       "section": "(1).按账龄披露",
+      "table_id": "kweichow-moutai-2024-full_t216",
       "asset_path": "images/7201a9d1fa24ee82b2e729afe06607da72b0f19734794b26e357f0a12c014d20.jpg"
     },
     {
@@ -27243,6 +27460,7 @@
       ],
       "text_level": 0,
       "section": "(2).按坏账计提方法分类披露",
+      "table_id": "kweichow-moutai-2024-full_t217",
       "asset_path": "images/ec22d508280b97934aaab03327a15058f492126a8732b330df7430091cc6b655.jpg"
     },
     {
@@ -27314,6 +27532,7 @@
       ],
       "text_level": 0,
       "section": "(2).按坏账计提方法分类披露",
+      "table_id": "kweichow-moutai-2024-full_t218",
       "asset_path": "images/8e0988720e90babb6189e483d3f43f49d0568df4f95f5abb9e5418509d5b32f2.jpg"
     },
     {
@@ -27399,6 +27618,7 @@
       ],
       "text_level": 0,
       "section": "(3).按欠款方归集的期末余额前五名的应收账款和合同资产情况",
+      "table_id": "kweichow-moutai-2024-full_t219",
       "asset_path": "images/4a3b889e0020799bcd179182d5abde41cb844e1a650884429262bdd515112a70.jpg"
     },
     {
@@ -27470,6 +27690,7 @@
       ],
       "text_level": 0,
       "section": "2、 其他应收款",
+      "table_id": "kweichow-moutai-2024-full_t220",
       "asset_path": "images/391bb7d227cd98c16f4a9105926af63f93f607514fa46c101bf02144f57d8796.jpg"
     },
     {
@@ -27541,6 +27762,7 @@
       ],
       "text_level": 0,
       "section": "(1).按账龄披露",
+      "table_id": "kweichow-moutai-2024-full_t221",
       "asset_path": "images/1b73daecf3087c5e6d6e6c4517ef55c41cda52282733817665b9d5d9c163c950.jpg"
     },
     {
@@ -27598,6 +27820,7 @@
       ],
       "text_level": 0,
       "section": "(2).按款项性质分类情况",
+      "table_id": "kweichow-moutai-2024-full_t222",
       "asset_path": "images/0d811bf85a6dcd3245e05f3a98e6df8125bce5d94970d8974f04f5295e8f0c59.jpg"
     },
     {
@@ -27655,6 +27878,7 @@
       ],
       "text_level": 0,
       "section": "(3).坏账准备计提情况",
+      "table_id": "kweichow-moutai-2024-full_t223",
       "asset_path": "images/b2d26b4eb8f66ee912804e2700ebb3fd3b8ecda1dcadf5e5faed8d1439cf48f4.jpg",
       "table_footnote": "对本期发生损失准备变动的其他应收款账面余额显著变动的情况说明： □适用 √不适用"
     },
@@ -27727,6 +27951,7 @@
       ],
       "text_level": 0,
       "section": "(4).坏账准备的情况",
+      "table_id": "kweichow-moutai-2024-full_t224",
       "asset_path": "images/d35857af1268ee452b771d41ada456b944ac56e544b2d376ccad1510303d49f3.jpg"
     },
     {
@@ -27812,6 +28037,7 @@
       ],
       "text_level": 0,
       "section": "(5).本期实际核销的其他应收款情况",
+      "table_id": "kweichow-moutai-2024-full_t225",
       "asset_path": "images/d10122ee299eebb0867d70fa1da2506de97c447ea8014467a10bf6d5d6c59844.jpg"
     },
     {
@@ -27925,6 +28151,7 @@
       ],
       "text_level": 0,
       "section": "(6).按欠款方归集的期末余额前五名的其他应收款情况",
+      "table_id": "kweichow-moutai-2024-full_t226",
       "asset_path": "images/66b16b75f00a7b6b2b3a2149918d622d5fc01f4e08590d03e81140a9475a26ae.jpg"
     },
     {
@@ -28080,6 +28307,7 @@
       ],
       "text_level": 0,
       "section": "3、 长期股权投资",
+      "table_id": "kweichow-moutai-2024-full_t227",
       "asset_path": "images/8a86df8a410eea953415564d36d4d9320b63ab347725b71785fcaf3f5fc5a5ff.jpg"
     },
     {
@@ -28137,6 +28365,7 @@
       ],
       "text_level": 0,
       "section": "(1). 对子公司投资",
+      "table_id": "kweichow-moutai-2024-full_t228",
       "asset_path": "images/9a88e2d5fcab88be1ccc3d9ad99bb1e9f7b456c36f97fcb51dcf9a487a280fd8.jpg"
     },
     {
@@ -28208,6 +28437,7 @@
       ],
       "text_level": 0,
       "section": "(1). 营业收入和营业成本情况",
+      "table_id": "kweichow-moutai-2024-full_t229",
       "asset_path": "images/4bc47f813c72c32da78daea2e1ebb64d9002b2881076f12b23acda09f703de0c.jpg",
       "table_footnote": "注：其他业务主要是酒店业务及茅台冰淇淋业务。"
     },
@@ -28266,6 +28496,7 @@
       ],
       "text_level": 0,
       "section": "(2). 营业收入、营业成本的分解信息",
+      "table_id": "kweichow-moutai-2024-full_t230",
       "asset_path": "images/cca3e8167eb96196dd9d4b174426d794dcf38bba09d793f1e9211764c97d4f84.jpg"
     },
     {
@@ -28435,6 +28666,7 @@
       ],
       "text_level": 0,
       "section": "5、 投资收益",
+      "table_id": "kweichow-moutai-2024-full_t231",
       "asset_path": "images/2e1e350d81fcb1cf3dbb2137936cc74ff8afcf8e0b91e1f9fbf7556288868b4e.jpg"
     },
     {
@@ -28506,6 +28738,7 @@
       ],
       "text_level": 0,
       "section": "1、 当期非经常性损益明细表",
+      "table_id": "kweichow-moutai-2024-full_t232",
       "asset_path": "images/0ccae8434656ab47501084e3d89de1851e152ecded4ed3323a73907fb65fdcd3.jpg"
     },
     {
@@ -28563,6 +28796,7 @@
       ],
       "text_level": 0,
       "section": "2、 净资产收益率及每股收益",
+      "table_id": "kweichow-moutai-2024-full_t233",
       "asset_path": "images/0bff3c94dd01ab1760f6ceaaf6e05ec5e5200848b27c07a0e2dd1cbf08bc3efe.jpg"
     },
     {
@@ -28649,5 +28883,6 @@
       "text_level": 0,
       "section": "3、 境内外会计准则下会计数据差异"
     }
-  ]
+  ],
+  "parser_version": "3.2.1"
 }

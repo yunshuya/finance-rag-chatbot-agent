@@ -54,6 +54,7 @@ def normalize_mineru_content(
 
     blocks = []
     current_section = None
+    table_count = 0
     for index, block in enumerate(raw_blocks):
         block_type = str(block.get("type", "text")).strip() or "text"
         if block_type in SKIP_TYPES:
@@ -80,6 +81,9 @@ def normalize_mineru_content(
         }
         if current_section:
             normalized_block["section"] = current_section
+        if block_type == "table":
+            table_count += 1
+            normalized_block["table_id"] = f"{doc_id}_t{table_count}"
         if asset_path:
             normalized_block["asset_path"] = asset_path
         for source_field, target_field in (

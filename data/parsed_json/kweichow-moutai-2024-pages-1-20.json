@@ -2,8 +2,10 @@
   "doc_id": "kweichow-moutai-2024-pages-1-20",
   "filename": "kweichow_moutai_2024_annual_report.pdf",
   "parser": "mineru",
+  "parse_status": "success",
   "page_offset": 0,
   "page_count": 20,
+  "content_page_count": 20,
   "block_counts": {
     "table": 33,
     "text": 268
@@ -72,7 +74,8 @@
         852,
         199
       ],
-      "text_level": 0
+      "text_level": 0,
+      "section": "一、 本公司董事会、监事会及董事、监事、高级管理人员保证年度报告内容的真实性、准确性、完整性，不存在虚假记载、误导性陈述或重大遗漏，并承担个别和连带的法律责任。"
     },
     {
       "block_id": "kweichow-moutai-2024-pages-1-20_b7",
@@ -100,7 +103,7 @@
         280
       ],
       "text_level": 0,
-      "section": "二、 公司全体董事出席董事会会议。"
+      "section": "三、 天健会计师事务所(特殊普通合伙)为本公司出具了标准无保留意见的审计报告。"
     },
     {
       "block_id": "kweichow-moutai-2024-pages-1-20_b9",
@@ -114,7 +117,7 @@
         321
       ],
       "text_level": 0,
-      "section": "二、 公司全体董事出席董事会会议。"
+      "section": "四、 公司负责人张德芹、主管会计工作负责人蒋焰及会计机构负责人（会计主管人员）蔡聪应声"
     },
     {
       "block_id": "kweichow-moutai-2024-pages-1-20_b10",
@@ -128,7 +131,7 @@
         344
       ],
       "text_level": 0,
-      "section": "二、 公司全体董事出席董事会会议。"
+      "section": "四、 公司负责人张德芹、主管会计工作负责人蒋焰及会计机构负责人（会计主管人员）蔡聪应声"
     },
     {
       "block_id": "kweichow-moutai-2024-pages-1-20_b11",
@@ -226,7 +229,7 @@
         709
       ],
       "text_level": 0,
-      "section": "七、 是否存在被控股股东及其他关联方非经营性占用资金情况"
+      "section": "八、 是否存在违反规定决策程序对外提供担保的情况"
     },
     {
       "block_id": "kweichow-moutai-2024-pages-1-20_b18",
@@ -240,7 +243,7 @@
         750
       ],
       "text_level": 0,
-      "section": "七、 是否存在被控股股东及其他关联方非经营性占用资金情况"
+      "section": "九、 是否存在半数以上董事无法保证公司所披露年度报告的真实性、准确性和完整性"
     },
     {
       "block_id": "kweichow-moutai-2024-pages-1-20_b19",
@@ -339,6 +342,7 @@
       ],
       "text_level": 0,
       "section": "十一、 其他",
+      "table_id": "kweichow-moutai-2024-pages-1-20_t1",
       "asset_path": "images/e7ddb332271a6721214d419b60d60056e4e156ba8328de0799b74d2a1053cc69.jpg"
     },
     {
@@ -396,6 +400,7 @@
       ],
       "text_level": 0,
       "section": "一、 释义",
+      "table_id": "kweichow-moutai-2024-pages-1-20_t2",
       "asset_path": "images/d03763330a31b4544d226e296581ef017f4446bc04da3182ffad873075a822d5.jpg"
     },
     {
@@ -439,6 +444,7 @@
       ],
       "text_level": 0,
       "section": "一、 公司信息",
+      "table_id": "kweichow-moutai-2024-pages-1-20_t3",
       "asset_path": "images/3eca2ec25af1c5fcbcb909bede43b6cddffbc53f270ebb9350a6d71c6c660c2c.jpg"
     },
     {
@@ -468,6 +474,7 @@
       ],
       "text_level": 0,
       "section": "二、 联系人和联系方式",
+      "table_id": "kweichow-moutai-2024-pages-1-20_t4",
       "asset_path": "images/5863c2d05ca3857c51276d23469cdc88333f4d76414f7a26a142f1b447752125.jpg"
     },
     {
@@ -497,6 +504,7 @@
       ],
       "text_level": 0,
       "section": "三、 基本情况简介",
+      "table_id": "kweichow-moutai-2024-pages-1-20_t5",
       "asset_path": "images/bbfdc674324e5f1dddc860a95a8fd9bd07c498444c7f5ad0e79a47224f1069cc.jpg"
     },
     {
@@ -526,6 +534,7 @@
       ],
       "text_level": 0,
       "section": "四、 信息披露及备置地点",
+      "table_id": "kweichow-moutai-2024-pages-1-20_t6",
       "asset_path": "images/edb7fd341ab6656dfd8e283f929f11462a8492ddc0fc66ba3200b10b693700fa.jpg"
     },
     {
@@ -555,6 +564,7 @@
       ],
       "text_level": 0,
       "section": "五、 公司股票简况",
+      "table_id": "kweichow-moutai-2024-pages-1-20_t7",
       "asset_path": "images/9599c89fc651c2de4f33ab405a482701bf118f4df2b9db197e1ada9e16cdaff8.jpg"
     },
     {
@@ -584,6 +594,7 @@
       ],
       "text_level": 0,
       "section": "六、 其他相关资料",
+      "table_id": "kweichow-moutai-2024-pages-1-20_t8",
       "asset_path": "images/a1114400dd7862a1eabff10969c6f5433e4e823bb89dfb145fe0b36d0578cab3.jpg"
     },
     {
@@ -641,6 +652,7 @@
       ],
       "text_level": 0,
       "section": "(一) 主要会计数据",
+      "table_id": "kweichow-moutai-2024-pages-1-20_t9",
       "asset_path": "images/2eaa212d9c721a3b699e7dfec2146205d672f1408895d586a5e0989df67c3c85.jpg"
     },
     {
@@ -670,6 +682,7 @@
       ],
       "text_level": 0,
       "section": "(二) 主要财务指标",
+      "table_id": "kweichow-moutai-2024-pages-1-20_t10",
       "asset_path": "images/3da29189716fa023254d0c89f6f58624e19cfdb6573598bae72e0ed8f67b017e.jpg",
       "table_footnote": "□适用 √不适用"
     },
@@ -713,7 +726,7 @@
         158
       ],
       "text_level": 0,
-      "section": "八、 境内外会计准则下会计数据差异"
+      "section": "(一) 同时按照国际会计准则与按中国会计准则披露的财务报告中净利润和归属于上市公司股东的净资产差异情况"
     },
     {
       "block_id": "kweichow-moutai-2024-pages-1-20_b60",
@@ -727,7 +740,7 @@
         183
       ],
       "text_level": 0,
-      "section": "八、 境内外会计准则下会计数据差异"
+      "section": "(一) 同时按照国际会计准则与按中国会计准则披露的财务报告中净利润和归属于上市公司股东的净资产差异情况"
     },
     {
       "block_id": "kweichow-moutai-2024-pages-1-20_b61",
@@ -741,7 +754,7 @@
         243
       ],
       "text_level": 0,
-      "section": "八、 境内外会计准则下会计数据差异"
+      "section": "(二) 同时按照境外会计准则与按中国会计准则披露的财务报告中净利润和归属于上市公司股东的净资产差异情况"
     },
     {
       "block_id": "kweichow-moutai-2024-pages-1-20_b62",
@@ -755,7 +768,7 @@
         267
       ],
       "text_level": 0,
-      "section": "八、 境内外会计准则下会计数据差异"
+      "section": "(二) 同时按照境外会计准则与按中国会计准则披露的财务报告中净利润和归属于上市公司股东的净资产差异情况"
     },
     {
       "block_id": "kweichow-moutai-2024-pages-1-20_b63",
@@ -769,7 +782,7 @@
         303
       ],
       "text_level": 0,
-      "section": "八、 境内外会计准则下会计数据差异"
+      "section": "(三)境内外会计准则差异的说明："
     },
     {
       "block_id": "kweichow-moutai-2024-pages-1-20_b64",
@@ -783,7 +796,7 @@
         326
       ],
       "text_level": 0,
-      "section": "八、 境内外会计准则下会计数据差异"
+      "section": "(三)境内外会计准则差异的说明："
     },
     {
       "block_id": "kweichow-moutai-2024-pages-1-20_b65",
@@ -797,7 +810,7 @@
         363
       ],
       "text_level": 0,
-      "section": "八、 境内外会计准则下会计数据差异"
+      "section": "九、 2024 年分季度主要财务数据"
     },
     {
       "block_id": "kweichow-moutai-2024-pages-1-20_b66",
@@ -811,7 +824,7 @@
         386
       ],
       "text_level": 0,
-      "section": "八、 境内外会计准则下会计数据差异"
+      "section": "九、 2024 年分季度主要财务数据"
     },
     {
       "block_id": "kweichow-moutai-2024-pages-1-20_b67",
@@ -825,7 +838,8 @@
         529
       ],
       "text_level": 0,
-      "section": "八、 境内外会计准则下会计数据差异",
+      "section": "九、 2024 年分季度主要财务数据",
+      "table_id": "kweichow-moutai-2024-pages-1-20_t11",
       "asset_path": "images/91720633502efc8c55caaa1c93990b8d7ef105d86296cd30f26d9cbeaaa599fc.jpg"
     },
     {
@@ -840,7 +854,7 @@
         564
       ],
       "text_level": 0,
-      "section": "八、 境内外会计准则下会计数据差异"
+      "section": "九、 2024 年分季度主要财务数据"
     },
     {
       "block_id": "kweichow-moutai-2024-pages-1-20_b69",
@@ -854,7 +868,7 @@
         580
       ],
       "text_level": 0,
-      "section": "八、 境内外会计准则下会计数据差异"
+      "section": "九、 2024 年分季度主要财务数据"
     },
     {
       "block_id": "kweichow-moutai-2024-pages-1-20_b70",
@@ -911,6 +925,7 @@
       ],
       "text_level": 0,
       "section": "十、 非经常性损益项目和金额",
+      "table_id": "kweichow-moutai-2024-pages-1-20_t12",
       "asset_path": "images/0de72add62e3d29f19604f3022562e575c713137ea44f4ad93deff6ed67c957e.jpg"
     },
     {
@@ -996,6 +1011,7 @@
       ],
       "text_level": 0,
       "section": "十一、 采用公允价值计量的项目",
+      "table_id": "kweichow-moutai-2024-pages-1-20_t13",
       "asset_path": "images/37feeff3f140e5dd10690c7a5a42f0c49c74c8f64474fb746345e702ddf0f41f.jpg"
     },
     {
@@ -1319,6 +1335,7 @@
       ],
       "text_level": 0,
       "section": "1、 利润表及现金流量表相关科目变动分析表",
+      "table_id": "kweichow-moutai-2024-pages-1-20_t14",
       "asset_path": "images/f6e2eebd1cc116ecfcb0844f12b80e9d24d194c2080b555dc3e46e5a2410c2c6.jpg",
       "table_footnote": "营业收入变动原因说明：主要是本期销量增加及茅台酒主要产品销售价格调整。 营业成本变动原因说明：主要是本期销量增加、原材料及人工成本上涨。 销售费用变动原因说明：主要是本期市场推广及服务费增加。"
     },
@@ -1460,7 +1477,7 @@
         331
       ],
       "text_level": 0,
-      "section": "2、 收入和成本分析"
+      "section": "(1). 主营业务分行业、分产品、分地区、分销售模式情况"
     },
     {
       "block_id": "kweichow-moutai-2024-pages-1-20_b121",
@@ -1474,7 +1491,7 @@
         355
       ],
       "text_level": 0,
-      "section": "2、 收入和成本分析"
+      "section": "(1). 主营业务分行业、分产品、分地区、分销售模式情况"
     },
     {
       "block_id": "kweichow-moutai-2024-pages-1-20_b122",
@@ -1488,7 +1505,8 @@
         782
       ],
       "text_level": 0,
-      "section": "2、 收入和成本分析",
+      "section": "(1). 主营业务分行业、分产品、分地区、分销售模式情况",
+      "table_id": "kweichow-moutai-2024-pages-1-20_t15",
       "asset_path": "images/0b4602df9fd2240e4b4fdf5265fd7bca3df4403cbd9b9e57b289975e2572b6e7.jpg"
     },
     {
@@ -1532,6 +1550,7 @@
       ],
       "text_level": 0,
       "section": "(2). 产销量情况分析表",
+      "table_id": "kweichow-moutai-2024-pages-1-20_t16",
       "asset_path": "images/527baedff282502776f947b33877b8d1db1408f3d7ee318c0f3cc461658dd617.jpg"
     },
     {
@@ -1603,6 +1622,7 @@
       ],
       "text_level": 0,
       "section": "(4). 成本分析表",
+      "table_id": "kweichow-moutai-2024-pages-1-20_t17",
       "asset_path": "images/0e2129711c8fd02d73231cef621f28696450d43eb4be596bf1140788e21119e2.jpg"
     },
     {
@@ -1940,6 +1960,7 @@
       ],
       "text_level": 0,
       "section": "(1).研发投入情况表",
+      "table_id": "kweichow-moutai-2024-pages-1-20_t18",
       "asset_path": "images/7c010edf94bef08d7c5760a186659b6c3b63f6be589098c797e042663901d940.jpg",
       "table_footnote": "注：本期费用化研发支出包括列入生产成本的研发支出及科研人员工资等支出。"
     },
@@ -1984,6 +2005,7 @@
       ],
       "text_level": 0,
       "section": "(2).研发人员情况表",
+      "table_id": "kweichow-moutai-2024-pages-1-20_t19",
       "asset_path": "images/f61231ea2c0d95316ee624cf18b2d78d6a7a43feeee6f1021594ac6d1d214699.jpg"
     },
     {
@@ -1998,7 +2020,7 @@
         831
       ],
       "text_level": 0,
-      "section": "(2).研发人员情况表"
+      "section": "(3).情况说明"
     },
     {
       "block_id": "kweichow-moutai-2024-pages-1-20_b164",
@@ -2012,7 +2034,7 @@
         851
       ],
       "text_level": 0,
-      "section": "(2).研发人员情况表"
+      "section": "(3).情况说明"
     },
     {
       "block_id": "kweichow-moutai-2024-pages-1-20_b165",
@@ -2026,7 +2048,7 @@
         890
       ],
       "text_level": 0,
-      "section": "(2).研发人员情况表"
+      "section": "(4).研发人员构成发生重大变化的原因及对公司未来发展的影响"
     },
     {
       "block_id": "kweichow-moutai-2024-pages-1-20_b166",
@@ -2040,7 +2062,7 @@
         910
       ],
       "text_level": 0,
-      "section": "(2).研发人员情况表"
+      "section": "(4).研发人员构成发生重大变化的原因及对公司未来发展的影响"
     },
     {
       "block_id": "kweichow-moutai-2024-pages-1-20_b169",
@@ -2097,6 +2119,7 @@
       ],
       "text_level": 0,
       "section": "5、 现金流",
+      "table_id": "kweichow-moutai-2024-pages-1-20_t20",
       "asset_path": "images/07a957b4b2318507e33968c0d9618dbcccf018d7e8ab4141a4a58d5779340df7.jpg"
     },
     {
@@ -2293,7 +2316,7 @@
         803
       ],
       "text_level": 0,
-      "section": "5、 现金流"
+      "section": "(二) 非主营业务导致利润重大变化的说明"
     },
     {
       "block_id": "kweichow-moutai-2024-pages-1-20_b187",
@@ -2307,7 +2330,7 @@
         827
       ],
       "text_level": 0,
-      "section": "5、 现金流"
+      "section": "(二) 非主营业务导致利润重大变化的说明"
     },
     {
       "block_id": "kweichow-moutai-2024-pages-1-20_b188",
@@ -2321,7 +2344,7 @@
         847
       ],
       "text_level": 0,
-      "section": "5、 现金流"
+      "section": "(三) 资产、负债情况分析"
     },
     {
       "block_id": "kweichow-moutai-2024-pages-1-20_b189",
@@ -2335,7 +2358,7 @@
         873
       ],
       "text_level": 0,
-      "section": "5、 现金流"
+      "section": "(三) 资产、负债情况分析"
     },
     {
       "block_id": "kweichow-moutai-2024-pages-1-20_b192",
@@ -2378,6 +2401,7 @@
       ],
       "text_level": 0,
       "section": "1、 资产及负债状况",
+      "table_id": "kweichow-moutai-2024-pages-1-20_t21",
       "asset_path": "images/707e1a3f874f4e898c049d6ad3c12c75acd747a1ce130e64ad6eec85224d1076.jpg"
     },
     {
@@ -2420,7 +2444,7 @@
         751
       ],
       "text_level": 0,
-      "section": "2、 境外资产情况"
+      "section": "(1) 资产规模"
     },
     {
       "block_id": "kweichow-moutai-2024-pages-1-20_b198",
@@ -2434,7 +2458,7 @@
         776
       ],
       "text_level": 0,
-      "section": "2、 境外资产情况"
+      "section": "(1) 资产规模"
     },
     {
       "block_id": "kweichow-moutai-2024-pages-1-20_b199",
@@ -2645,6 +2669,7 @@
       ],
       "text_level": 0,
       "section": "2、 产能状况",
+      "table_id": "kweichow-moutai-2024-pages-1-20_t22",
       "asset_path": "images/12b3f70bf7799438ce0917722eedaf6865f916fa688c39fe17a258081d27f62b.jpg"
     },
     {
@@ -2716,6 +2741,7 @@
       ],
       "text_level": 0,
       "section": "2、 产能状况",
+      "table_id": "kweichow-moutai-2024-pages-1-20_t23",
       "asset_path": "images/d87612efe44c51cda5c5956a2437faf1c8171cda9b4ae9b3c854b0f66616fbbb.jpg"
     },
     {
@@ -2815,6 +2841,7 @@
       ],
       "text_level": 0,
       "section": "3、 产品期末库存量",
+      "table_id": "kweichow-moutai-2024-pages-1-20_t24",
       "asset_path": "images/9edf5d72dfe57b9e3cd747a88fee326399aa90e51233bd6affd342d2f72ebd73.jpg",
       "table_footnote": "注：成品酒为公司已包装的库存商品（含酱香系列酒）。"
     },
@@ -2901,6 +2928,7 @@
       ],
       "text_level": 0,
       "section": "4、 产品情况",
+      "table_id": "kweichow-moutai-2024-pages-1-20_t25",
       "asset_path": "images/709c26e50bff7204588d303194d7dc05ad09cbbcfaa777f70414f8c7fc4afa7e.jpg"
     },
     {
@@ -3098,6 +3126,7 @@
       ],
       "text_level": 0,
       "section": "(2).采购金额",
+      "table_id": "kweichow-moutai-2024-pages-1-20_t26",
       "asset_path": "images/c8d65cf2fc21a7e1decaf0803212de503f54cacc776ecb4fc5299c542a2236ae.jpg"
     },
     {
@@ -3211,6 +3240,7 @@
       ],
       "text_level": 0,
       "section": "(2).销售渠道",
+      "table_id": "kweichow-moutai-2024-pages-1-20_t27",
       "asset_path": "images/24d2323c8a9e9c589d9e317dd1b113c28341954bbdef687456b5fa9e3655e812.jpg"
     },
     {
@@ -3268,6 +3298,7 @@
       ],
       "text_level": 0,
       "section": "(3).区域情况",
+      "table_id": "kweichow-moutai-2024-pages-1-20_t28",
       "asset_path": "images/91f7544ced02e15ee48df4164e95ae28482d7c50ed4658ea72c760b5c8f107b8.jpg"
     },
     {
@@ -3353,6 +3384,7 @@
       ],
       "text_level": 0,
       "section": "(4).经销商情况",
+      "table_id": "kweichow-moutai-2024-pages-1-20_t29",
       "asset_path": "images/5535172f0a6846da8aa9795b57cb8623f295982938660d57fde8d9d34f6916f7.jpg"
     },
     {
@@ -3452,6 +3484,7 @@
       ],
       "text_level": 0,
       "section": "(5).线上销售情况",
+      "table_id": "kweichow-moutai-2024-pages-1-20_t30",
       "asset_path": "images/ebe66fda85b70a69e7a305dd0692cedae5442dc6b5bec95d4efefb37f1e19f24.jpg"
     },
     {
@@ -3551,6 +3584,7 @@
       ],
       "text_level": 0,
       "section": "(1).按不同类型披露公司主营业务构成",
+      "table_id": "kweichow-moutai-2024-pages-1-20_t31",
       "asset_path": "images/1f50bc3e016f71d4b17362baf40780d981bc2333bfc985176ae509dc09f59d43.jpg"
     },
     {
@@ -3832,6 +3866,7 @@
       ],
       "text_level": 0,
       "section": "3、 以公允价值计量的金融资产",
+      "table_id": "kweichow-moutai-2024-pages-1-20_t32",
       "asset_path": "images/028d6b02bbf6cf7d9bfb1de25f89e93f1a179bfb434da9fb86cba7f1a9ebee4e.jpg",
       "table_footnote": "证券投资情况 □适用 √不适用"
     },
@@ -3903,7 +3938,7 @@
         285
       ],
       "text_level": 0,
-      "section": "3、 以公允价值计量的金融资产"
+      "section": "(1).茅台招华（贵州）产业发展基金合伙企业（有限合伙）（以下简称“茅台招华基金”）"
     },
     {
       "block_id": "kweichow-moutai-2024-pages-1-20_b316",
@@ -3917,7 +3952,7 @@
         332
       ],
       "text_level": 0,
-      "section": "3、 以公允价值计量的金融资产"
+      "section": "(1).茅台招华（贵州）产业发展基金合伙企业（有限合伙）（以下简称“茅台招华基金”）"
     },
     {
       "block_id": "kweichow-moutai-2024-pages-1-20_b317",
@@ -3931,7 +3966,7 @@
         354
       ],
       "text_level": 0,
-      "section": "3、 以公允价值计量的金融资产"
+      "section": "(2).茅台金石（贵州）产业发展基金合伙企业（有限合伙）（以下简称“茅台金石基金”）"
     },
     {
       "block_id": "kweichow-moutai-2024-pages-1-20_b318",
@@ -3945,7 +3980,7 @@
         403
       ],
       "text_level": 0,
-      "section": "3、 以公允价值计量的金融资产"
+      "section": "(2).茅台金石（贵州）产业发展基金合伙企业（有限合伙）（以下简称“茅台金石基金”）"
     },
     {
       "block_id": "kweichow-moutai-2024-pages-1-20_b319",
@@ -3959,7 +3994,7 @@
         447
       ],
       "text_level": 0,
-      "section": "3、 以公允价值计量的金融资产"
+      "section": "(2).茅台金石（贵州）产业发展基金合伙企业（有限合伙）（以下简称“茅台金石基金”）"
     },
     {
       "block_id": "kweichow-moutai-2024-pages-1-20_b320",
@@ -3973,7 +4008,7 @@
         470
       ],
       "text_level": 0,
-      "section": "3、 以公允价值计量的金融资产"
+      "section": "(2).茅台金石（贵州）产业发展基金合伙企业（有限合伙）（以下简称“茅台金石基金”）"
     },
     {
       "block_id": "kweichow-moutai-2024-pages-1-20_b323",
@@ -4015,7 +4050,7 @@
         170
       ],
       "text_level": 0,
-      "section": "4、 报告期内重大资产重组整合的具体进展情况"
+      "section": "(六) 重大资产和股权出售"
     },
     {
       "block_id": "kweichow-moutai-2024-pages-1-20_b326",
@@ -4029,7 +4064,7 @@
         193
       ],
       "text_level": 0,
-      "section": "4、 报告期内重大资产重组整合的具体进展情况"
+      "section": "(六) 重大资产和股权出售"
     },
     {
       "block_id": "kweichow-moutai-2024-pages-1-20_b327",
@@ -4086,6 +4121,7 @@
       ],
       "text_level": 0,
       "section": "(七) 主要控股参股公司分析",
+      "table_id": "kweichow-moutai-2024-pages-1-20_t33",
       "asset_path": "images/b8de66d0b85453f2d6ad4fb970d4633646bb4606d87f695216ac4be07557645a.jpg"
     },
     {
@@ -4256,5 +4292,6 @@
       "text_level": 0,
       "section": "(一)行业格局和趋势"
     }
-  ]
+  ],
+  "parser_version": "3.2.1"
 }

@@ -2,8 +2,10 @@
   "doc_id": "kweichow-moutai-2024-pages-53-54",
   "filename": "kweichow_moutai_2024_annual_report.pdf",
   "parser": "mineru",
+  "parse_status": "success",
   "page_offset": 52,
   "page_count": 2,
+  "content_page_count": 2,
   "block_counts": {
     "image": 2,
     "table": 2,
@@ -164,6 +166,7 @@
       ],
       "text_level": 0,
       "section": "1、 法人",
+      "table_id": "kweichow-moutai-2024-pages-53-54_t1",
       "asset_path": "images/9f7e78e5bf0bc06e9e56c5a77ea92d6c5ffc82f1965fe33d460f87c4b8441f39.jpg"
     },
     {
@@ -488,6 +491,7 @@
       ],
       "text_level": 0,
       "section": "八、股份回购在报告期的具体实施情况",
+      "table_id": "kweichow-moutai-2024-pages-53-54_t2",
       "asset_path": "images/da62e8127cf1e9d74e9caa74a44727df02bb79f071116f563aa40a136228d9c3.jpg"
     },
     {
@@ -518,5 +522,6 @@
       "text_level": 0,
       "section": "第八节 优先股相关情况"
     }
-  ]
+  ],
+  "parser_version": "3.2.1"
 }

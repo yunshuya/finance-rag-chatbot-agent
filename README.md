@@ -64,7 +64,7 @@ PDF 文件在进入 Chroma 之前，会先通过 [MinerU](https://github.com/ope
 一个或多个 PDF -> MinerU content_list.json -> 归一化 JSON -> 检索 chunk -> Chroma 向量库 -> manifest.json
 ```
 
-项目会将 MinerU 解析后的归一化 JSON 保存到 `data/parsed_json/`，方便复现和检查。每个文档会根据文件名和 SHA-256 哈希生成稳定的 `doc_id`。每个 block 会保留 `block_id`、`type`、`text`、`page_no`、`bbox`、`section` 等字段，并可选保留 `asset_path`、`table_caption`、`image_caption` 等结构信息。
+项目会将 MinerU 解析后的归一化 JSON 保存到 `data/parsed_json/`，方便复现和检查。每个文档会根据文件名和 SHA-256 哈希生成稳定的 `doc_id`。每个 block 会保留 `block_id`、`type`、`text`、`page_no`、`bbox`、`section` 等字段；表格块会额外生成稳定的 `table_id`，并可选保留 `asset_path`、`table_caption`、`image_caption` 等结构信息。
 
 每个检索 chunk 会保留以下元数据：
 
@@ -77,6 +77,7 @@ page_end
 block_type
 section
 block_id
+table_id
 asset_path
 parser
 chunk_id
@@ -108,6 +109,7 @@ chunk_id
       "text": "<table>...</table>",
       "page_no": 15,
       "section": "2、 收入和成本分析",
+      "table_id": "kweichow-moutai-2024_t1",
       "asset_path": "images/table-1.jpg"
     }
   ]

@@ -1021,6 +1021,8 @@ def format_source_documents(source_documents):
             lines.append(f"- Section: {metadata.get('section')}")
         if metadata.get("block_type"):
             lines.append(f"- Block type: `{metadata.get('block_type')}`")
+        if metadata.get("table_id"):
+            lines.append(f"- Table ID: `{metadata.get('table_id')}`")
         if metadata.get("asset_path"):
             lines.append(f"- Asset: `{metadata.get('asset_path')}`")
         lines.append(f"> {preview}")
