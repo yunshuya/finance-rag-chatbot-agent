@@ -24,6 +24,10 @@ google-generativeai==0.8.6
 cohere==4.47
 tiktoken==0.13.0
 
+# Reranker fallback and environment
+sentence-transformers==5.5.1
+python-dotenv==1.2.2
+
 # Document loaders and data utilities
 docx2txt==0.8
 pandas==3.0.3

@@ -1,0 +1,1450 @@
+{
+  "version": 1,
+  "fact_count": 119,
+  "facts": [
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_1",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "五、 董事会决议通过的本报告期利润分配预案或公积金转增股本预案",
+      "page_no": 2,
+      "section": "五、 董事会决议通过的本报告期利润分配预案或公积金转增股本预案",
+      "block_id": "kweichow-moutai-2024-full_b11",
+      "categories": [
+        "dividend",
+        "policy"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_2",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "公司拟以实施权益分派股权登记日登记的总股本扣除回购专用账户中的股份为基数，实施2024年年度利润分配，向全体股东每10股派发现金红利276.24元（含税）",
+      "page_no": 2,
+      "section": "五、 董事会决议通过的本报告期利润分配预案或公积金转增股本预案",
+      "block_id": "kweichow-moutai-2024-full_b12",
+      "categories": [
+        "buyback",
+        "dividend"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_3",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "截至2025年3月31日，公司总股本1,256,197,800股，回购专用证券账户中股份数1,082,700股，总股本扣除回购专用证券账户中的股份数为1,255,115,100股，以此计算合计派发现金红利34,671,299,522.40元（含税）",
+      "page_no": 2,
+      "section": "五、 董事会决议通过的本报告期利润分配预案或公积金转增股本预案",
+      "block_id": "kweichow-moutai-2024-full_b12",
+      "categories": [
+        "buyback",
+        "dividend"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_4",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "在实施权益分派的股权登记日前公司总股本扣除回购专用证券账户内的股份数如发生变动的，将维持分配总额不变，相应调整每股分红比例",
+      "page_no": 2,
+      "section": "五、 董事会决议通过的本报告期利润分配预案或公积金转增股本预案",
+      "block_id": "kweichow-moutai-2024-full_b12",
+      "categories": [
+        "buyback",
+        "dividend"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_5",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "以上利润分配预案需提交公司股东大会审议通过后实施",
+      "page_no": 2,
+      "section": "五、 董事会决议通过的本报告期利润分配预案或公积金转增股本预案",
+      "block_id": "kweichow-moutai-2024-full_b12",
+      "categories": [
+        "dividend",
+        "policy"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_6",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "六、 前瞻性陈述的风险声明",
+      "page_no": 2,
+      "section": "六、 前瞻性陈述的风险声明",
+      "block_id": "kweichow-moutai-2024-full_b13",
+      "categories": [
+        "risk"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_7",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "本年度报告中所涉及的未来计划、发展战略等前瞻性陈述因存在不确定性，不构成本公司对投资者的实质承诺，敬请投资者注意投资风险",
+      "page_no": 2,
+      "section": "六、 前瞻性陈述的风险声明",
+      "block_id": "kweichow-moutai-2024-full_b15",
+      "categories": [
+        "risk",
+        "business",
+        "policy"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_8",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "本公司已在本年度报告中“公司关于公司未来发展的讨论与分析”章节阐述公司可能面对的风险，敬请投资者予以关注",
+      "page_no": 2,
+      "section": "十、 重大风险提示",
+      "block_id": "kweichow-moutai-2024-full_b20",
+      "categories": [
+        "risk"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_9",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "第四节 公司治理... 22",
+      "page_no": 3,
+      "section": "十一、 其他",
+      "block_id": "kweichow-moutai-2024-full_b26",
+      "categories": [
+        "governance"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_10",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "五、报告期内主要经营情况",
+      "page_no": 8,
+      "section": "五、报告期内主要经营情况",
+      "block_id": "kweichow-moutai-2024-full_b99",
+      "categories": [
+        "business"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_11",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "持续推进全面风险管理体系建设，实现风险防控效能全面提升",
+      "page_no": 8,
+      "section": "五、报告期内主要经营情况",
+      "block_id": "kweichow-moutai-2024-full_b101",
+      "categories": [
+        "risk"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_12",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "首次制定《市值管理办法》，提升管理规范化水平",
+      "page_no": 8,
+      "section": "五、报告期内主要经营情况",
+      "block_id": "kweichow-moutai-2024-full_b104",
+      "categories": [
+        "governance"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_13",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "发布 2024－2026三年分红规划，建立长效回报机制，有效稳定投资者预期",
+      "page_no": 8,
+      "section": "五、报告期内主要经营情况",
+      "block_id": "kweichow-moutai-2024-full_b104",
+      "categories": [
+        "dividend",
+        "policy"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_14",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "首次启动股份回购计划，公司以自有资金通过集中竞价交易方式回购股份，回购股份用于注销并减少公司注册资本，回购金额不低于30亿元（含）且不超过 60亿元（含），持续践行真金白银回报股东",
+      "page_no": 8,
+      "section": "五、报告期内主要经营情况",
+      "block_id": "kweichow-moutai-2024-full_b104",
+      "categories": [
+        "buyback",
+        "policy"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_15",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "研发费用变动原因说明：主要是本期研发项目增加",
+      "page_no": 9,
+      "section": "1、 利润表及现金流量表相关科目变动分析表",
+      "block_id": "kweichow-moutai-2024-full_b112",
+      "categories": [
+        "rd_investment"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_16",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "(4).研发人员构成发生重大变化的原因及对公司未来发展的影响",
+      "page_no": 11,
+      "section": "(4).研发人员构成发生重大变化的原因及对公司未来发展的影响",
+      "block_id": "kweichow-moutai-2024-full_b165",
+      "categories": [
+        "rd_investment"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_17",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "建立生态环保制度地图，加大新技术新工艺引进研发，完善生态环境一体化监控网络，走出了国家级“绿色工厂”科技创新驱动的“双碳”路径",
+      "page_no": 21,
+      "section": "(一)行业格局和趋势",
+      "block_id": "kweichow-moutai-2024-full_b346",
+      "categories": [
+        "rd_investment"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_18",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "2025年是“十四五”发展规划收官之年，也是公司把全面深化改革推向纵深的关键之年",
+      "page_no": 21,
+      "section": "(二)公司发展战略",
+      "block_id": "kweichow-moutai-2024-full_b349",
+      "categories": [
+        "policy"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_19",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "三是聚焦公司战略目标，强化项目全生命周期管理，优化核心产区规划建设布局，持续推进茅台酒“十四五”中华技改建设项目、坛厂包装物流园、习水同民坝一期项目、中华 6 万吨勾调中心、茅台酒用原料储备库等重大项目建设，不断夯实企业发展基础，增强酒业发展后劲",
+      "page_no": 21,
+      "section": "(三)经营计划",
+      "block_id": "kweichow-moutai-2024-full_b352",
+      "categories": [
+        "policy"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_20",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "环境方面，深入践行“山水林土河微”生命共同体理念，聚焦“两山”“双碳”等重点工作，建立气候变化治理架构，强化废弃物管理，加快推进管网维修改造、污水处理厂新建和提质增效改造",
+      "page_no": 21,
+      "section": "(三)经营计划",
+      "block_id": "kweichow-moutai-2024-full_b353",
+      "categories": [
+        "governance"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_21",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "立足“三生空间”规划，持续推动绿化专项规划与标准编制、厂区生态多样性调查、厂区绿化提升方案制定等工作",
+      "page_no": 21,
+      "section": "(三)经营计划",
+      "block_id": "kweichow-moutai-2024-full_b353",
+      "categories": [
+        "policy"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_22",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "治理方面，强化商业道德和反腐败，积极进行合规管理体系标准认证",
+      "page_no": 21,
+      "section": "(三)经营计划",
+      "block_id": "kweichow-moutai-2024-full_b353",
+      "categories": [
+        "governance"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_23",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "强化合规和风险管理，持续开展相关尽职调查，强化对废弃物、数据安全、商业伦理道德、风险管理等内部审计",
+      "page_no": 21,
+      "section": "(三)经营计划",
+      "block_id": "kweichow-moutai-2024-full_b353",
+      "categories": [
+        "risk"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_24",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "围绕“智慧茅台 2.0”规划，建设集产品设计、生产、质量、物流系统集成的数字化供应链，构建园区智能化管理运营平台",
+      "page_no": 21,
+      "section": "(三)经营计划",
+      "block_id": "kweichow-moutai-2024-full_b354",
+      "categories": [
+        "policy"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_25",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "动态优化完善对标管理体系，促进体系实效落地，进一步提升现代企业治理能力和水平",
+      "page_no": 21,
+      "section": "(三)经营计划",
+      "block_id": "kweichow-moutai-2024-full_b354",
+      "categories": [
+        "governance"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_26",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "人才队伍建设方面，围绕“德才兼备、人尽其才、人企共进”的人才理念，聚焦人才“引、育、用、留”，制定人力资源规划，围绕全员劳动生产率启动人力资源体制改革，不断提高专业人才当量密度，夯实企业发展基础",
+      "page_no": 21,
+      "section": "(三)经营计划",
+      "block_id": "kweichow-moutai-2024-full_b354",
+      "categories": [
+        "policy"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_27",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "开展全面风险管理，确保生产经营安全稳定运行",
+      "page_no": 22,
+      "section": "(三)经营计划",
+      "block_id": "kweichow-moutai-2024-full_b359",
+      "categories": [
+        "risk"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_28",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "合规管理方面，聚焦依法治理、风险防范、合规管理、市场维权、队伍建设等重点任务，进一步完善法治体系建设，持续提升依法治企能力",
+      "page_no": 22,
+      "section": "(三)经营计划",
+      "block_id": "kweichow-moutai-2024-full_b359",
+      "categories": [
+        "risk",
+        "governance"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_29",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "持续强化合规审核质量、合同全生命周期管理，建立合规义务清单，制定重点领域合规管理指南，切实增强合规风险洞察力，有效提升合规意识和管理水平",
+      "page_no": 22,
+      "section": "(三)经营计划",
+      "block_id": "kweichow-moutai-2024-full_b359",
+      "categories": [
+        "risk"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_30",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "一、公司治理相关情况说明",
+      "page_no": 22,
+      "section": "一、公司治理相关情况说明",
+      "block_id": "kweichow-moutai-2024-full_b367",
+      "categories": [
+        "governance"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_31",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "公司严格按照《公司法》《证券法》《上市公司治理准则》等法律法规和有关公司治理的规范性文件要求，结合公司实际情况，建立健全公司法人治理结构，规范公司运作",
+      "page_no": 22,
+      "section": "一、公司治理相关情况说明",
+      "block_id": "kweichow-moutai-2024-full_b369",
+      "categories": [
+        "governance"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_32",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "公司设有党委会、股东大会、董事会、监事会、经理层，实施党委成员和治理机构成员“双向进入、交叉任职”的领导体制，形成了各司其职、各负其责、协调运转、有效制衡的公司治理体系",
+      "page_no": 22,
+      "section": "一、公司治理相关情况说明",
+      "block_id": "kweichow-moutai-2024-full_b369",
+      "categories": [
+        "governance"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_33",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "公司持续优化治理机制，充分发挥股东大会、党委会、董事会和经理层管理作用，强化监事会监督职能",
+      "page_no": 22,
+      "section": "一、公司治理相关情况说明",
+      "block_id": "kweichow-moutai-2024-full_b369",
+      "categories": [
+        "governance"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_34",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "公司董事会下设战略、审计、风险与合规管理、提名、薪酬与考核五个专门委员会，各委员会分工明确，权责分明，运作有效",
+      "page_no": 23,
+      "section": "一、公司治理相关情况说明",
+      "block_id": "kweichow-moutai-2024-full_b374",
+      "categories": [
+        "risk"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_35",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "公司监事会能够勤勉尽责，本着对股东负责的精神，行使监督检查职能，对公司财务状况和经营情况、关联交易以及高级管理人员履行职责情况等进行监督，维护公司和全体股东的合法权益",
+      "page_no": 23,
+      "section": "一、公司治理相关情况说明",
+      "block_id": "kweichow-moutai-2024-full_b375",
+      "categories": [
+        "business"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_36",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "报告期内，公司按照《企业内部控制基本规范》的要求继续开展内部控制相关工作，持续推进内部控制建设、评价、审计等相关工作，保证公司内部控制目标的实现，进一步提升公司治理水平",
+      "page_no": 23,
+      "section": "一、公司治理相关情况说明",
+      "block_id": "kweichow-moutai-2024-full_b380",
+      "categories": [
+        "governance"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_37",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "公司治理与法律、行政法规和中国证监会关于上市公司治理的规定是否存在重大差异",
+      "page_no": 23,
+      "section": "一、公司治理相关情况说明",
+      "block_id": "kweichow-moutai-2024-full_b381",
+      "categories": [
+        "governance"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_38",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "八、监事会发现公司存在风险的说明",
+      "page_no": 33,
+      "section": "八、监事会发现公司存在风险的说明",
+      "block_id": "kweichow-moutai-2024-full_b462",
+      "categories": [
+        "risk"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_39",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "其中，公司级培训 54项，主要将公司发展战略、员工职业发展规划等作为培训计划制定的依据，包括企业文化、法律合规、党群纪检、战略企管、生产、质量、安全、环保、后备人才培养等",
+      "page_no": 34,
+      "section": "(三) 培训计划",
+      "block_id": "kweichow-moutai-2024-full_b475",
+      "categories": [
+        "business",
+        "policy"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_40",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "十、利润分配或资本公积金转增预案",
+      "page_no": 34,
+      "section": "十、利润分配或资本公积金转增预案",
+      "block_id": "kweichow-moutai-2024-full_b479",
+      "categories": [
+        "dividend",
+        "policy"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_41",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "(一) 现金分红政策的制定、执行或调整情况",
+      "page_no": 34,
+      "section": "(一) 现金分红政策的制定、执行或调整情况",
+      "block_id": "kweichow-moutai-2024-full_b480",
+      "categories": [
+        "dividend"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_42",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "1.根据公司2023 年度股东大会审议通过的《2023年度利润分配方案》，公司以 2023年末总股本125,619.78万股为基数，向公司全体股东每 10股派发现金红利308.76元（含税）",
+      "page_no": 34,
+      "section": "(一) 现金分红政策的制定、执行或调整情况",
+      "block_id": "kweichow-moutai-2024-full_b482",
+      "categories": [
+        "dividend"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_43",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "该利润分配方案由公司独立董事发表意见，经公司董事会审议通过之后，提交公司股东大会审议通过",
+      "page_no": 34,
+      "section": "(一) 现金分红政策的制定、执行或调整情况",
+      "block_id": "kweichow-moutai-2024-full_b482",
+      "categories": [
+        "dividend"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_44",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "该利润分配已于 2024年 6 月实施完毕",
+      "page_no": 34,
+      "section": "(一) 现金分红政策的制定、执行或调整情况",
+      "block_id": "kweichow-moutai-2024-full_b482",
+      "categories": [
+        "dividend"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_45",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "2.根据公司 2024 年第一次临时股东大会审议通过的《2024 年中期利润分配方案》，公司以实施权益分派股权登记日总股本 125,619.78万股为基数，向公司全体股东每 10 股派发现金红利238.82元（含税）",
+      "page_no": 34,
+      "section": "(一) 现金分红政策的制定、执行或调整情况",
+      "block_id": "kweichow-moutai-2024-full_b483",
+      "categories": [
+        "dividend"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_46",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "该利润分配已于 2024 年 12 月实施完毕",
+      "page_no": 34,
+      "section": "(一) 现金分红政策的制定、执行或调整情况",
+      "block_id": "kweichow-moutai-2024-full_b483",
+      "categories": [
+        "dividend"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_47",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "报告期内，公司利润分配符合公司《章程》的规定",
+      "page_no": 34,
+      "section": "(一) 现金分红政策的制定、执行或调整情况",
+      "block_id": "kweichow-moutai-2024-full_b484",
+      "categories": [
+        "dividend"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_48",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "(二) 现金分红政策的专项说明",
+      "page_no": 34,
+      "section": "(二) 现金分红政策的专项说明",
+      "block_id": "kweichow-moutai-2024-full_b485",
+      "categories": [
+        "dividend"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_49",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "(三) 报告期内盈利且母公司可供股东分配利润为正，但未提出现金利润分配方案预案的，公司应当详细披露原因以及未分配利润的用途和使用计划",
+      "page_no": 34,
+      "section": "(三) 报告期内盈利且母公司可供股东分配利润为正，但未提出现金利润分配方案预案的，公司应当详细披露原因以及未分配利润的用途和使用计划",
+      "block_id": "kweichow-moutai-2024-full_b487",
+      "categories": [
+        "dividend",
+        "policy"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_50",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "(四) 本报告期利润分配及资本公积金转增股本预案",
+      "page_no": 34,
+      "section": "(四) 本报告期利润分配及资本公积金转增股本预案",
+      "block_id": "kweichow-moutai-2024-full_b489",
+      "categories": [
+        "dividend",
+        "policy"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_51",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "(五) 最近三个会计年度现金分红情况",
+      "page_no": 35,
+      "section": "(五) 最近三个会计年度现金分红情况",
+      "block_id": "kweichow-moutai-2024-full_b496",
+      "categories": [
+        "dividend"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_52",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "十五、上市公司治理专项行动自查问题整改情况",
+      "page_no": 36,
+      "section": "十五、上市公司治理专项行动自查问题整改情况",
+      "block_id": "kweichow-moutai-2024-full_b532",
+      "categories": [
+        "governance"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_53",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "根据《中国证监会关于开展上市公司治理专项行动的公告》《贵州证监局关于上市公司治理自查有关事项的通知》要求，公司按要求对照上市公司治理专项自查清单，认真开展治理专项自查工作",
+      "page_no": 36,
+      "section": "十五、上市公司治理专项行动自查问题整改情况",
+      "block_id": "kweichow-moutai-2024-full_b533",
+      "categories": [
+        "governance"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_54",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "截至本报告期末，尚存在两个问题：一是控股股东尚未履行实施股权激励计划的承诺",
+      "page_no": 36,
+      "section": "十五、上市公司治理专项行动自查问题整改情况",
+      "block_id": "kweichow-moutai-2024-full_b533",
+      "categories": [
+        "policy"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_55",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "公司开展废水污染治理设施提标升级改造，为进一步减少污染物排放夯实基础，保障污水处理厂稳定运行",
+      "page_no": 38,
+      "section": "2、 防治污染设施的建设和运行情况",
+      "block_id": "kweichow-moutai-2024-full_b563",
+      "categories": [
+        "governance"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_56",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "4、 突发环境事件应急预案",
+      "page_no": 38,
+      "section": "4、 突发环境事件应急预案",
+      "block_id": "kweichow-moutai-2024-full_b568",
+      "categories": [
+        "policy"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_57",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "根据《企业事业单位突发环境事件应急预案备案管理办法（试行）》（环发〔2015〕4号）等相关文件规定，公司本部、和义兴酒业分公司均已编制突发环境应急预案并报生态环境主管部门备案",
+      "page_no": 38,
+      "section": "4、 突发环境事件应急预案",
+      "block_id": "kweichow-moutai-2024-full_b570",
+      "categories": [
+        "policy"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_58",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "其中，公司本部于 2024年6月3 日组织开展了年度突发环境事件应急演练，和义兴酒业分公司分别于 2024 年 7 月 17 日和 9 月 15 日组织开展了两次年度突发环境事件应急演练，有效提高了员工的环保风险防范意识和应急处置能力",
+      "page_no": 38,
+      "section": "4、 突发环境事件应急预案",
+      "block_id": "kweichow-moutai-2024-full_b570",
+      "categories": [
+        "risk"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_59",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "深入开展生产废水深度脱氮实验项目、酱香型废水关键污染物特征解析及工艺技术研发等方面研究，增强技术力量，掌握关键核心技术研发攻关和创新应用，为污染物治理提升奠定基础",
+      "page_no": 39,
+      "section": "(三) 有利于保护生态、防治污染、履行环境责任的相关信息",
+      "block_id": "kweichow-moutai-2024-full_b586",
+      "categories": [
+        "governance",
+        "rd_investment"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_60",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "详见与本报告同时在上海证券交易所网站（网址：www.sse.com.cn）披露的《公司 2024 年环境、社会及治理（ESG）报告》",
+      "page_no": 39,
+      "section": "(一) 是否单独披露社会责任报告、可持续发展报告或 ESG 报告",
+      "block_id": "kweichow-moutai-2024-full_b596",
+      "categories": [
+        "governance"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_61",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "详见与本报告同时在上海证券交易所网站（网址：www.sse.com.cn）披露的《公司 2024 年环境、社会及治理（ESG）报告》",
+      "page_no": 40,
+      "section": "三、巩固拓展脱贫攻坚成果、乡村振兴等工作具体情况",
+      "block_id": "kweichow-moutai-2024-full_b605",
+      "categories": [
+        "governance"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_62",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "(一) 公司实际控制人、股东、关联方、收购人以及公司等承诺相关方在报告期内或持续到报告期内的承诺事项",
+      "page_no": 40,
+      "section": "(一) 公司实际控制人、股东、关联方、收购人以及公司等承诺相关方在报告期内或持续到报告期内的承诺事项",
+      "block_id": "kweichow-moutai-2024-full_b610",
+      "categories": [
+        "policy"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_63",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "(三) 业绩承诺的完成情况及其对商誉减值测试的影响",
+      "page_no": 40,
+      "section": "(三) 业绩承诺的完成情况及其对商誉减值测试的影响",
+      "block_id": "kweichow-moutai-2024-full_b616",
+      "categories": [
+        "policy"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_64",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "(一)导致退市风险警示的原因",
+      "page_no": 42,
+      "section": "(一)导致退市风险警示的原因",
+      "block_id": "kweichow-moutai-2024-full_b649",
+      "categories": [
+        "risk"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_65",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "八、股份回购在报告期的具体实施情况",
+      "page_no": 54,
+      "section": "八、股份回购在报告期的具体实施情况",
+      "block_id": "kweichow-moutai-2024-full_b866",
+      "categories": [
+        "buyback"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_66",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "由于营业收入是贵州茅台公司关键业绩指标之一，可能存在贵州茅台公司管理层（以下简称管理层）通过不恰当的收入确认以达到特定目标或预期的固有风险，同时，收入确认涉及重大管理层判断",
+      "page_no": 56,
+      "section": "(一) 收入确认",
+      "block_id": "kweichow-moutai-2024-full_b897",
+      "categories": [
+        "risk"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_67",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "五、管理层和治理层对财务报表的责任",
+      "page_no": 57,
+      "section": "五、管理层和治理层对财务报表的责任",
+      "block_id": "kweichow-moutai-2024-full_b925",
+      "categories": [
+        "governance"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_68",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "贵州茅台公司治理层（以下简称治理层）负责监督贵州茅台公司的财务报告过程",
+      "page_no": 57,
+      "section": "五、管理层和治理层对财务报表的责任",
+      "block_id": "kweichow-moutai-2024-full_b928",
+      "categories": [
+        "governance"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_69",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "(一) 识别和评估由于舞弊或错误导致的财务报表重大错报风险，设计和实施审计程序以应对这些风险，并获取充分、适当的审计证据，作为发表审计意见的基础",
+      "page_no": 57,
+      "section": "六、注册会计师对财务报表审计的责任",
+      "block_id": "kweichow-moutai-2024-full_b932",
+      "categories": [
+        "risk"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_70",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "由于舞弊可能涉及串通、伪造、故意遗漏、虚假陈述或凌驾于内部控制之上，未能发现由于舞弊导致的重大错报的风险高于未能发现由于错误导致的重大错报的风险",
+      "page_no": 57,
+      "section": "六、注册会计师对财务报表审计的责任",
+      "block_id": "kweichow-moutai-2024-full_b932",
+      "categories": [
+        "risk"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_71",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "我们与治理层就计划的审计范围、时间安排和重大审计发现等事项进行沟通，包括沟通我们在审计中识别出的值得关注的内部控制缺陷",
+      "page_no": 58,
+      "section": "(六) 就贵州茅台公司中实体或业务活动的财务信息获取充分、适当的审计证据，以对财务报表发表审计意见。我们负责指导、监督和执行集团审计，并对审计意见承担全部责任。",
+      "block_id": "kweichow-moutai-2024-full_b940",
+      "categories": [
+        "governance"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_72",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "我们还就已遵守与独立性相关的职业道德要求向治理层提供声明，并与治理层沟通可能被合理认为影响我们独立性的所有关系和其他事项，以及相关的防范措施（如适用）",
+      "page_no": 58,
+      "section": "(六) 就贵州茅台公司中实体或业务活动的财务信息获取充分、适当的审计证据，以对财务报表发表审计意见。我们负责指导、监督和执行集团审计，并对审计意见承担全部责任。",
+      "block_id": "kweichow-moutai-2024-full_b941",
+      "categories": [
+        "governance"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_73",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "从与治理层沟通过的事项中，我们确定哪些事项对本期财务报表审计最为重要，因而构成关键审计事项",
+      "page_no": 58,
+      "section": "(六) 就贵州茅台公司中实体或业务活动的财务信息获取充分、适当的审计证据，以对财务报表发表审计意见。我们负责指导、监督和执行集团审计，并对审计意见承担全部责任。",
+      "block_id": "kweichow-moutai-2024-full_b942",
+      "categories": [
+        "governance"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_74",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "贵州茅台酒股份有限公司是根据贵州省人民政府黔府函〔1999〕291 号文《关于同意设立贵州茅台酒股份有限公司的批复》，成立于 1999 年 11 月 20 日，成立时注册资本为人民币 18,500万元",
+      "page_no": 74,
+      "section": "1、 公司概况",
+      "block_id": "kweichow-moutai-2024-full_b1036",
+      "categories": [
+        "policy"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_75",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "现金等价物包括库存现金、银行存款、其他货币资金、存放中央银行可随时支取的备付金、存放同业款项、拆放同业款项、同业间买入返售证券、以及企业持有的期限短（一般指从购买日起三个月内到期）、流动性强、易于转换为已知金额现金、价值变动风险很小的投资",
+      "page_no": 76,
+      "section": "8、 现金及现金等价物的确定标准",
+      "block_id": "kweichow-moutai-2024-full_b1079",
+      "categories": [
+        "risk"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_76",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "交易日，是指本公司承诺买入或卖出金融资产的日期",
+      "page_no": 76,
+      "section": "(1)金融工具的确认和终止确认",
+      "block_id": "kweichow-moutai-2024-full_b1089",
+      "categories": [
+        "policy"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_77",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "并且（a）实质上转让了金融资产所有权上几乎所有的风险和报酬，或（b）虽然实质上既没有转移也没有保留金融资产所有权上几乎所有的风险和报酬，但放弃了对该金融资产的控制",
+      "page_no": 76,
+      "section": "(1)金融工具的确认和终止确认",
+      "block_id": "kweichow-moutai-2024-full_b1090",
+      "categories": [
+        "risk"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_78",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "B.根据正式书面文件载明的公司风险管理或投资策略，以公允价值为基础对金融负债组合或金融资产和金融负债组合进行管理和业绩评价，并在公司内部以此为基础向关键管理人员报告",
+      "page_no": 77,
+      "section": "(3)金融负债分类和计量",
+      "block_id": "kweichow-moutai-2024-full_b1108",
+      "categories": [
+        "risk"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_79",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "公司考虑有关过去事项、当前状况以及对未来经济状况的预测等合理且有依据的信息，以发生违约的风险为权重，计算合同应收的现金流量与预期能收到的现金流量之间差额的现值的概率加权金额，确认预期信用损失",
+      "page_no": 78,
+      "section": "(5)金融资产减值",
+      "block_id": "kweichow-moutai-2024-full_b1122",
+      "categories": [
+        "risk"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_80",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "金融工具自初始确认后信用风险未显著增加的，处于第一阶段，本公司按照未来 12 个月内的预期信用损失计量损失准备",
+      "page_no": 78,
+      "section": "(5)金融资产减值",
+      "block_id": "kweichow-moutai-2024-full_b1123",
+      "categories": [
+        "risk"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_81",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "金融工具自初始确认后信用风险已显著增加但尚未发生信用减值的，处于第二阶段，本公司按照该金融工具整个存续期的预期信用损失计量损失准备",
+      "page_no": 78,
+      "section": "(5)金融资产减值",
+      "block_id": "kweichow-moutai-2024-full_b1123",
+      "categories": [
+        "risk"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_82",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "对于在资产负债表日具有较低信用风险的金融工具，本公司假设其信用风险自初始确认后并未显著增加，按照未来 12个月内的预期信用损失计量损失准备",
+      "page_no": 78,
+      "section": "(5)金融资产减值",
+      "block_id": "kweichow-moutai-2024-full_b1124",
+      "categories": [
+        "risk"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_83",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "公司对于处于第一阶段和第二阶段、以及较低信用风险的金融工具，按照其未扣除减值准备的账面余额和实际利率计算利息收入",
+      "page_no": 78,
+      "section": "(5)金融资产减值",
+      "block_id": "kweichow-moutai-2024-full_b1125",
+      "categories": [
+        "risk"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_84",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "当单项金融资产无法以合理成本评估预期信用损失的信息时，本公司依据信用风险特征将应收款项划分为若干组合，在组合基础上计算预期信用损失，确定组合的依据和计提方式如下：",
+      "page_no": 78,
+      "section": "(5)金融资产减值",
+      "block_id": "kweichow-moutai-2024-full_b1127",
+      "categories": [
+        "risk"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_85",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "其他应收款组合 备用金、押金、保证金等信用风险较低的其他应收款",
+      "page_no": 78,
+      "section": "(5)金融资产减值",
+      "block_id": "kweichow-moutai-2024-full_b1130",
+      "categories": [
+        "risk"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_86",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "除此以外的应收票据和划分为组合的其他应收款，本公司参考历史信用损失经验，结合当前状况以及对未来经济状况的预测，通过违约风险敞口和未来12个月内或整个存续期预期信用损失率，计算预期信用损失",
+      "page_no": 78,
+      "section": "(5)金融资产减值",
+      "block_id": "kweichow-moutai-2024-full_b1133",
+      "categories": [
+        "risk"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_87",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "公司已将金融资产所有权上几乎所有的风险和报酬转移给转入方的，终止确认该金融资产",
+      "page_no": 78,
+      "section": "(5)金融资产减值",
+      "block_id": "kweichow-moutai-2024-full_b1136",
+      "categories": [
+        "risk"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_88",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "保留了金融资产所有权上几乎所有的风险和报酬的，不终止确认该金融资产",
+      "page_no": 78,
+      "section": "(5)金融资产减值",
+      "block_id": "kweichow-moutai-2024-full_b1136",
+      "categories": [
+        "risk"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_89",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "公司既没有转移也没有保留金融资产所有权上几乎所有的风险和报酬的，分别下列情况处理：未保留对该金融资产控制的，终止确认该金融资产并将转移中产生或保留的权利和义务单独确认为资产或负债",
+      "page_no": 78,
+      "section": "(5)金融资产减值",
+      "block_id": "kweichow-moutai-2024-full_b1137",
+      "categories": [
+        "risk"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_90",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "被投资单位除净损益、其他综合收益和利润分配以外股东权益的其他变动，在本公司持股比例不变的情况下，按照持股比例计算应享有或承担的部分直接计入股东权益，并同时调整长期股权投资的账面价值",
+      "page_no": 79,
+      "section": "12、 长期股权投资",
+      "block_id": "kweichow-moutai-2024-full_b1170",
+      "categories": [
+        "dividend"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_91",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "A.对于 2014年1 月1日后新购进的专门用于研发的仪器、设备，金额在 100万元以下的，一次性计入当期成本费用",
+      "page_no": 80,
+      "section": "(2).折旧方法",
+      "block_id": "kweichow-moutai-2024-full_b1185",
+      "categories": [
+        "rd_investment"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_92",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "B.2014年1月1日后新购进的专门用于研发的仪器、设备，超过 100万元的，折旧年限如",
+      "page_no": 80,
+      "section": "(2).折旧方法",
+      "block_id": "kweichow-moutai-2024-full_b1186",
+      "categories": [
+        "rd_investment"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_93",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "(2).研发支出的归集范围及相关会计处理方法",
+      "page_no": 82,
+      "section": "(2).研发支出的归集范围及相关会计处理方法",
+      "block_id": "kweichow-moutai-2024-full_b1229",
+      "categories": [
+        "rd_investment"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_94",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "A.研发支出的范围主要依据公司的研究开发项目情况制定，主要包括：研发人员人工费、直接投入费用、折旧费用与长期待摊费用、无形资产摊销、设计费用、装备调试与试验费、委托外部研究开发费用、其他费用等",
+      "page_no": 82,
+      "section": "(2).研发支出的归集范围及相关会计处理方法",
+      "block_id": "kweichow-moutai-2024-full_b1231",
+      "categories": [
+        "rd_investment"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_95",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "B.公司研发支出区分研究阶段支出与开发阶段支出",
+      "page_no": 82,
+      "section": "(2).研发支出的归集范围及相关会计处理方法",
+      "block_id": "kweichow-moutai-2024-full_b1232",
+      "categories": [
+        "rd_investment"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_96",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "作为出租人，租赁开始日实质上转移了与租赁资产所有权有关的几乎全部风险和报酬的租赁为融资租赁，除此之外的均为经营租赁",
+      "page_no": 84,
+      "section": "23、 租赁",
+      "block_id": "kweichow-moutai-2024-full_b1294",
+      "categories": [
+        "risk"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_97",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "本期坏账准备计提金额以及评估金融工具的信用风险是否显著增加的采用依据：",
+      "page_no": 91,
+      "section": "(3).坏账准备计提情况",
+      "block_id": "kweichow-moutai-2024-full_b1439",
+      "categories": [
+        "risk"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_98",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "本期减值准备计提金额以及评估金融工具的信用风险是否显著增加的采用依据□适用 √不适用",
+      "page_no": 94,
+      "section": "(3).减值准备计提情况",
+      "block_id": "kweichow-moutai-2024-full_b1506",
+      "categories": [
+        "risk"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_99",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "本期减值准备计提金额以及评估金融工具的信用风险是否显著增加的采用依据□适用 √不适用",
+      "page_no": 96,
+      "section": "(3).减值准备计提情况",
+      "block_id": "kweichow-moutai-2024-full_b1542",
+      "categories": [
+        "risk"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_100",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "注：一般风险准备是公司控股子公司贵州茅台集团财务有限公司按照财政部《金融企业准备金计提管理办法》(财金[2012]20 号)的规定提取",
+      "page_no": 108,
+      "section": "38、 一般风险准备",
+      "block_id": "kweichow-moutai-2024-full_b1744",
+      "categories": [
+        "risk"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_101",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "(2).境外经营实体说明，包括对于重要的境外经营实体，应披露其境外主要经营地、记账本位币及选择依据，记账本位币发生变化的还应披露原因",
+      "page_no": 118,
+      "section": "(2).境外经营实体说明，包括对于重要的境外经营实体，应披露其境外主要经营地、记账本位币及选择依据，记账本位币发生变化的还应披露原因",
+      "block_id": "kweichow-moutai-2024-full_b1922",
+      "categories": [
+        "business"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_102",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "2、 符合资本化条件的研发项目开发支出",
+      "page_no": 119,
+      "section": "2、 符合资本化条件的研发项目开发支出",
+      "block_id": "kweichow-moutai-2024-full_b1956",
+      "categories": [
+        "rd_investment"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_103",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "十二、 与金融工具相关的风险",
+      "page_no": 122,
+      "section": "十二、 与金融工具相关的风险",
+      "block_id": "kweichow-moutai-2024-full_b2017",
+      "categories": [
+        "risk"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_104",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "公司的金融工具导致的主要风险是信用风险、流动风险、汇率风险及利率风险",
+      "page_no": 122,
+      "section": "1、 金融工具的风险",
+      "block_id": "kweichow-moutai-2024-full_b2021",
+      "categories": [
+        "risk"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_105",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "公司金融资产包括货币资金、应收账款、其他应收款等，这些金融资产的信用风险源自交易对手违约，最大风险敞口等于这些工具的账面金额",
+      "page_no": 122,
+      "section": "1、 金融工具的风险",
+      "block_id": "kweichow-moutai-2024-full_b2023",
+      "categories": [
+        "risk"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_106",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "信用风险集中按照客户进行管理",
+      "page_no": 122,
+      "section": "1、 金融工具的风险",
+      "block_id": "kweichow-moutai-2024-full_b2024",
+      "categories": [
+        "risk"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_107",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "本公司销售以预收款项方式进行，交易的信用风险小",
+      "page_no": 122,
+      "section": "1、 金融工具的风险",
+      "block_id": "kweichow-moutai-2024-full_b2024",
+      "categories": [
+        "risk"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_108",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "流动风险，是指企业在履行以交付现金或其他金融资产的方式结算的义务时发生资金短缺的风险",
+      "page_no": 122,
+      "section": "1、 金融工具的风险",
+      "block_id": "kweichow-moutai-2024-full_b2026",
+      "categories": [
+        "risk"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_109",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "公司面临的外汇变动风险主要与公司的经营活动(当收支以不同于本公司记账本位币的外币结算时)及其于境外子公司的净投资有关",
+      "page_no": 122,
+      "section": "1、 金融工具的风险",
+      "block_id": "kweichow-moutai-2024-full_b2029",
+      "categories": [
+        "risk"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_110",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "公司承受的汇率风险主要与美元、欧元有关，除公司以美元和欧元进行产品销售结算外，公司的其他主要业务活动以人民币计价结算",
+      "page_no": 122,
+      "section": "1、 金融工具的风险",
+      "block_id": "kweichow-moutai-2024-full_b2029",
+      "categories": [
+        "risk"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_111",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "利率风险，是指金融工具的公允价值或未来现金流量因市场利率变动而发生波动的风险",
+      "page_no": 122,
+      "section": "1、 金融工具的风险",
+      "block_id": "kweichow-moutai-2024-full_b2031",
+      "categories": [
+        "risk"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_112",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "公司面临的市场利率变动的风险主要与以浮动利率计息的负债有关",
+      "page_no": 122,
+      "section": "1、 金融工具的风险",
+      "block_id": "kweichow-moutai-2024-full_b2031",
+      "categories": [
+        "risk"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_113",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "(1) 公司开展套期业务进行风险管理",
+      "page_no": 123,
+      "section": "(1) 公司开展套期业务进行风险管理",
+      "block_id": "kweichow-moutai-2024-full_b2035",
+      "categories": [
+        "risk"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_114",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "(3) 公司开展套期业务进行风险管理、预期能实现风险管理目标但未应用套期会计",
+      "page_no": 123,
+      "section": "(3) 公司开展套期业务进行风险管理、预期能实现风险管理目标但未应用套期会计",
+      "block_id": "kweichow-moutai-2024-full_b2043",
+      "categories": [
+        "risk"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_115",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "详见十五、承诺及或有事项 1、重要承诺事项",
+      "page_no": 135,
+      "section": "6、 关联方承诺",
+      "block_id": "kweichow-moutai-2024-full_b2194",
+      "categories": [
+        "policy"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_116",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "资产负债表日存在的对外重要承诺、性质、金额",
+      "page_no": 135,
+      "section": "1、 重要承诺事项",
+      "block_id": "kweichow-moutai-2024-full_b2200",
+      "categories": [
+        "policy"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_117",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "公司于 2024年11 月 27日召开2024 年第一次临时股东大会，审议通过了《关于以集中竞价交易方式回购公司股份的方案》，并于 2024年12月 28日披露了《关于以集中竞价交易方式回购公司股份的回购报告书》，公司将以自有资金通过集中竞价交易方式回购股份，用于注销并减少注册资本，回购价格不超过 1,771.90元/股（含），回购金额不低于人民币 30 亿元（含）且不超过人民币60亿元（含），实施期限为自公司股东大会审议通过回购方案之日起 12个月内",
+      "page_no": 136,
+      "section": "1、 其他对投资者决策有影响的重要交易和事项",
+      "block_id": "kweichow-moutai-2024-full_b2229",
+      "categories": [
+        "buyback",
+        "policy"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_118",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "截至本财务报告批准报出日，公司已累计回购股份 1,082,700 股，占公司总股本的比例为0.086%，购买的最高价为 1,584.06 元/股、最低价为 1,417.01 元/股，已支付的总金额为1,598,768,542.16 元（不含交易费用）",
+      "page_no": 137,
+      "section": "1、 其他对投资者决策有影响的重要交易和事项",
+      "block_id": "kweichow-moutai-2024-full_b2232",
+      "categories": [
+        "buyback"
+      ]
+    },
+    {
+      "fact_id": "kweichow-moutai-2024-full_fact_119",
+      "doc_id": "kweichow-moutai-2024-full",
+      "source": "kweichow_moutai_2024_annual_report.pdf",
+      "text": "本期坏账准备计提金额以及评估金融工具的信用风险是否显著增加的采用依据：□适用 √不适用",
+      "page_no": 139,
+      "section": "(3).坏账准备计提情况",
+      "block_id": "kweichow-moutai-2024-full_b2278",
+      "categories": [
+        "risk"
+      ]
+    }
+  ]
+}

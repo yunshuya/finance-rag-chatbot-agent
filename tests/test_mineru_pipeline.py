@@ -158,7 +158,8 @@ class MinerUPipelineTest(unittest.TestCase):
             self.assertEqual(parsed["blocks"][0]["page_no"], 11)
             self.assertEqual(parsed["blocks"][0]["section"], "第三节 管理层讨论与分析")
             self.assertEqual(parsed["blocks"][1]["section"], "第三节 管理层讨论与分析")
-            self.assertTrue(parsed["blocks"][2]["text"].startswith("<table>"))
+            self.assertIn("| Revenue | 100 |", parsed["blocks"][2]["text"])
+            self.assertTrue(parsed["blocks"][2]["text_html"].startswith("<table>"))
             self.assertEqual(parsed["blocks"][2]["table_id"], "doc-1_t1")
             self.assertEqual(parsed["blocks"][2]["table_caption"], "主要财务数据")
             self.assertEqual(parsed["blocks"][2]["asset_path"], "tables/table-1.jpg")
@@ -203,7 +204,7 @@ class MinerUPipelineTest(unittest.TestCase):
         self.assertGreaterEqual(len(chunks), 3)
         table_chunks = [doc for doc in chunks if doc.metadata["block_type"] == "table"]
         self.assertEqual(len(table_chunks), 1)
-        self.assertTrue(table_chunks[0].page_content.startswith("<table>"))
+        self.assertIn("| Cash | 20 |", table_chunks[0].page_content)
         self.assertEqual(
             table_chunks[0].metadata,
             {
@@ -216,6 +217,7 @@ class MinerUPipelineTest(unittest.TestCase):
                 "pre_chunked": True,
                 "block_id": "b2",
                 "table_id": "doc-1_t1",
+                "table_summary": "Financial statements；表头字段: Cash、20",
                 "section": "Financial statements",
                 "asset_path": "tables/cash.jpg",
                 "page_start": 2,

@@ -9,6 +9,12 @@ warnings.filterwarnings("ignore", category=FutureWarning)
 import os, glob
 from pathlib import Path
 
+from dotenv import load_dotenv
+
+load_dotenv(Path(__file__).resolve().parent / ".env")
+DEEPSEEK_API_KEY_ENV = os.getenv("DEEPSEEK_API_KEY", "")
+DEEPSEEK_BASE_URL = os.getenv("DEEPSEEK_BASE_URL", "https://api.deepseek.com")
+
 # Import openai and google_genai as main LLM services
 from langchain_openai import OpenAIEmbeddings, ChatOpenAI
 from langchain_google_genai import ChatGoogleGenerativeAI
@@ -63,8 +69,14 @@ import streamlit as st
 
 from rag_pipeline import (
     BgeM3Embeddings,
+    BgeReranker,
+    FinanceHybridRetriever,
+    RoutedDualIndexRetriever,
     build_chunks,
+    build_dual_chroma_index,
     compute_file_sha256,
+    has_dual_chroma_index,
+    load_dual_chroma_index,
     make_doc_id,
     normalize_mineru_content,
     run_mineru,
@@ -75,6 +87,7 @@ from rag_pipeline.normalizer import write_normalized_json
 #              Config: LLM services, assistant language,...
 ####################################################################
 list_LLM_providers = [
+    "**DeepSeek**",
     ":rainbow[**OpenAI**]",
     "**Google Generative AI**",
     ":hugging_face: **HuggingFace**",
@@ -94,6 +107,8 @@ dict_welcome_message = {
 }
 
 list_retriever_types = [
+    "Routed dual-index retriever",
+    "Finance hybrid retriever",
     "Cohere reranker",
     "Contextual compression",
     "Vectorstore backed retriever",
@@ -128,11 +143,116 @@ st.set_page_config(page_title="Chat With Your Data")
 
 st.title("🤖 RAG chatbot")
 
-# API keys
-st.session_state.openai_api_key = ""
-st.session_state.google_api_key = ""
-st.session_state.cohere_api_key = ""
-st.session_state.hf_api_key = ""
+
+def init_session_state():
+    """Initialize Streamlit session keys once per browser session."""
+    defaults = {
+        "openai_api_key": "",
+        "google_api_key": "",
+        "cohere_api_key": "",
+        "hf_api_key": "",
+        "deepseek_api_key": DEEPSEEK_API_KEY_ENV,
+        "chain": None,
+        "memory": None,
+        "retriever": None,
+        "vector_store": None,
+        "dual_index": None,
+        "selected_vectorstore_name": "",
+        "vector_store_name": "",
+        "error_message": "",
+        "assistant_language": "chinese",
+        "embedding_model": list_embedding_models[0],
+        "retriever_type": list_retriever_types[0],
+    }
+    for key, value in defaults.items():
+        if key not in st.session_state:
+            st.session_state[key] = value
+
+
+def is_vectorstore_ready():
+    return st.session_state.get("chain") is not None
+
+
+def has_llm_api_key():
+    return bool(
+        st.session_state.openai_api_key
+        or st.session_state.google_api_key
+        or st.session_state.hf_api_key
+        or st.session_state.deepseek_api_key
+    )
+
+
+def list_local_vectorstores():
+    """List persisted Chroma directories under data/vector_stores."""
+    if not LOCAL_VECTOR_STORE_DIR.exists():
+        return []
+    stores = []
+    for path in sorted(LOCAL_VECTOR_STORE_DIR.iterdir()):
+        if path.is_dir() and not path.name.startswith("."):
+            stores.append(path)
+    return stores
+
+
+def load_vectorstore_from_path(selected_vectorstore_path):
+    """Load Chroma / dual-index retriever from a persisted directory."""
+    selected_vectorstore_path = Path(selected_vectorstore_path)
+    st.session_state.selected_vectorstore_name = selected_vectorstore_path.name
+    embeddings = select_embeddings_model()
+    collection_name = selected_vectorstore_path.name
+    dual_index = None
+    if st.session_state.retriever_type == list_retriever_types[0]:
+        if not has_dual_chroma_index(selected_vectorstore_path, collection_name):
+            st.error(
+                "该向量库尚未构建双索引。请使用 "
+                "`scripts/build_finance_vectorstore.py --dual-index` "
+                "或重新 ingest 文档。"
+            )
+            return
+        dual_index = load_dual_chroma_index(
+            selected_vectorstore_path,
+            embeddings=embeddings,
+            collection_name=collection_name,
+        )
+        st.session_state.dual_index = dual_index
+        st.session_state.vector_store = None
+    else:
+        st.session_state.dual_index = None
+        st.session_state.vector_store = Chroma(
+            embedding_function=embeddings,
+            persist_directory=str(selected_vectorstore_path),
+        )
+
+    st.session_state.retriever = create_retriever(
+        vector_store=st.session_state.vector_store,
+        dual_index=dual_index,
+        embeddings=embeddings,
+        retriever_type=st.session_state.retriever_type,
+        base_retriever_search_type="similarity",
+        base_retriever_k=16,
+        compression_retriever_k=20,
+        cohere_api_key=st.session_state.cohere_api_key,
+        cohere_model="rerank-multilingual-v2.0",
+        cohere_top_n=10,
+    )
+    st.session_state.chain, st.session_state.memory = create_ConversationalRetrievalChain(
+        retriever=st.session_state.retriever,
+        chain_type="stuff",
+        language=st.session_state.assistant_language,
+    )
+    clear_chat_history()
+    st.info(f"**{st.session_state.selected_vectorstore_name}** is loaded successfully.")
+
+
+def create_deepseek_llm(model, temperature, top_p=None):
+    kwargs = {
+        "model": model,
+        "api_key": st.session_state.deepseek_api_key,
+        "base_url": DEEPSEEK_BASE_URL,
+        "temperature": temperature,
+    }
+    if top_p is not None:
+        kwargs["model_kwargs"] = {"top_p": top_p}
+    return ChatOpenAI(**kwargs)
 
 
 def expander_model_parameters(
@@ -143,12 +263,24 @@ def expander_model_parameters(
     """Add a text_input (for API key) and a streamlit expander containing models and parameters."""
     st.session_state.LLM_provider = LLM_provider
 
+    if LLM_provider == "DeepSeek":
+        st.session_state.deepseek_api_key = st.text_input(
+            text_input_API_key,
+            value=st.session_state.deepseek_api_key,
+            type="password",
+            placeholder="insert your API key",
+        )
+        st.session_state.openai_api_key = ""
+        st.session_state.google_api_key = ""
+        st.session_state.hf_api_key = ""
+
     if LLM_provider == "OpenAI":
         st.session_state.openai_api_key = st.text_input(
             text_input_API_key,
             type="password",
             placeholder="insert your API key",
         )
+        st.session_state.deepseek_api_key = ""
         st.session_state.google_api_key = ""
         st.session_state.hf_api_key = ""
 
@@ -159,6 +291,7 @@ def expander_model_parameters(
             placeholder="insert your API key",
         )
         st.session_state.openai_api_key = ""
+        st.session_state.deepseek_api_key = ""
         st.session_state.hf_api_key = ""
 
     if LLM_provider == "HuggingFace":
@@ -169,6 +302,7 @@ def expander_model_parameters(
         )
         st.session_state.openai_api_key = ""
         st.session_state.google_api_key = ""
+        st.session_state.deepseek_api_key = ""
 
     with st.expander("**Models and parameters**"):
         st.session_state.selected_model = st.selectbox(
@@ -206,6 +340,7 @@ def sidebar_and_documentChooser():
             "Select provider",
             list_LLM_providers,
             captions=[
+                "[DeepSeek platform](https://platform.deepseek.com/)",
                 "[OpenAI pricing page](https://openai.com/pricing)",
                 "Rate limit: 60 requests per minute.",
                 "**Free access.**",
@@ -214,6 +349,13 @@ def sidebar_and_documentChooser():
 
         st.divider()
         if llm_chooser == list_LLM_providers[0]:
+            expander_model_parameters(
+                LLM_provider="DeepSeek",
+                text_input_API_key="DeepSeek API Key - [Get an API key](https://platform.deepseek.com/api_keys)",
+                list_models=["deepseek-chat", "deepseek-reasoner"],
+            )
+
+        if llm_chooser == list_LLM_providers[1]:
             expander_model_parameters(
                 LLM_provider="OpenAI",
                 text_input_API_key="OpenAI API Key - [Get an API key](https://platform.openai.com/account/api-keys)",
@@ -224,13 +366,13 @@ def sidebar_and_documentChooser():
                 ],
             )
 
-        if llm_chooser == list_LLM_providers[1]:
+        if llm_chooser == list_LLM_providers[2]:
             expander_model_parameters(
                 LLM_provider="Google",
                 text_input_API_key="Google API Key - [Get an API key](https://makersuite.google.com/app/apikey)",
                 list_models=["gemini-pro"],
             )
-        if llm_chooser == list_LLM_providers[2]:
+        if llm_chooser == list_LLM_providers[3]:
             expander_model_parameters(
                 LLM_provider="HuggingFace",
                 text_input_API_key="HuggingFace API key - [Get an API key](https://huggingface.co/settings/tokens)",
@@ -261,11 +403,16 @@ def sidebar_and_documentChooser():
             f"Select retriever type", retrievers
         )
         st.write("")
-        if st.session_state.retriever_type == list_retriever_types[0]:  # Cohere
+        if st.session_state.retriever_type == list_retriever_types[2]:  # Cohere
             st.session_state.cohere_api_key = st.text_input(
                 "Coher API Key - [Get an API key](https://dashboard.cohere.com/api-keys)",
                 type="password",
                 placeholder="insert your API key",
+            )
+
+        if st.session_state.retriever_type == list_retriever_types[0]:
+            st.caption(
+                "Routed dual-index retriever 会根据问题类型在表格索引与文本索引之间动态路由。"
             )
 
         st.write("\n\n")
@@ -301,100 +448,51 @@ def sidebar_and_documentChooser():
             pass
 
     with tab_open_vectorstore:
-        # Open a saved Vectorstore
-        # https://github.com/streamlit/streamlit/issues/1019
-        st.write("Please select a Vectorstore:")
-        import tkinter as tk
-        from tkinter import filedialog
+        st.write("请选择 `data/vector_stores/` 下已保存的向量库：")
+        available_stores = list_local_vectorstores()
+        if not available_stores:
+            st.info(
+                f"暂无可用向量库。请先创建向量库，或将已有 Chroma 目录放入 "
+                f"`{LOCAL_VECTOR_STORE_DIR}`。"
+            )
+        else:
+            store_options = {path.name: path for path in available_stores}
+            default_index = 0
+            if "moutai_2024_bge_m3" in store_options:
+                default_index = list(store_options.keys()).index("moutai_2024_bge_m3")
+            selected_name = st.selectbox(
+                "Vectorstore",
+                options=list(store_options.keys()),
+                index=default_index,
+            )
+            if st.button("Load Vectorstore"):
+                error_messages = []
+                if not has_llm_api_key():
+                    error_messages.append(
+                        f"insert your {st.session_state.LLM_provider} API key"
+                    )
+                if (
+                    st.session_state.retriever_type == list_retriever_types[2]
+                    and not st.session_state.cohere_api_key
+                ):
+                    error_messages.append("insert your Cohere API key")
 
-        clicked = st.button("Vectorstore chooser")
-        root = tk.Tk()
-        root.withdraw()
-        root.wm_attributes("-topmost", 1)  # Make dialog appear on top of other windows
-
-        st.session_state.selected_vectorstore_name = ""
-
-        if clicked:
-            # Check inputs
-            error_messages = []
-            if (
-                not st.session_state.openai_api_key
-                and not st.session_state.google_api_key
-                and not st.session_state.hf_api_key
-            ):
-                error_messages.append(
-                    f"insert your {st.session_state.LLM_provider} API key"
-                )
-
-            if (
-                st.session_state.retriever_type == list_retriever_types[0]
-                and not st.session_state.cohere_api_key
-            ):
-                error_messages.append(f"insert your Cohere API key")
-
-            if len(error_messages) == 1:
-                st.session_state.error_message = "Please " + error_messages[0] + "."
-                st.warning(st.session_state.error_message)
-            elif len(error_messages) > 1:
-                st.session_state.error_message = (
-                    "Please "
-                    + ", ".join(error_messages[:-1])
-                    + ", and "
-                    + error_messages[-1]
-                    + "."
-                )
-                st.warning(st.session_state.error_message)
-
-            # if API keys are inserted, start loading Chroma index, then create retriever and ConversationalRetrievalChain
-            else:
-                selected_vectorstore_path = filedialog.askdirectory(master=root)
-
-                if selected_vectorstore_path == "":
-                    st.info("Please select a valid path.")
-
+                if len(error_messages) == 1:
+                    st.session_state.error_message = "Please " + error_messages[0] + "."
+                    st.warning(st.session_state.error_message)
+                elif len(error_messages) > 1:
+                    st.session_state.error_message = (
+                        "Please "
+                        + ", ".join(error_messages[:-1])
+                        + ", and "
+                        + error_messages[-1]
+                        + "."
+                    )
+                    st.warning(st.session_state.error_message)
                 else:
                     with st.spinner("Loading vectorstore..."):
-                        st.session_state.selected_vectorstore_name = (
-                            selected_vectorstore_path.split("/")[-1]
-                        )
                         try:
-                            # 1. load Chroma vectorestore
-                            embeddings = select_embeddings_model()
-                            st.session_state.vector_store = Chroma(
-                                embedding_function=embeddings,
-                                persist_directory=selected_vectorstore_path,
-                            )
-
-                            # 2. create retriever
-                            st.session_state.retriever = create_retriever(
-                                vector_store=st.session_state.vector_store,
-                                embeddings=embeddings,
-                                retriever_type=st.session_state.retriever_type,
-                                base_retriever_search_type="similarity",
-                                base_retriever_k=16,
-                                compression_retriever_k=20,
-                                cohere_api_key=st.session_state.cohere_api_key,
-                                cohere_model="rerank-multilingual-v2.0",
-                                cohere_top_n=10,
-                            )
-
-                            # 3. create memory and ConversationalRetrievalChain
-                            (
-                                st.session_state.chain,
-                                st.session_state.memory,
-                            ) = create_ConversationalRetrievalChain(
-                                retriever=st.session_state.retriever,
-                                chain_type="stuff",
-                                language=st.session_state.assistant_language,
-                            )
-
-                            # 4. clear chat_history
-                            clear_chat_history()
-
-                            st.info(
-                                f"**{st.session_state.selected_vectorstore_name}** is loaded successfully."
-                            )
-
+                            load_vectorstore_from_path(store_options[selected_name])
                         except Exception as e:
                             st.error(e)
 
@@ -498,6 +596,9 @@ def select_embeddings_model():
     if st.session_state.get("embedding_model") == "Local BGE-M3":
         return BgeM3Embeddings(cache_dir=MODEL_CACHE_DIR)
 
+    if st.session_state.LLM_provider == "DeepSeek":
+        return BgeM3Embeddings(cache_dir=MODEL_CACHE_DIR)
+
     if st.session_state.LLM_provider == "OpenAI":
         embeddings = OpenAIEmbeddings(api_key=st.session_state.openai_api_key)
 
@@ -514,9 +615,61 @@ def select_embeddings_model():
     return embeddings
 
 
+def create_rewrite_llm():
+    """Create a lightweight LLM used for finance query rewriting."""
+    if st.session_state.LLM_provider == "DeepSeek":
+        return create_deepseek_llm(
+            model=st.session_state.selected_model,
+            temperature=0.0,
+        )
+    if st.session_state.LLM_provider == "OpenAI":
+        return ChatOpenAI(
+            api_key=st.session_state.openai_api_key,
+            model=st.session_state.selected_model,
+            temperature=0.0,
+        )
+    if st.session_state.LLM_provider == "Google":
+        return ChatGoogleGenerativeAI(
+            google_api_key=st.session_state.google_api_key,
+            model=st.session_state.selected_model,
+            temperature=0.0,
+            convert_system_message_to_human=True,
+        )
+    return None
+
+
+def create_finance_hybrid_retriever(vector_store, enable_llm_rewrite=True):
+    reranker = None
+    if st.session_state.get("embedding_model") == "Local BGE-M3":
+        reranker = BgeReranker(cache_dir=MODEL_CACHE_DIR)
+    return FinanceHybridRetriever(
+        vectorstore=vector_store,
+        llm=create_rewrite_llm() if enable_llm_rewrite else None,
+        reranker=reranker,
+        vector_k=24,
+        final_k=10,
+        min_confidence_score=0.22,
+    )
+
+
+def create_routed_dual_index_retriever(dual_index, enable_llm_rewrite=True):
+    reranker = None
+    if st.session_state.get("embedding_model") == "Local BGE-M3":
+        reranker = BgeReranker(cache_dir=MODEL_CACHE_DIR)
+    return RoutedDualIndexRetriever(
+        dual_index=dual_index,
+        llm=create_rewrite_llm() if enable_llm_rewrite else None,
+        reranker=reranker,
+        vector_k=24,
+        final_k=10,
+        min_confidence_score=0.22,
+    )
+
+
 def create_retriever(
-    vector_store,
-    embeddings,
+    vector_store=None,
+    dual_index=None,
+    embeddings=None,
     retriever_type="Contextual compression",
     base_retriever_search_type="semilarity",
     base_retriever_k=16,
@@ -550,6 +703,16 @@ def create_retriever(
         cohere_top_n: top n documents returned bu Cohere, default = 10
 
     """
+
+    if retriever_type == "Routed dual-index retriever":
+        if dual_index is None:
+            raise ValueError("Routed dual-index retriever requires a dual Chroma index.")
+        return create_routed_dual_index_retriever(dual_index)
+
+    if retriever_type == "Finance hybrid retriever":
+        if vector_store is None:
+            raise ValueError("Finance hybrid retriever requires a vector store.")
+        return create_finance_hybrid_retriever(vector_store)
 
     base_retriever = Vectorstore_backed_retriever(
         vectorstore=vector_store,
@@ -682,17 +845,13 @@ def chain_RAG_blocks():
     with st.spinner("Creating vectorstore..."):
         # Check inputs
         error_messages = []
-        if (
-            not st.session_state.openai_api_key
-            and not st.session_state.google_api_key
-            and not st.session_state.hf_api_key
-        ):
+        if not has_llm_api_key():
             error_messages.append(
                 f"insert your {st.session_state.LLM_provider} API key"
             )
 
         if (
-            st.session_state.retriever_type == list_retriever_types[0]
+            st.session_state.retriever_type == list_retriever_types[2]
             and not st.session_state.cohere_api_key
         ):
             error_messages.append(f"insert your Cohere API key")
@@ -753,13 +912,26 @@ def chain_RAG_blocks():
                             embedding=embeddings,
                             persist_directory=persist_directory,
                         )
+                        st.session_state.dual_index = build_dual_chroma_index(
+                            chunks,
+                            persist_dir=persist_directory,
+                            embeddings=embeddings,
+                            collection_name=st.session_state.vector_store_name,
+                        )
                         st.info(
                             f"Vectorstore **{st.session_state.vector_store_name}** is created succussfully."
                         )
 
                         # 7. Create retriever
+                        dual_index = (
+                            st.session_state.dual_index
+                            if st.session_state.retriever_type
+                            == list_retriever_types[0]
+                            else None
+                        )
                         st.session_state.retriever = create_retriever(
                             vector_store=st.session_state.vector_store,
+                            dual_index=dual_index,
                             embeddings=embeddings,
                             retriever_type=st.session_state.retriever_type,
                             base_retriever_search_type="similarity",
@@ -834,6 +1006,8 @@ def answer_template(language="english"):
     to the `LLM` wihch will answer."""
 
     template = f"""Answer the question at the end, using only the following context (delimited by <context></context>).
+If the context is empty or insufficient, clearly say that the annual report does not contain enough evidence and do not guess numbers.
+When citing evidence, mention file name, page number, and section when available.
 Your answer must be in the language at the end. 
 
 <context>
@@ -847,6 +1021,19 @@ Question: {{question}}
 Language: {language}.
 """
     return template
+
+
+def finance_condense_question_template():
+    return """你是金融财报对话助手。请根据聊天历史，把追问改写成可独立检索年报的完整问题。
+必须尽量保留公司名、年份、财务指标（如净利润、营业收入、现金流）。
+使用中国A股年报中的常用表述，保持中文。
+
+Chat History:
+{chat_history}
+
+Follow Up Input: {question}
+
+Standalone question:"""
 
 
 def create_ConversationalRetrievalChain(
@@ -865,13 +1052,20 @@ def create_ConversationalRetrievalChain(
     # Pass the follow-up question along with the chat history to the `condense_question_llm`
     # which rephrases the question and generates a standalone question.
 
+    use_finance_condense = isinstance(
+        retriever, (FinanceHybridRetriever, RoutedDualIndexRetriever)
+    )
     condense_question_prompt = PromptTemplate(
         input_variables=["chat_history", "question"],
-        template="""Given the following conversation and a follow up question, 
+        template=(
+            finance_condense_question_template()
+            if use_finance_condense
+            else """Given the following conversation and a follow up question, 
 rephrase the follow up question to be a standalone question, in its original language.\n\n
 Chat History:\n{chat_history}\n
 Follow Up Input: {question}\n
-Standalone question:""",
+Standalone question:"""
+        ),
     )
 
     # 2. Define the answer_prompt
@@ -884,6 +1078,16 @@ Standalone question:""",
     memory = create_memory(st.session_state.selected_model)
 
     # 4. Instantiate LLMs: standalone_query_generation_llm & response_generation_llm
+    if st.session_state.LLM_provider == "DeepSeek":
+        standalone_query_generation_llm = create_deepseek_llm(
+            model=st.session_state.selected_model,
+            temperature=0.1,
+        )
+        response_generation_llm = create_deepseek_llm(
+            model=st.session_state.selected_model,
+            temperature=st.session_state.temperature,
+            top_p=st.session_state.top_p,
+        )
     if st.session_state.LLM_provider == "OpenAI":
         standalone_query_generation_llm = ChatOpenAI(
             api_key=st.session_state.openai_api_key,
@@ -969,9 +1173,31 @@ def clear_chat_history():
 def get_response_from_LLM(prompt):
     """invoke the LLM, get response, and display results (answer and source documents)."""
     try:
+        chain = st.session_state.get("chain")
+        if chain is None:
+            st.info(
+                "请先在侧边栏 **Open a saved Vectorstore** 中选择向量库并点击 "
+                "**Load Vectorstore**，或先 **Create Vectorstore** 完成入库。"
+            )
+            return
+
+        retriever = st.session_state.get("retriever")
+
         # 1. Invoke LLM
-        response = st.session_state.chain.invoke({"question": prompt})
+        response = chain.invoke({"question": prompt})
         answer = response["answer"]
+
+        if isinstance(
+            retriever, (FinanceHybridRetriever, RoutedDualIndexRetriever)
+        ) and (retriever.last_refused or not response.get("source_documents")):
+            answer = (
+                "未在已加载年报中找到足够相关的证据，系统已拒绝作答。"
+                f"（检索置信度 {retriever.last_top_score:.2f}，"
+                f"阈值 {retriever.min_confidence_score:.2f}）\n\n"
+                "请补充年份、公司名或财务指标名称后重试，"
+                "例如：「2024年归属于上市公司股东的净利润是多少？」"
+            )
+            response = {"answer": answer, "source_documents": []}
 
         if st.session_state.LLM_provider == "HuggingFace":
             answer = answer[answer.find("\nAnswer: ") + len("\nAnswer: ") :]
@@ -1023,6 +1249,22 @@ def format_source_documents(source_documents):
             lines.append(f"- Block type: `{metadata.get('block_type')}`")
         if metadata.get("table_id"):
             lines.append(f"- Table ID: `{metadata.get('table_id')}`")
+        if metadata.get("table_summary"):
+            lines.append(f"- Table summary: {metadata.get('table_summary')}")
+        if metadata.get("extracted_facts"):
+            lines.append(f"- Extracted facts: {metadata.get('extracted_facts')}")
+        if metadata.get("retrieval_score") is not None:
+            lines.append(f"- Retrieval score: {metadata.get('retrieval_score')}")
+        if metadata.get("rerank_score") is not None:
+            lines.append(f"- Rerank score: {metadata.get('rerank_score')}")
+        if metadata.get("route_intent"):
+            lines.append(f"- Route intent: `{metadata.get('route_intent')}`")
+        if metadata.get("index_name"):
+            lines.append(f"- Index: `{metadata.get('index_name')}`")
+        if metadata.get("categories"):
+            lines.append(f"- Categories: `{metadata.get('categories')}`")
+        if metadata.get("fact_id"):
+            lines.append(f"- Fact ID: `{metadata.get('fact_id')}`")
         if metadata.get("asset_path"):
             lines.append(f"- Asset: `{metadata.get('asset_path')}`")
         lines.append(f"> {preview}")
@@ -1035,6 +1277,7 @@ def format_source_documents(source_documents):
 #                         Chatbot
 ####################################################################
 def chatbot():
+    init_session_state()
     sidebar_and_documentChooser()
     st.divider()
     col1, col2 = st.columns([7, 3])
@@ -1042,6 +1285,18 @@ def chatbot():
         st.subheader("Chat with your data")
     with col2:
         st.button("Clear Chat History", on_click=clear_chat_history)
+
+    if is_vectorstore_ready():
+        loaded_name = st.session_state.get("selected_vectorstore_name") or st.session_state.get(
+            "vector_store_name", ""
+        )
+        if loaded_name:
+            st.caption(f"已加载向量库：`{loaded_name}`")
+    else:
+        st.warning(
+            "尚未加载向量库。请先在侧边栏 **Open a saved Vectorstore** 选择 "
+            "`moutai_2024_bge_m3` 并点击 **Load Vectorstore**。"
+        )
 
     if "messages" not in st.session_state:
         st.session_state["messages"] = [
@@ -1054,13 +1309,14 @@ def chatbot():
         st.chat_message(msg["role"]).write(msg["content"])
 
     if prompt := st.chat_input():
-        if (
-            not st.session_state.openai_api_key
-            and not st.session_state.google_api_key
-            and not st.session_state.hf_api_key
-        ):
+        if not has_llm_api_key():
             st.info(
                 f"Please insert your {st.session_state.LLM_provider} API key to continue."
+            )
+            st.stop()
+        if not is_vectorstore_ready():
+            st.info(
+                "请先在侧边栏加载向量库后再提问。"
             )
             st.stop()
         with st.spinner("Running..."):

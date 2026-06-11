@@ -1,5 +1,7 @@
 from dataclasses import dataclass
 
+from .table_utils import enrich_table_block
+
 try:
     from langchain.schema import Document
 except ImportError:
@@ -19,8 +21,21 @@ STRUCTURAL_BLOCK_TYPES = {
 }
 
 
+def prepare_parsed_doc(parsed_doc):
+    """Ensure legacy parsed JSON also gets table markdown enrichment."""
+    prepared = dict(parsed_doc)
+    prepared_blocks = []
+    for block in parsed_doc.get("blocks", []):
+        if block.get("type") == "table" and not block.get("text_markdown"):
+            block = enrich_table_block(dict(block))
+        prepared_blocks.append(block)
+    prepared["blocks"] = prepared_blocks
+    return prepared
+
+
 def build_chunks(parsed_doc, chunk_size=1000, chunk_overlap=150):
     """Build retrieval-ready LangChain Documents from normalized MinerU JSON."""
+    parsed_doc = prepare_parsed_doc(parsed_doc)
     chunks = []
     buffer = []
     buffer_meta = None
@@ -90,7 +105,7 @@ def _make_document(parsed_doc, block, text, chunk_number):
         "chunk_id": f"{parsed_doc['doc_id']}_chunk_{chunk_number}",
         "pre_chunked": True,
     }
-    for field in ("block_id", "table_id", "section", "asset_path"):
+    for field in ("block_id", "table_id", "section", "asset_path", "table_summary"):
         value = block.get(field)
         if value:
             metadata[field] = value

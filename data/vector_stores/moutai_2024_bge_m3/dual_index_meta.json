@@ -1,0 +1,9 @@
+{
+  "collection_name": "moutai_2024_bge_m3",
+  "table_collection": "moutai_2024_bge_m3__tables",
+  "text_collection": "moutai_2024_bge_m3__text",
+  "table_count": 233,
+  "text_count": 676,
+  "fact_count": 119,
+  "total_count": 909
+}

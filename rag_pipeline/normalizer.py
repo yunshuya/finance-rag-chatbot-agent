@@ -4,6 +4,8 @@ from hashlib import sha256
 from collections import Counter
 from pathlib import Path
 
+from .table_utils import enrich_table_block
+
 
 SKIP_TYPES = {
     "header",
@@ -95,6 +97,9 @@ def normalize_mineru_content(
             value = _stringify_optional(block.get(source_field))
             if value:
                 normalized_block[target_field] = value
+
+        if block_type == "table":
+            normalized_block = enrich_table_block(normalized_block)
 
         blocks.append(normalized_block)
 

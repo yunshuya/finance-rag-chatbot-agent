@@ -1,0 +1,89 @@
+{
+  "dataset": "moutai_2024_retrieval_eval",
+  "description": "贵州茅台2024年报检索评测集（10条），用于 Hit@k 对比。",
+  "source_file": "kweichow_moutai_2024_annual_report.pdf",
+  "vectorstore_dir": "data/vector_stores/moutai_2024_bge_m3",
+  "collection_name": "moutai_2024_bge_m3",
+  "items": [
+    {
+      "id": "q01",
+      "question": "2024年归属于上市公司股东的净利润是多少？",
+      "expected_pages": [5],
+      "expected_sections": ["主要会计数据"],
+      "expected_answer_hint": "86,228,146,421.62元",
+      "category": "numeric"
+    },
+    {
+      "id": "q02",
+      "question": "2024年营业收入是多少？",
+      "expected_pages": [5, 8],
+      "expected_sections": ["主要会计数据", "利润表及现金流量表相关科目变动分析表"],
+      "expected_answer_hint": "170,899,152,276.34元",
+      "category": "numeric"
+    },
+    {
+      "id": "q03",
+      "question": "2024年基本每股收益是多少？",
+      "expected_pages": [5],
+      "expected_sections": ["主要财务指标"],
+      "expected_answer_hint": "68.64元/股",
+      "category": "numeric"
+    },
+    {
+      "id": "q04",
+      "question": "2024年经营活动产生的现金流量净额是多少？",
+      "expected_pages": [5, 6],
+      "expected_sections": ["主要会计数据", "分季度主要财务数据"],
+      "expected_answer_hint": "92,463,692,168.43元",
+      "category": "numeric"
+    },
+    {
+      "id": "q05",
+      "question": "2024年第四季度归属于上市公司股东的净利润是多少？",
+      "expected_pages": [6],
+      "expected_sections": ["分季度主要财务数据"],
+      "expected_answer_hint": "25,400,594,303.11元",
+      "category": "numeric"
+    },
+    {
+      "id": "q06",
+      "question": "2024年年度利润分配预案中每10股派发现金红利多少元？",
+      "expected_pages": [2],
+      "expected_sections": ["利润分配预案"],
+      "expected_answer_hint": "276.24元",
+      "category": "numeric"
+    },
+    {
+      "id": "q07",
+      "question": "2024年加权平均净资产收益率是多少？",
+      "expected_pages": [5],
+      "expected_sections": ["主要财务指标"],
+      "expected_answer_hint": "36.02%",
+      "category": "numeric"
+    },
+    {
+      "id": "q08",
+      "question": "2024年销售费用是多少？",
+      "expected_pages": [8, 11],
+      "expected_sections": ["利润表及现金流量表相关科目变动分析表"],
+      "expected_answer_hint": "5,639,300,059.49元",
+      "category": "numeric"
+    },
+    {
+      "id": "q09",
+      "question": "2024年研发投入情况如何？",
+      "expected_pages": [11],
+      "expected_sections": ["研发投入"],
+      "expected_answer_hint": "研发投入情况表",
+      "category": "text"
+    },
+    {
+      "id": "q10",
+      "question": "公司2024年股份回购计划的金额范围是多少？",
+      "expected_pages": [8],
+      "expected_sections": ["报告期内主要经营情况"],
+      "expected_answer_hint": "不低于30亿元且不超过60亿元",
+      "category": "text"
+    }
+  ]
+}

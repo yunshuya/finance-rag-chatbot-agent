@@ -9,6 +9,7 @@ if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
 from rag_pipeline.chunker import build_chunks
+from rag_pipeline.dual_index import build_dual_chroma_index
 from rag_pipeline.mineru_parser import run_mineru
 from rag_pipeline.normalizer import (
     compute_file_sha256,
@@ -122,6 +123,14 @@ def ingest_pdfs(
                     embeddings=embeddings,
                     collection_name=collection_name,
                     reset_collection=reset_next_success,
+                )
+                build_dual_chroma_index(
+                    chunks,
+                    persist_dir=vectorstore_dir,
+                    embeddings=embeddings,
+                    collection_name=collection_name,
+                    reset_collection=reset_next_success,
+                    parsed_docs=[parsed_doc],
                 )
                 stored_vectors = vectorstore.count()
                 reset_next_success = False

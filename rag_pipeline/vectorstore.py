@@ -173,18 +173,24 @@ class ChromaVectorStore:
         self.embeddings = embeddings
 
     def similarity_search(self, query, k=4):
+        return [document for document, _ in self.similarity_search_with_scores(query, k=k)]
+
+    def similarity_search_with_scores(self, query, k=4):
         results = self.collection.query(
             query_embeddings=[self.embeddings.embed_query(query)],
             n_results=k,
             include=["documents", "metadatas", "distances"],
         )
+        documents = results.get("documents", [[]])[0]
+        metadatas = results.get("metadatas", [[]])[0]
+        distances = results.get("distances", [[]])[0]
         return [
-            Document(page_content=text, metadata=metadata or {})
-            for text, metadata in zip(
-                results.get("documents", [[]])[0],
-                results.get("metadatas", [[]])[0],
-            )
+            (Document(page_content=text, metadata=metadata or {}), float(distance))
+            for text, metadata, distance in zip(documents, metadatas, distances)
         ]
+
+    def similarity_search_with_score(self, query, k=4):
+        return self.similarity_search_with_scores(query, k=k)
 
     def count(self):
         return self.collection.count()
