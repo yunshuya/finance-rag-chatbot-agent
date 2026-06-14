@@ -2,7 +2,26 @@
 
 > **课程项目**：《非结构化数据处理》期末 Project  
 > **路径**：Option 1 — 工程应用路径（Business App）  
-> **方向**：大模型知识库问答（RAG）
+> **方向**：大模型知识库问答（RAG）  
+> **仓库**：[yunshuya/finance-rag-chatbot-agent](https://github.com/yunshuya/finance-rag-chatbot-agent)  
+> **本分支**：`rag-nk-local`（在课程 Streamlit RAG 模板 `main` 基础上完成的财报场景改造）
+
+## 0. 仓库与分支说明
+
+本 README 对应 **`rag-nk-local` 分支**，不是远程 `main` 上的英文课程模板版。
+
+```bash
+git clone https://github.com/yunshuya/finance-rag-chatbot-agent.git
+cd finance-rag-chatbot-agent
+git checkout rag-nk-local
+```
+
+| 分支 | 定位 | 适合谁 |
+| --- | --- | --- |
+| `main` | 课程下发的 LangChain Streamlit RAG **原始模板**（英文 README、通用文档问答） | 对照课程起点、查看模板结构 |
+| `rag-nk-local` | 面向财报场景的**完整工程改造版**（本文件） | 直接演示、复现检索优化与 Docker 部署 |
+
+`main` 分支仅保留 `RAG_app.py`、`RAG_notebook.ipynb`、`requirements.txt` 及演示向量库 `Vit_All_HF_Embeddings`；`rag-nk-local` 在其上新增 `rag_pipeline/`、`scripts/`、`tests/`、`docs/`、`Dockerfile` 等模块，并将预置向量库替换为茅台 2024 年报 BGE-M3 双索引。
 
 ## 1. 项目概述
 
@@ -14,7 +33,24 @@
 - 针对财报场景优化检索：表格增强、混合检索、查询路由、双索引、轻量 Fact Store、Reranker、置信度拒答。
 - 通过 Streamlit 提供交互式演示界面，并提供 Dockerfile 支持一键容器化运行。
 
-**演示数据**：仓库内已包含贵州茅台 2024 年报的归一化 JSON、双索引向量库（909 chunks + 119 条政策事实）及检索评测集，克隆后可直接演示问答。
+**演示数据**：仓库内已包含贵州茅台 2024 年报的归一化 JSON、双索引向量库（909 chunks = 233 表格 + 676 文本，另含 119 条 Fact Store 政策事实）及检索评测集，克隆后可直接演示问答。
+
+### 1.1 与 `main` 分支的主要差异
+
+| 维度 | `main`（课程模板） | `rag-nk-local`（本分支） |
+| --- | --- | --- |
+| 文档语言 | 英文通用 RAG 说明 | 中文课程交付文档 |
+| 应用场景 | 任意 txt/pdf/csv/docx 上传问答 | 年报、财报、公告等**表格密集、数值敏感**长文档 |
+| PDF 解析 | `PyPDFLoader` 等基础 Loader | **MinerU** 解析 + `normalizer` 归一化 + 章节感知 chunk |
+| Embedding | HuggingFace API / Provider 默认 | **本地 BGE-M3**（`data/model_cache/` 缓存） |
+| 预置向量库 | `Vit_All_HF_Embeddings` | `moutai_2024_bge_m3` 双索引 + `fact_store.json` |
+| 检索策略 | 向量检索 / Cohere Rerank / 上下文压缩 | **Query Router** + **双索引** + **混合检索** + **Fact Store** + BGE Reranker |
+| LLM 接入 | OpenAI / Google / HuggingFace | 上述保留，并新增 **DeepSeek**（推荐演示） |
+| 可信输出 | 基础来源展示 | 页码、章节、`retrieval_score` / `rerank_score`、低置信度拒答（阈值 0.22） |
+| 工程化 | 仅 `requirements.txt` | `Dockerfile`、`scripts/` 批处理与评测、`tests/`（30 项）、`docs/` 报告 |
+| 可复现评测 | 无 | `data/eval/moutai_2024_retrieval_eval.json`，Hit@5 = **90%** |
+
+保留自 `main` 的文件：`RAG_app.py`（大幅扩展）、`RAG_notebook.ipynb`、`requirements.txt`（增补 MinerU / BGE 等依赖）。
 
 ## 2. 课程算法与技术应用
 
@@ -48,7 +84,9 @@ PDF / 已归一化 JSON
 
 ```text
 RAG_app.py                 # Streamlit 前端与对话链
+RAG_notebook.ipynb         # 课程模板配套 Notebook（保留自 main）
 rag_pipeline/
+  mineru_parser.py         # MinerU CLI 封装与输出定位
   normalizer.py            # MinerU JSON 归一化
   chunker.py               # 财报感知切分
   vectorstore.py           # BGE-M3 Embedding + Chroma
@@ -87,8 +125,9 @@ docs/
 ### 5.1 克隆与安装
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/yunshuya/finance-rag-chatbot-agent.git
 cd finance-rag-chatbot-agent
+git checkout rag-nk-local
 
 python3.12 -m venv .venv
 source .venv/bin/activate        # Windows: .venv\Scripts\activate
@@ -117,7 +156,7 @@ streamlit run RAG_app.py
 | LLM Provider | **DeepSeek**（或 OpenAI / Google） |
 | Embedding | **Local BGE-M3** |
 | Retriever | **Routed dual-index retriever** |
-| Vector Store | 加载已有 `moutai_2024_bge_m3` |
+| Vector Store | 加载已有 `moutai_2024_bge_m3`（**勿选** `main` 分支遗留的 `Vit_All_HF_Embeddings`） |
 | Language | chinese |
 
 **示例问题**：
@@ -263,8 +302,8 @@ python -m unittest discover -s tests -v
 
 | 交付物 | 本仓库位置 | 状态 |
 | --- | --- | --- |
-| 可运行代码仓库 | 本仓库 | ✅ |
-| README.md | 本文件 | ✅ |
+| 可运行代码仓库 | 本仓库 `rag-nk-local` 分支 | ✅ |
+| README.md | 本文件（含与 `main` 对比说明） | ✅ |
 | Dockerfile | `Dockerfile` | ✅ |
 | Streamlit 前端 | `RAG_app.py` | ✅ |
 | 技术报告（3–5 页） | 课程系统单独提交 | 待提交 |
@@ -302,6 +341,10 @@ python -m unittest discover -s tests -v
 
 ## 13. 参考文献与开源声明
 
+**课程模板来源**（`main` 分支）：基于 [AlaGrine/RAG_chatabot_with_Langchain](https://github.com/AlaGrine/RAG_chatabot_with_Langchain) Streamlit RAG 模板改造。
+
+**本项目使用的主要开源组件**：
+
 - [LangChain](https://github.com/langchain-ai/langchain)
 - [Chroma](https://www.trychroma.com/)
 - [MinerU](https://github.com/opendatalab/MinerU)
@@ -313,9 +356,9 @@ python -m unittest discover -s tests -v
 
 | 成员 | 分工 |
 | --- | --- |
-| 成员 A | PDF 解析与数据预处理、向量库构建 |
-| 成员 B | 检索优化、评测与 Streamlit 集成 |
-| 成员 C | Docker 部署、鲁棒性测试、技术报告 |
+| 方妍 | PDF 解析与数据预处理、向量库构建 |
+| 牛珂 | 检索优化、评测与 Streamlit 集成 |
+| 朱婧怡 | Docker 部署、鲁棒性测试、技术报告 |
 
 ---
 
