@@ -1,0 +1,384 @@
+{
+    "pdf_info": [
+        {
+            "preproc_blocks": [
+                {
+                    "score": 0.6206,
+                    "bbox": [
+                        73,
+                        110,
+                        273,
+                        135
+                    ],
+                    "index": 1,
+                    "type": "title",
+                    "lines": [
+                        {
+                            "bbox": [
+                                73,
+                                108,
+                                274,
+                                136
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        73,
+                                        108,
+                                        274,
+                                        136
+                                    ],
+                                    "type": "text",
+                                    "content": "Scanned Finance Report",
+                                    "score": 0.999
+                                }
+                            ]
+                        }
+                    ],
+                    "level": 2
+                },
+                {
+                    "score": 0.9161,
+                    "bbox": [
+                        74,
+                        150,
+                        400,
+                        171
+                    ],
+                    "index": 2,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                75,
+                                152,
+                                399,
+                                168
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        75,
+                                        152,
+                                        399,
+                                        168
+                                    ],
+                                    "type": "text",
+                                    "content": "This page is rendered as an image, not selectable PDF text.",
+                                    "score": 0.986
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.8883,
+                    "bbox": [
+                        73,
+                        176,
+                        224,
+                        198
+                    ],
+                    "index": 3,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                74,
+                                178,
+                                221,
+                                195
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        74,
+                                        178,
+                                        221,
+                                        195
+                                    ],
+                                    "type": "text",
+                                    "content": "Revenue: 10o million yuan",
+                                    "score": 0.944
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.874,
+                    "bbox": [
+                        73,
+                        203,
+                        219,
+                        225
+                    ],
+                    "index": 4,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                74,
+                                205,
+                                215,
+                                222
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        74,
+                                        205,
+                                        215,
+                                        222
+                                    ],
+                                    "type": "text",
+                                    "content": "Net profit: 20 million yuan",
+                                    "score": 0.974
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9104,
+                    "bbox": [
+                        73,
+                        230,
+                        383,
+                        252
+                    ],
+                    "index": 5,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                74,
+                                233,
+                                382,
+                                249
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        74,
+                                        233,
+                                        382,
+                                        249
+                                    ],
+                                    "type": "text",
+                                    "content": " Expected result: OCR or image parsing may be required.",
+                                    "score": 0.986
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_idx": 0,
+            "page_size": [
+                595,
+                841
+            ],
+            "discarded_blocks": [],
+            "para_blocks": [
+                {
+                    "score": 0.6206,
+                    "bbox": [
+                        73,
+                        110,
+                        273,
+                        135
+                    ],
+                    "index": 1,
+                    "type": "title",
+                    "lines": [
+                        {
+                            "bbox": [
+                                73,
+                                108,
+                                274,
+                                136
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        73,
+                                        108,
+                                        274,
+                                        136
+                                    ],
+                                    "type": "text",
+                                    "content": "Scanned Finance Report",
+                                    "score": 0.999
+                                }
+                            ]
+                        }
+                    ],
+                    "level": 2
+                },
+                {
+                    "score": 0.9161,
+                    "bbox": [
+                        74,
+                        150,
+                        400,
+                        171
+                    ],
+                    "index": 2,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                75,
+                                152,
+                                399,
+                                168
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        75,
+                                        152,
+                                        399,
+                                        168
+                                    ],
+                                    "type": "text",
+                                    "content": "This page is rendered as an image, not selectable PDF text.",
+                                    "score": 0.986
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        75,
+                        152,
+                        399,
+                        168
+                    ]
+                },
+                {
+                    "score": 0.8883,
+                    "bbox": [
+                        73,
+                        176,
+                        224,
+                        198
+                    ],
+                    "index": 3,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                74,
+                                178,
+                                221,
+                                195
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        74,
+                                        178,
+                                        221,
+                                        195
+                                    ],
+                                    "type": "text",
+                                    "content": "Revenue: 10o million yuan",
+                                    "score": 0.944
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        74,
+                        178,
+                        221,
+                        195
+                    ]
+                },
+                {
+                    "score": 0.874,
+                    "bbox": [
+                        73,
+                        203,
+                        219,
+                        225
+                    ],
+                    "index": 4,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                74,
+                                205,
+                                215,
+                                222
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        74,
+                                        205,
+                                        215,
+                                        222
+                                    ],
+                                    "type": "text",
+                                    "content": "Net profit: 20 million yuan",
+                                    "score": 0.974
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        74,
+                        205,
+                        215,
+                        222
+                    ]
+                },
+                {
+                    "score": 0.9104,
+                    "bbox": [
+                        73,
+                        230,
+                        383,
+                        252
+                    ],
+                    "index": 5,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                74,
+                                233,
+                                382,
+                                249
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        74,
+                                        233,
+                                        382,
+                                        249
+                                    ],
+                                    "type": "text",
+                                    "content": " Expected result: OCR or image parsing may be required.",
+                                    "score": 0.986
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        74,
+                        233,
+                        382,
+                        249
+                    ]
+                }
+            ]
+        }
+    ],
+    "_backend": "pipeline",
+    "_version_name": "3.2.1"
+}

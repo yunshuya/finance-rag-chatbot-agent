@@ -1,0 +1,458 @@
+{
+    "pdf_info": [
+        {
+            "preproc_blocks": [
+                {
+                    "score": 0.9018,
+                    "bbox": [
+                        69,
+                        57,
+                        266,
+                        76
+                    ],
+                    "index": 1,
+                    "type": "title",
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                54,
+                                267,
+                                77
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        54,
+                                        267,
+                                        77
+                                    ],
+                                    "type": "text",
+                                    "content": "Text-only Finance Report",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "level": 2
+                },
+                {
+                    "score": 0.9324,
+                    "bbox": [
+                        69,
+                        99,
+                        277,
+                        114
+                    ],
+                    "index": 2,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                71,
+                                99,
+                                276,
+                                113
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        71,
+                                        99,
+                                        276,
+                                        113
+                                    ],
+                                    "type": "text",
+                                    "content": "This sample is a valid PDF without tables.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9348,
+                    "bbox": [
+                        69,
+                        121,
+                        344,
+                        136
+                    ],
+                    "index": 3,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                120,
+                                343,
+                                137
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        120,
+                                        343,
+                                        137
+                                    ],
+                                    "type": "text",
+                                    "content": "Revenue increased steadily during the reporting period.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9393,
+                    "bbox": [
+                        69,
+                        143,
+                        412,
+                        158
+                    ],
+                    "index": 4,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                142,
+                                412,
+                                158
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        142,
+                                        412,
+                                        158
+                                    ],
+                                    "type": "text",
+                                    "content": "Net profit improved because operating expenses remained controlled.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9362,
+                    "bbox": [
+                        69,
+                        165,
+                        372,
+                        179
+                    ],
+                    "index": 5,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                70,
+                                165,
+                                371,
+                                179
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        165,
+                                        371,
+                                        179
+                                    ],
+                                    "type": "text",
+                                    "content": "No tabular structure is intentionally included in this document.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9353,
+                    "bbox": [
+                        69,
+                        187,
+                        426,
+                        201
+                    ],
+                    "index": 6,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                70,
+                                186,
+                                426,
+                                201
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        186,
+                                        426,
+                                        201
+                                    ],
+                                    "type": "text",
+                                    "content": "Expected result: MinerU should parse text blocks and detect zero tables.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_idx": 0,
+            "page_size": [
+                595,
+                841
+            ],
+            "discarded_blocks": [],
+            "para_blocks": [
+                {
+                    "score": 0.9018,
+                    "bbox": [
+                        69,
+                        57,
+                        266,
+                        76
+                    ],
+                    "index": 1,
+                    "type": "title",
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                54,
+                                267,
+                                77
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        54,
+                                        267,
+                                        77
+                                    ],
+                                    "type": "text",
+                                    "content": "Text-only Finance Report",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "level": 2
+                },
+                {
+                    "score": 0.9324,
+                    "bbox": [
+                        69,
+                        99,
+                        277,
+                        114
+                    ],
+                    "index": 2,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                71,
+                                99,
+                                276,
+                                113
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        71,
+                                        99,
+                                        276,
+                                        113
+                                    ],
+                                    "type": "text",
+                                    "content": "This sample is a valid PDF without tables.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        71,
+                        99,
+                        276,
+                        113
+                    ]
+                },
+                {
+                    "score": 0.9348,
+                    "bbox": [
+                        69,
+                        121,
+                        344,
+                        136
+                    ],
+                    "index": 3,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                120,
+                                343,
+                                137
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        120,
+                                        343,
+                                        137
+                                    ],
+                                    "type": "text",
+                                    "content": "Revenue increased steadily during the reporting period.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        69,
+                        120,
+                        343,
+                        137
+                    ]
+                },
+                {
+                    "score": 0.9393,
+                    "bbox": [
+                        69,
+                        143,
+                        412,
+                        158
+                    ],
+                    "index": 4,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                142,
+                                412,
+                                158
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        142,
+                                        412,
+                                        158
+                                    ],
+                                    "type": "text",
+                                    "content": "Net profit improved because operating expenses remained controlled.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        69,
+                        142,
+                        412,
+                        158
+                    ]
+                },
+                {
+                    "score": 0.9362,
+                    "bbox": [
+                        69,
+                        165,
+                        372,
+                        179
+                    ],
+                    "index": 5,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                70,
+                                165,
+                                371,
+                                179
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        165,
+                                        371,
+                                        179
+                                    ],
+                                    "type": "text",
+                                    "content": "No tabular structure is intentionally included in this document.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        70,
+                        165,
+                        371,
+                        179
+                    ]
+                },
+                {
+                    "score": 0.9353,
+                    "bbox": [
+                        69,
+                        187,
+                        426,
+                        201
+                    ],
+                    "index": 6,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                70,
+                                186,
+                                426,
+                                201
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        186,
+                                        426,
+                                        201
+                                    ],
+                                    "type": "text",
+                                    "content": "Expected result: MinerU should parse text blocks and detect zero tables.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        70,
+                        186,
+                        426,
+                        201
+                    ]
+                }
+            ]
+        }
+    ],
+    "_backend": "pipeline",
+    "_version_name": "3.2.1"
+}

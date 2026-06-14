@@ -1,0 +1,74 @@
+{
+  "pipeline": "finance_pdf_ingest",
+  "collection_name": "abnormal_pdf_test_fake",
+  "vectorstore_dir": "data/vector_stores/abnormal_pdf_test_fake",
+  "manifest_path": "data/parsed_json/abnormal_pdf_test/manifest.json",
+  "embedding": "fake",
+  "parser": "mineru",
+  "parser_version": "3.2.1",
+  "summary": {
+    "total_files": 4,
+    "succeeded": 2,
+    "failed": 2,
+    "chunk_count": 2,
+    "stored_vectors": 2
+  },
+  "documents": [
+    {
+      "doc_id": "corrupted-report-50b8ec994d39",
+      "filename": "corrupted_report.pdf",
+      "source_path": "data/test_pdfs/abnormal/corrupted_report.pdf",
+      "file_hash": "50b8ec994d39d36f03e9a3e5fe68c2e96b2fd7620132b6ec30e4927a4e64253b",
+      "status": "failed",
+      "error_message": "MinerU failed to parse corrupted_report.pdf: Failed to load document (PDFium: Data format error).",
+      "chunk_count": 0,
+      "block_counts": {}
+    },
+    {
+      "doc_id": "encrypted-report-734f9bd2753f",
+      "filename": "encrypted_report.pdf",
+      "source_path": "data/test_pdfs/abnormal/encrypted_report.pdf",
+      "file_hash": "734f9bd2753fed2f33a6798d93e1a30c20b0362d7928871fe7efa92f233d32cf",
+      "status": "failed",
+      "error_message": "MinerU failed to parse encrypted_report.pdf: Failed to load document (PDFium: Incorrect password error).",
+      "chunk_count": 0,
+      "block_counts": {}
+    },
+    {
+      "doc_id": "scanned-report-eea72dc6f102",
+      "filename": "scanned_report.pdf",
+      "source_path": "data/test_pdfs/abnormal/scanned_report.pdf",
+      "file_hash": "eea72dc6f102d79c25021c16bce66b9a3a17d23cfe3d78e959640094b06f7ec7",
+      "status": "success",
+      "content_list_path": "data/mineru_outputs/abnormal_pdf_test/scanned-report-eea72dc6f102/scanned_report.pdf/txt/scanned_report.pdf_content_list.json",
+      "parsed_json_path": "data/parsed_json/abnormal_pdf_test/scanned-report-eea72dc6f102.json",
+      "mineru_output_dir": "data/mineru_outputs/abnormal_pdf_test/scanned-report-eea72dc6f102",
+      "page_count": 1,
+      "content_page_count": 1,
+      "block_counts": {
+        "text": 5
+      },
+      "chunk_count": 1,
+      "table_count": 0,
+      "image_count": 0
+    },
+    {
+      "doc_id": "text-only-no-table-report-59707fa4a9e1",
+      "filename": "text_only_no_table_report.pdf",
+      "source_path": "data/test_pdfs/abnormal/text_only_no_table_report.pdf",
+      "file_hash": "59707fa4a9e1ece1b1308b0b25c694b7dd859899904e3e2659389ed1f69814b0",
+      "status": "success",
+      "content_list_path": "data/mineru_outputs/abnormal_pdf_test/text-only-no-table-report-59707fa4a9e1/text_only_no_table_report.pdf/txt/text_only_no_table_report.pdf_content_list.json",
+      "parsed_json_path": "data/parsed_json/abnormal_pdf_test/text-only-no-table-report-59707fa4a9e1.json",
+      "mineru_output_dir": "data/mineru_outputs/abnormal_pdf_test/text-only-no-table-report-59707fa4a9e1",
+      "page_count": 1,
+      "content_page_count": 1,
+      "block_counts": {
+        "text": 6
+      },
+      "chunk_count": 1,
+      "table_count": 0,
+      "image_count": 0
+    }
+  ]
+}
