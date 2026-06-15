@@ -18,6 +18,8 @@ websockets==15.0.1
 
 FlagEmbedding==1.4.0
 sentence-transformers==5.5.1
+torch==2.12.0
+torchvision==0.27.0
 python-dotenv==1.2.2
 openai==2.41.0
 google-generativeai==0.8.6
